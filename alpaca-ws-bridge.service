@@ -1,0 +1,18 @@
+[Unit]
+Description=Alpaca WebSocket Bridge for Hackathon
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /mnt/agent_share/gordon/hackathon/ws_bridge.py
+Restart=always
+RestartSec=10
+Environment=HACKATHON_ALPACA_KEY=%H/alpaca_hackathon_key
+Environment=HACKATHON_ALPACA_SECRET=%H/alpaca_hackathon_secret
+Environment=HERMES_WEBHOOK_URL=http://localhost:8644/webhook/alpaca-trade-event
+Environment=HERMES_WEBHOOK_SECRET=%H/hermes_webhook_secret
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

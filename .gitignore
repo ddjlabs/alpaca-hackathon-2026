@@ -1,0 +1,23 @@
+# Runtime state and environment — never commit
+state/
+runs/
+*.env
+.env*
+secrets*
+**/*key*.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Scratch / internal-only
+kaban_board/
+public/
+*.docx
+*_test_*.py
+/test_bridge.py
+
+# OS / editor
+.DS_Store
+*.swp
