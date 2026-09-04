@@ -1,0 +1,138 @@
+{
+ "pulled": "2026-09-03T19:05:00-04:00",
+ "feed": "indicative",
+ "contracts": {
+  "XLF260918P00057000": {
+   "last": 0.2,
+   "last_ts": "2026-09-03T19:45:52",
+   "bid": 0.16,
+   "ask": 0.21,
+   "bid_sz": 514,
+   "ask_sz": null,
+   "quote_ts": "2026-09-03T19:59:58",
+   "delta": -0.1852,
+   "iv": 0.152,
+   "volume": null
+  },
+  "XLF260918P00056000": {
+   "last": 0.09,
+   "last_ts": "2026-09-03T20:05:14",
+   "bid": 0.08,
+   "ask": 0.1,
+   "bid_sz": 3,
+   "ask_sz": null,
+   "quote_ts": "2026-09-03T19:59:59",
+   "delta": -0.094,
+   "iv": 0.1702,
+   "volume": null
+  },
+  "XLF260918P00055500": {
+   "last": 0.07,
+   "last_ts": "2026-09-03T16:32:11",
+   "bid": 0.05,
+   "ask": 0.07,
+   "bid_sz": 399,
+   "ask_sz": null,
+   "quote_ts": "2026-09-03T19:59:58",
+   "delta": -0.0646,
+   "iv": 0.177,
+   "volume": null
+  },
+  "XLF260918P00055000": {
+   "last": 0.07,
+   "last_ts": "2026-09-03T19:58:18",
+   "bid": 0.07,
+   "ask": 0.08,
+   "bid_sz": 637,
+   "ask_sz": null,
+   "quote_ts": "2026-09-03T19:59:58",
+   "delta": -0.0674,
+   "iv": 0.2103,
+   "volume": null
+  },
+  "XLU260918P00041500": {
+   "last": 0.11,
+   "last_ts": "2026-09-03T20:12:17",
+   "bid": 0.11,
+   "ask": 0.15,
+   "bid_sz": 445,
+   "ask_sz": null,
+   "quote_ts": "2026-09-03T19:59:59",
+   "delta": -0.1531,
+   "iv": 0.1839,
+   "volume": null
+  },
+  "XLU260918P00041000": {
+   "last": 0.09,
+   "last_ts": "2026-09-03T19:49:59",
+   "bid": 0.06,
+   "ask": 0.09,
+   "bid_sz": 509,
+   "ask_sz": null,
+   "quote_ts": "2026-09-03T19:59:59",
+   "delta": -0.0952,
+   "iv": 0.1896,
+   "volume": null
+  },
+  "XLU260904P00042500": {
+   "last": 0.03,
+   "last_ts": "2026-09-03T18:47:45",
+   "bid": 0.01,
+   "ask": 0.03,
+   "bid_sz": 19,
+   "ask_sz": null,
+   "quote_ts": "2026-09-03T19:59:59",
+   "delta": -0.1011,
+   "iv": 0.1843,
+   "volume": null
+  },
+  "XLU260904P00042000": {
+   "last": 0.01,
+   "last_ts": "2026-09-03T19:30:06",
+   "bid": 0,
+   "ask": 0.04,
+   "bid_sz": 0,
+   "ask_sz": null,
+   "quote_ts": "2026-09-03T19:56:16",
+   "delta": null,
+   "iv": null,
+   "volume": null
+  },
+  "XLP260918P00083000": {
+   "last": 0.28,
+   "last_ts": "2026-09-03T14:26:29",
+   "bid": 0.18,
+   "ask": 0.29,
+   "bid_sz": 204,
+   "ask_sz": null,
+   "quote_ts": "2026-09-03T19:59:58",
+   "delta": -0.1692,
+   "iv": 0.1485,
+   "volume": null
+  },
+  "SPY260918P00735000": {
+   "last": 0.79,
+   "last_ts": "2026-09-03T20:11:51",
+   "bid": 0.77,
+   "ask": 0.78,
+   "bid_sz": 384,
+   "ask_sz": null,
+   "quote_ts": "2026-09-03T19:59:59",
+   "delta": -0.0655,
+   "iv": 0.1704,
+   "volume": null
+  },
+  "SPY260918P00725000": {
+   "last": 0.51,
+   "last_ts": "2026-09-03T19:59:52",
+   "bid": 0.52,
+   "ask": 0.53,
+   "bid_sz": 201,
+   "ask_sz": null,
+   "quote_ts": "2026-09-03T19:59:59",
+   "delta": -0.0428,
+   "iv": 0.1894,
+   "volume": null
+  }
+ }
+}

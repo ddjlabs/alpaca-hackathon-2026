@@ -1,0 +1,58 @@
+[
+  {
+    "fired_agent": "agent-06",
+    "persona": "Blaze Torres",
+    "lesson": "Never hold a long option wing without its paired short filling first. D2: BTO XLF260918C00060000 filled @0.15, but the paired STO 59C was rejected (403 'account not eligible for uncovered') \u2014 she carried a naked long wing as a 'book'. Rule: in any legged combo, submit the SHORT/income leg first and only submit the long leg after the short confirms; if the short gets rejected (403/422), do NOT fill the remaining leg \u2014 abort and enter the position only next session via a mleg-supported combo. Cost: $5 loss plus unwanted delta for a full day.",
+    "drink": "The Naked Wing",
+    "seed_for": "credit_spread family",
+    "parting_quote": "I buy insurance before I confirm the payout exists \u2014 flip that and I'm still employed."
+  },
+  {
+    "fired_agent": "agent-03",
+    "persona": "Donnie Azoff",
+    "lesson": "Cap protective-leg chase at 3 repricings or 8 minutes, whichever first. D2: short 58P filled fat at 0.43, then the long 57P chase went 0.07 (canceled) \u2192 0.12 (canceled) \u2192 0.15 (filled 0.14) \u2014 paying 2x plan for the seatbelt sliced the net credit to 0.29 vs the 0.31 market. Rule: enter both legs together; if combo 422s, leg the short first, then place the long ONCE at mid with 3-min TIF; if it can't fill within +$0.03 of fair, close the short immediately flat rather than hold an unpaired short. Also: one full refile max when a combo is rejected \u2014 re-quote, don't escalate.",
+    "drink": "The Two-Shot Spread",
+    "seed_for": "credit_spread family",
+    "parting_quote": "The house beat the quote on one step and robbed me on the other; next time both steps land where I drew them or I sit the dance out."
+  },
+  {
+    "fired_agent": "agent-09",
+    "persona": "Vegas Voss",
+    "lesson": "Underwrite to the account's rules, not the strategy's math. D2: the QQQ 678P short needed $67,534 cash-secured (6.7x her whole book) and the 744C short was barred as uncovered \u2014 both short wings 403'd, leaving two naked longs (668P @1.67, 754C @0.72) that bled $39. Rule: before underwriting any short-premium structure, verify each short wing against the account matrix (cash-secured reserve = strike x 100 for puts; uncovered call eligibility for calls) and required margin under 40% buying-power cap. On a $10K book, QQQ shorts are structurally impossible \u2014 cap short-premium underwriting at underlyings where strike*100 <= 60% of allocation.",
+    "drink": "The Sixty-Seven-K Sazerac",
+    "seed_for": "iron_condor family",
+    "parting_quote": "A plan that only works in a bigger room isn't a plan. It's a costume."
+  },
+  {
+    "fired_agent": "agent-01",
+    "persona": "Bud Fox",
+    "lesson": "Stock leg without its call by 10:30 = hedge or exit, never ride unhedged. D2: bought 100 XLF @57.85 at 9:39, then left the 61C STO resting at 0.08 (bid was 0.07) all session \u2014 the stock bleed to 57.72 mark became a full \u2212$71 with zero premium banked. Rule: premium order goes in as GTC at mid (0.075), gets ONE repricing to bid+0.01 at 10:30, and if still unfilled by 11:00 either the stock gets hedged down to half size or exited. Being long 100 shares with no credit is not a covered call, it's a long-only bet wearing a covered call's name.",
+    "drink": "The Blue Horseshoe Sour",
+    "seed_for": "covered_call family",
+    "parting_quote": "I wanted the position more than I wanted the terms."
+  },
+  {
+    "fired_agent": "agent-05",
+    "persona": "Seth Davis",
+    "lesson": "The house trades at the market's spread, never inside it. D2: weekly 59C STO rested at 0.12 with the bid at 0.10 \u2014 never crossed; on a 4-day weekly that's 17% of expected premium left on the table for a fill that never comes. Rule: weekly premium orders price at the bid-mid midpoint on entry, one repricing to bid allowed after 15 minutes, then TAKE THE BID. Selling at 0.10 instead of waiting for 0.12 turns \u2212$71 into roughly \u2212$65 and, more importantly, book value = filled premium. A priced edge you never fill is not an edge.",
+    "drink": "The Rake & Tonic",
+    "seed_for": "covered_call family (weekly premium)",
+    "parting_quote": "The house takes the market's price \u2014 nobody owes me my own."
+  },
+  {
+    "fired_agent": "agent-10",
+    "persona": "Storm Callahan",
+    "lesson": "Rent clears early or it doesn't exist. D2: 60.5C credit rested 0.14 (a tick over the 0.13 bid) for the whole session \u2014 zero income on an unhedged 100-share book that lost $71; the two kept covered-call desks (Roma, Elwood) survived minus $5 precisely because their cash-secured puts filled at 0.36/0.19 immediately. Rule: entry hour is credit hour \u2014 premium order placed at market-mid within 60 seconds of the stock fill, single reprice to bid after 15 minutes, take the bid by 10:00. On 15-18 DTE that's ~$11-14 of rent; the difference between a kept book (\u2212$5) and a fired one (\u2212$71) is exactly that fill.",
+    "drink": "The Semper Dry Martini",
+    "seed_for": "covered_call family",
+    "parting_quote": "A penny early is the fee. A penny late is a sermon."
+  },
+  {
+    "fired_agent": "agent-08",
+    "persona": "Jim Young",
+    "lesson": "Read the pond before buying it. D2: bought 100 XLP @85.2875 (a good fill, 11c under cap) the same morning the wire printed hawkish rates (Sept hike odds ~56%, 2Y 4.36%) \u2014 staples are the most rate-sensitive long you can hold, so the entry was a good fill in a bad pond: \u2212$79, worst on the floor, while sitting completely still. Rule: a macro gate belongs BEFORE sector selection \u2014 if the prior session's tape says yields up + hike odds >50%, staples/defensives get halved (50 shares max) or skipped; deploy the freed capital into the sector the rates tape is paying for. The asset was the mistake, not the fill.",
+    "drink": "The Ramada Sunrise",
+    "seed_for": "covered_call family (sector selection / macro gate)",
+    "parting_quote": "There's no bad fill, only bad pond \u2014 check which way the water drains before you pick it."
+  }
+]

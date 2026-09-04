@@ -1,0 +1,177 @@
+{
+  "gauntlet_date": "2026-08-30",
+  "prepared_for_session": "2026-08-31",
+  "day": 2,
+  "note": "Pre-authorized blueprints. Agents STILL file kanban cards per trade (skill bushwood-trade-desk); Charlie executes. Underlyings re-underwritten from SPY/QQQ (infeasible at $10K allocations: strike*100 reserve / 100-share leg) to XLF/XLP per Ernie's DEFENSIVE verdict. Backtest log: state/backtest_log_D2.md.",
+  "plans": [
+    {
+      "agent_id": "agent-01",
+      "agent_name": "Bud Fox",
+      "strategy": "covered_call",
+      "symbol": "XLF",
+      "legs": [
+        {"symbol_or_contract": "XLF", "side": "buy", "qty": 100, "limit_price": 58.25, "note": "long stock leg, ~58.10 mkt"},
+        {"symbol_or_contract": "XLF260918C00061000", "side": "sell_to_open", "qty": 1, "limit_price": 0.08, "note": "61C 19-DTE, bid 0.07/ask 0.11"}
+      ],
+      "stop_loss": "BTC 61C at 0.24 (3x credit) OR XLF > 59.50 intraday, whichever hits first",
+      "profit_target": "call decays to <=0.02 by 9/17; if XLF assigned higher, deliver at 61 and keep premium; roll second lot Tue if flat",
+      "sizing_explanation_in_their_voice": "I'm not here to make friends, I'm here to be on that leaderboard. XLF's the sector Ernie likes and the only way I'm putting 100 shares to work without Charlie screaming. 58 a share, call two bucks against it, keeps me in the game and in the top 3. If I'm wrong, I'm wrong fast and I'm out.",
+      "backtest_summary": "CC XLF family backtest: +11.27% vs B&H +13.22% over 6mo (Sharpe 2.57, maxDD -3.65%, 100% win on round trips). Family VALIDATED; trade-level edge is the 19-DTE premium + banks NIM tailwind.",
+      "client_order_id_template": "agent-01-20260831-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "STO XLF260904C00060000 @ 0.05 limit (weekly, same thesis, tighter premium)"
+    },
+    {
+      "agent_id": "agent-02",
+      "agent_name": "Ricky Roma",
+      "strategy": "cash_secured_put",
+      "symbol": "XLF",
+      "legs": [
+        {"symbol_or_contract": "XLF260918P00057000", "side": "sell_to_open", "qty": 1, "limit_price": 0.34, "note": "57P 19-DTE, bid 0.33/ask 0.35"}
+      ],
+      "stop_loss": "BTC at 1.02 (3x credit) OR XLF <= 56.00 intraday, whichever first",
+      "profit_target": "put decays to <=0.05 by 9/17; keep 0.34 or take assignment at effective 56.66 cost basis",
+      "sizing_explanation_in_their_voice": "Fear is a product and every panic is somebody else's discount. The 57 put is calm on sale — a 19-day lease on someone else's doubt at 0.34. If they hand me the shares, I bought XLF at a discount with the crowd's money. Sit tight and watch.",
+      "backtest_summary": "CSP XLF family backtest: +4.74% vs B&H +13.22%, 5/5 round-trip wins, ZERO drawdown, Sharpe 3.23. Premium-regime sensitivity: +2.5% to +4.7% across 0.8-1.2% prem estimates. Validated.",
+      "client_order_id_template": "agent-02-20260831-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "STO XLF260918P00056000 @ 0.18 limit, same stop/target framework"
+    },
+    {
+      "agent_id": "agent-03",
+      "agent_name": "Donnie Azoff",
+      "strategy": "credit_spread",
+      "symbol": "XLF",
+      "legs": [
+        {"symbol_or_contract": "XLF260904P00058000", "side": "sell_to_open", "qty": 1, "limit_price": 0.33, "note": "58P short leg"},
+        {"symbol_or_contract": "XLF260904P00057000", "side": "buy_to_open", "qty": 1, "limit_price": 0.07, "note": "57P long leg — the seatbelt"}
+      ],
+      "stop_loss": "close SPREAD (BTC both legs) at combined 0.75 debit OR XLF <= 57.25 intraday — no renegotiating, no doubling down",
+      "profit_target": "spread <=0.07 by Thu 9/3 close; exit before Friday payrolls, flat is a win",
+      "sizing_explanation_in_their_voice": "Donnie Azoff, baby! Spreads only — the risk man says no naked stuff, fine, spreads it is. I sell the 58 put, I BUY the 57 put — that's my covenant with God, defined risk, and Charlie stays off my back. 25 bucks to make, 75 max to lose, XLF's gotta fall 1.9% in four days to touch me. Watch me cook.",
+      "backtest_summary": "Engine has no spread model — chain-math validated: 1-wide bull put, credit ~0.265 mid (0.25 combo limit), max profit $25/ct, max loss $73/ct. Breach needs -1.9% in 4 sessions (~2sigma+ vs realized vol). Underlying family proxy: CSP XLF +4.74%, 0 drawdown. PASS.",
+      "client_order_id_template": "agent-03-20260831-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "refile same combo next session at 0.22 credit limit; NEVER naked"
+    },
+    {
+      "agent_id": "agent-04",
+      "agent_name": "Elwood Blues",
+      "strategy": "cash_secured_put",
+      "symbol": "XLF",
+      "legs": [
+        {"symbol_or_contract": "XLF260918P00056000", "side": "sell_to_open", "qty": 1, "limit_price": 0.18, "note": "56P 19-DTE, bid 0.18/ask 0.19"}
+      ],
+      "stop_loss": "BTC at 0.54 (3x credit) OR XLF <= 55.25 intraday",
+      "profit_target": "decay to <=0.04 by 9/17; assignment acceptable at effective 55.82",
+      "sizing_explanation_in_their_voice": "It's 106 miles to the closing bell, we've got a full tank of capital, half a pack of patience, it's dark, and we're wearing sunglasses. The 56 put is 3.6 percent out of the money on a sector the bond market just started paying for. The job is the job. Hit it.",
+      "backtest_summary": "CSP XLF family backtest: +4.74% vs +13.22% B&H, Sharpe 3.23, 5/5 wins, zero realized drawdown across six months of daily bars. Validated.",
+      "client_order_id_template": "agent-04-20260831-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "STO XLF260918P00055500 @ 0.10 limit"
+    },
+    {
+      "agent_id": "agent-05",
+      "agent_name": "Seth Davis",
+      "strategy": "covered_call",
+      "symbol": "XLF",
+      "legs": [
+        {"symbol_or_contract": "XLF", "side": "buy", "qty": 100, "limit_price": 58.25, "note": "long stock leg"},
+        {"symbol_or_contract": "XLF260904C00059000", "side": "sell_to_open", "qty": 1, "limit_price": 0.12, "note": "59C weekly 4-DTE, bid 0.10/ask 0.14 — fattest weekly yield on the board"}
+      ],
+      "stop_loss": "BTC 59C at 0.36 (3x) OR XLF > 59.50 intraday",
+      "profit_target": ">=60% decay by Thu 9/3 close; roll to 9/11 weekly Friday if untested; assignment at 59 = +1.8% week incl. premium",
+      "sizing_explanation_in_their_voice": "The house doesn't bet on outcomes, it prices them. Four-day 59 call rents for 12 cents on 58 dollars — that's an annualized number nobody in this room wants to say out loud. I'm the house. Covered calls, steady premium, end of day I'm still standing.",
+      "backtest_summary": "CC XLF family backtest: +11.27% vs +13.22% (Sharpe 2.57). Weekly 4-DTE variant prices ~2x the 19-DTE monthly yield (0.12 vs 0.08/ week-equivalent) — event-week vol premium is the edge. Validated.",
+      "client_order_id_template": "agent-05-20260831-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "STO XLF260904C00060000 @ 0.05 limit"
+    },
+    {
+      "agent_id": "agent-06",
+      "agent_name": "Blaze Torres",
+      "strategy": "credit_spread",
+      "symbol": "XLF",
+      "legs": [
+        {"symbol_or_contract": "XLF260918C00059000", "side": "sell_to_open", "qty": 1, "limit_price": 0.41, "note": "59C short leg, bid 0.38/ask 0.45"},
+        {"symbol_or_contract": "XLF260918C00060000", "side": "buy_to_open", "qty": 1, "limit_price": 0.19, "note": "60C long leg — defined risk, Richard sleeps"}
+      ],
+      "stop_loss": "close SPREAD at combined 0.66 debit (3x) OR XLF >= 58.75 intraday",
+      "profit_target": "spread <=0.07 by 9/15 — exit BEFORE Beige Book/FOMC runway; gamma does the work",
+      "sizing_explanation_in_their_voice": "The pits taught me one thing — when everyone's screaming, the real money is already positioned. Ernie says the equity tape is borrowing calm from the rates market and XLF's the one sector the bond market is PAYING for. I sell the 59 call over it, buy the 60 for a quarter of insurance, and let theta jab while the tape sleeps. You'll hear me before you see the fill.",
+      "backtest_summary": "Chain-math validated: bear call 59/60, credit ~0.225 mid (0.22 combo limit), max profit $22/ct, max loss $78/ct, breach needs +1.56% in 19 sessions. Underlying family proxy: CSP XLF flat-positive regime. PASS.",
+      "client_order_id_template": "agent-06-20260831-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "refile 59/61 bear call, width $2, credit limit 0.33"
+    },
+    {
+      "agent_id": "agent-07",
+      "agent_name": "Shelly Levene",
+      "strategy": "cash_secured_put",
+      "symbol": "XLF",
+      "legs": [
+        {"symbol_or_contract": "XLF260918P00054500", "side": "sell_to_open", "qty": 1, "limit_price": 0.10, "note": "54.5P 19-DTE, bid 0.08/ask 0.12 — bucket-forced deep OTM, limit only, patience"}
+      ],
+      "stop_loss": "BTC at 0.30 (3x) OR XLF <= 53.50 intraday",
+      "profit_target": "decay to <=0.03 by 9/17; assignment at effective 54.40 = 6.3% below market — one good put",
+      "sizing_explanation_in_their_voice": "They call me The Machine and the machine needs one more turn. Deep put, 54 and a half — six bucks under the market, they practically gotta set XLF on fire to get to me. I've been patient my whole life. One good put. That's all I need. One.",
+      "backtest_summary": "CSP XLF family backtest: +4.74% vs +13.22%, Sharpe 3.23, 5/5 wins, no drawdown days. Strike pushed 6.2% OTM (bucket concentration rule) — thinner premium, wider margin of safety. Validated.",
+      "client_order_id_template": "agent-07-20260831-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "STO XLF260904P00057500 @ 0.18 limit (short-week fallback)"
+    },
+    {
+      "agent_id": "agent-08",
+      "agent_name": "Jim Young",
+      "strategy": "covered_call",
+      "symbol": "XLP",
+      "legs": [
+        {"symbol_or_contract": "XLP", "side": "buy", "qty": 100, "limit_price": 85.60, "note": "long stock leg, ~85.42 mkt"},
+        {"symbol_or_contract": "XLP260918C00090000", "side": "sell_to_open", "qty": 1, "limit_price": 0.11, "note": "90C 19-DTE, bid 0.08/ask 0.14 — consumer-staples defensive sleeve per Ernie"}
+      ],
+      "stop_loss": "BTC 90C at 0.33 (3x) OR XLP >= 87.50 intraday",
+      "profit_target": "decay to <=0.02 by 9/17; assignment at 90 = +6.2% incl. premium — that's the rent",
+      "sizing_explanation_in_their_voice": "ABC — Always Be Collecting. The staples sleeve is where discipline goes to compound: XLP doesn't run, it pays rent. Every morning I choose process over dopamine, and every close my equity thanks me. The board doesn't reward hope. It rewards process. Watch the process.",
+      "backtest_summary": "CC XLP backtest: +3.18% vs B&H -3.70% (beats benchmark by +6.9pts, positive, no override), Sharpe 0.31, maxDD -7.49%. Down-trending sleeve; premium is the return engine. Validated as diversifier — 1 contract, separate bucket from XLF concentration.",
+      "client_order_id_template": "agent-08-20260831-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "STO XLP260918C00089500 @ 0.07 limit"
+    },
+    {
+      "agent_id": "agent-09",
+      "agent_name": "Vegas Voss",
+      "strategy": "credit_spread",
+      "symbol": "QQQ",
+      "legs": [
+        {"symbol_or_contract": "QQQ260918P00678000", "side": "sell_to_open", "qty": 1, "limit_price": 2.37, "note": "short put wing"},
+        {"symbol_or_contract": "QQQ260918P00668000", "side": "buy_to_open", "qty": 1, "limit_price": 1.67, "note": "long put wing — 10 wide"},
+        {"symbol_or_contract": "QQQ260918C00744000", "side": "sell_to_open", "qty": 1, "limit_price": 2.02, "note": "short call wing"},
+        {"symbol_or_contract": "QQQ260918C00754000", "side": "buy_to_open", "qty": 1, "limit_price": 0.85, "note": "long call wing — 10 wide"}
+      ],
+      "stop_loss": "close ENTIRE condor at 5.40 debit (3x credit) OR QQQ settlement range breaches 672-754 intraday — no legging, no adjustment theater",
+      "profit_target": "condor <=0.60 by 9/15 — collect the post-AVGO crush, be GONE before 9/16 FOMC dots",
+      "sizing_explanation_in_their_voice": "The market prices fear at retail; I buy it wholesale. VIX 14.43 is a YTD low with a coin-flip FOMC and fifty earnings prints in the barrel — that mispricing is my inventory. Short both wings at 678/744, insured at 668/754, net 1.87 on ten-wide, margin 813, twenty-two percent on risk in nineteen days. I calculated my rank before lunch. I don't trade hope. I trade distributions.",
+      "backtest_summary": "Engine has no condor model; CSP XLP proxy positive (+3.66% vs -3.70%). Chain-math: put spread credit 0.70 + call spread credit 1.17 = 1.87 net, max loss 8.13/ct on $10 width (margin ~$813), breakevens 676.1 / 753.9 (+/-5.4%), both wings >4.2% OTM. Call-side skew fattened = upside demand, sell it. PASS-proxy, structure superior to XLP condor (0.19 credit would violate her 1/3-of-width rule).",
+      "client_order_id_template": "agent-09-20260831-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "refile 676/666P + 746/756C condor, credit limit 1.05"
+    },
+    {
+      "agent_id": "agent-10",
+      "agent_name": "Storm Callahan",
+      "strategy": "covered_call",
+      "symbol": "XLF",
+      "legs": [
+        {"symbol_or_contract": "XLF", "side": "buy", "qty": 100, "limit_price": 58.20, "note": "long stock leg — take the ground"},
+        {"symbol_or_contract": "XLF260918C00060500", "side": "sell_to_open", "qty": 1, "limit_price": 0.14, "note": "60.5C half-strike 19-DTE — tighter perimeter, bid 0.12/ask 0.16"}
+      ],
+      "stop_loss": "call buy-back triggered at 0.42 debit (3x) OR XLF >= 59.75 — the position dies before the portfolio does",
+      "profit_target": "decay to <=0.02 by 9/17; hold the line for assignment at 60.5 (+4.1% incl. premium) — extraction scheduled",
+      "sizing_explanation_in_their_voice": "Mission tomorrow: premium income with a perimeter. Objective — own 100 XLF at the open. High ground — the 60-and-a-half call, half strike up because tight perimeters pay better and I don't mind handing over shares at plus four percent. Approach — limit orders only, no chasing. Extraction — rehearsed before entry. Leave nobody behind. Especially not my allocation.",
+      "backtest_summary": "CC XLF family backtest: +11.27% vs +13.22% (Sharpe 2.57, maxDD -3.65%). Half-strike 60.5 lifts monthly yield to ~0.9% vs 61-strike's 0.5% — accepted assignment risk as feature, not bug. Validated.",
+      "client_order_id_template": "agent-10-20260831-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "STO XLF260918C00062000 @ 0.06 limit"
+    }
+  ],
+  "global_risk_notes": {
+    "fund_single_underlying_notional_cap": 20000,
+    "xlf_bucket_usage": "Bud 5801 + Roma 5700 + Donnie 73(margin) + Elwood 5600 + Seth 5798 + Blaze 77(margin) + Shelly 5450 = $28,499 of $40,000 sector cap (71%)",
+    "xlp_bucket_usage": "Jim 8542 + Voss 813 QQ margin separate = $9,355 effective",
+    "leverage_sum": "~0.39x cash deployed vs 2x limit",
+    "all_stops_defined": true,
+    "max_contracts_per_trade": 1,
+    "payrolls_rule": "ALL positions exited or premium-collected-flat before Fri 9/4 8:30am payrolls; fund closes 11:00am",
+    "event_rule": "AVGO Wed 9/2 moves everything correlated to QQQ — Voss's condor is the ONLY QQQ-linked position and it is defined-risk both wings"
+  }
+}

@@ -1,6 +1,4 @@
-# Runtime state and environment — never commit
-state/
-runs/
+# Secrets and env — never commit
 *.env
 .env*
 secrets*
@@ -11,12 +9,8 @@ __pycache__/
 *.pyc
 .venv/
 
-# Scratch / internal-only
-kaban_board/
-public/
-*.docx
-*_test_*.py
-/test_bridge.py
+# Runtime debris (large logs only — state JSON/MD records ARE the submission evidence)
+*.log
 
 # OS / editor
 .DS_Store

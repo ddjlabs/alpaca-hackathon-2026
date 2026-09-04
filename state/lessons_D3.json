@@ -1,0 +1,58 @@
+[
+  {
+    "fired_agent": "agent-20",
+    "persona": "Jared Stone",
+    "lesson": "A failed primary trigger is a morning decision, not a day pass. D3: crypto confirms failed 09:36 (BTC 77,779 vs 79,200; ETH 2,439.89 vs 2,490) and he filed nothing all day — no card, no plan_step_2, silence through the 14:32 warning that lapsed 15:30 — finishing #1 at $0.00 and fired anyway under the Rule-8 non-trading flag. Rule: every momentum plan carries a WRITTEN plan_step_2 filed with the morning card — second confirm window (e.g. ISM reaction 10:00-10:30 ET, tranche cut from 30% to 15% of book, confirm = trigger level OR 30-min close above prior-day high), engaged by 11:00 when the primary confirms fail. Engagement floor: one order or one open position per session, whatever the pond does. Flat beats a stop-out; absent is just flat.",
+    "parting_quote": "You fired the top of your own leaderboard for sitting still — conviction doesn't punch a clock, and neither do I.",
+    "drink": "The Cold Wallet",
+    "seed_for": "crypto_momentum family"
+  },
+  {
+    "fired_agent": "agent-12",
+    "persona": "Donald Blues",
+    "lesson": "Minimum rent rule: never sell a put for less than ~10bp of notional per month. D3: XLF 54P filled @0.05 — $5 of premium on $5,400 of freight (9bp) — and four cents of mark was a pink slip at rank #2. If the repriced open pays under $0.10, walk the strike UP one (55P paid 0.09-0.125 the same session) or take the plan's own weekly fallback (9/4 56P limit 0.20 = 4x the credit) rather than take a fill that can't pay its own mark. Route discipline kept; freight that cheap doesn't cover fuel.",
+    "parting_quote": "Four cents is not a pink slip, it's a rounding error with an escort — and you walked me out anyway.",
+    "drink": "The Four-Cent Freight",
+    "seed_for": "cash_secured_put family"
+  },
+  {
+    "fired_agent": "agent-14",
+    "persona": "Brad Roma",
+    "lesson": "On survivor-law days a tryout chair cannot win rank with a monthly's timid credit. D3: XLF 55P 9/18 STO @0.09 (delta 0.11) marked -0.06 — beat the index by 62bp and still died at #4, because tryout chairs are ranked against each other, not against the tape. Rule: when the chair is an audition, sell the family fallback weekly (9/4 56.5P limit 0.18, ~2x credit, decays by Friday) so the day's P&L is paid rent instead of a vega mark; deep monthlies are for chairs you already own.",
+    "parting_quote": "I beat the tape by sixty-two basis points and the arithmetic closed the file anyway.",
+    "drink": "The Sixty-Two Basis Points",
+    "seed_for": "cash_secured_put family"
+  },
+  {
+    "fired_agent": "agent-17",
+    "persona": "George Levene",
+    "lesson": "The long clock marks against you on day one. D3: 46-DTE XLF 55P filled @0.41 at 12:32 (perfect patience, textbook fill) and marked 0.50 by the bell (+9c) — 46 days of weather outran one afternoon of decay. Rule: on a firing day, sell the shortest clock that pays the family rate — 21 DTE or less (the weekly fallback was 9/4 56P limit 0.20) — so the mark you carry home is decay, not vega; save the 46-DTE sale for defending a chair, not auditioning for one.",
+    "parting_quote": "The put finally filled, and the fill is what fired me.",
+    "drink": "The Long Clock",
+    "seed_for": "cash_secured_put family"
+  },
+  {
+    "fired_agent": "agent-18",
+    "persona": "Chester Levene",
+    "lesson": "Thin chains charge fat shelf fees. D3: XLU 42P 9/18 sold @0.34 into a 0.36/0.49 market (30% wide at mid); XLU ROSE on the day and the mark still drifted +9c against him on a wide quote. Rule: sell premium only where the spread is <=10% of mid (XLF monthlies ran 2-4c the same session); sector rotation is for the underlying you shop, never for the option chain you sell — a rotated pond with a thin chain converts any fill into a mark you don't control.",
+    "parting_quote": "It's not the rent that kills you, it's the shelf fee.",
+    "drink": "The Shelf Fee",
+    "seed_for": "cash_secured_put family (sector rotation variant)"
+  },
+  {
+    "fired_agent": "agent-15",
+    "persona": "Dean Roma",
+    "lesson": "Entry hour is credit hour, but only decay hour pays the day's mark. D3: XLF 57P 10/16 filled @0.92 by 9:47 — biggest premium on the floor — and marked 1.14 by 16:00 (+22c): 46 DTE turned the morning's credit into the afternoon's debt. Rule: biggest premium on the shortest clock that clears the family rate — his own fallback (9/4 57P limit 0.24) decays by Friday instead of owing vega for six weeks. Speed wasn't the killer; the calendar was. Price the clock to the scoreboard that judges you.",
+    "parting_quote": "Entry hour is credit hour — nobody told me the bell charges interest on the long clock.",
+    "drink": "The Hour Hand",
+    "seed_for": "cash_secured_put family"
+  },
+  {
+    "fired_agent": "agent-11",
+    "persona": "Johnny Blues",
+    "lesson": "Delta is the vote that counts on a firing day. D3: XLF 57.5P at delta 0.41 filled @0.59, marked -0.30 (worst book) while the same family at delta 0.07-0.19 marked -0.04 to -0.09; his uncle's 0.09-delta 56P marked -0.10 and KEPT the chair. Rule: cap short-put entry delta at <=0.20 for a daily-ranked book — rent scales linear, exposure scales with delta; 59 cents of premium is not worth 41 points of tape. Park far enough from the traffic that a red tape can't walk through you.",
+    "parting_quote": "The rent was due and I collected it — the door's where I left it; it always is.",
+    "drink": "The Midnight Special",
+    "seed_for": "cash_secured_put family"
+  }
+]

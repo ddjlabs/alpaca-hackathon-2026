@@ -1,0 +1,406 @@
+{
+  "fund": {
+    "name": "Bushwood Stratton Capital Partners, AP",
+    "tagline": "Be the Ball. Beat the Index. Don't Get Fired.",
+    "starting_capital": 100000,
+    "current_equity": 99811.05,
+    "total_pnl": -188.95,
+    "total_pnl_pct": -0.189,
+    "day": 2,
+    "status": "ACTIVE \u2014 hackathon running",
+    "hackathon_start": "2026-08-28T11:00:00-04:00",
+    "hackathon_end": "2026-09-04T11:00:00-04:00",
+    "launch_note": "Day 1 (Aug 28) launch. Saturday = crypto-only session (flat). Monday 8/31 = first full equity+options session; OPTIONS GAUNTLET D2 COMPLETE SUNDAY 19:05 - 10/10 plans pre-authorized (trade_plans_D2.json), underlyings re-underwritten SPY/QQQ -> XLF/XLP (feasibility-proven: SPY/QQQ legs cannot fit $10K allocations; engine 0-trade proof in backtest_log_D2.md). WebSocket bridge live. Account PA3GWO1FKED0. || D2 FIRING 16:30: 7/10 terminated. Kept: Levene ($0.00, zero fills \u2014 flat book won the day), Roma (\u2212$5.00), Blues (\u2212$5.00, soul-name tie-break over Torres). Fired books liquidated 4:45 via ar-cleanup orders; $99,884.07 pool returns to cash for the 6PM reallocation. HR board: state/hr_board_D2.md. || 6PM REPLICATION: 9 gen-2 clones (Blues x3, Roma x3, Levene x3 \u2014 all CSP family; 2 rotated to XLU for sector cap) + mutant Jared Stone (crypto_momentum). Sam's 7 lessons injected verbatim into 9 souls. Survivor books (Roma 57P, Blues 56P) wired closed via ar- GTC closers; 7 resting orders fill Tue open. || 6PM REPLICATION: 9 gen-2 clones (Blues x3, Roma x3, Levene x3 \u2014 all CSP family; 2 rotated to XLU for sector cap) + mutant Jared Stone (crypto_momentum). Sam's 7 lessons injected verbatim into 9 souls. Survivor books (Roma 57P, Blues 56P) wired closed via ar- GTC closers; 7 resting orders fill Tue open.",
+    "account_id": "PA3GWO1FKED0",
+    "account_id_full": "72fc3b88-07c5-4e31-928c-83eae5b24c2e",
+    "day_pnl": -79.23,
+    "last_updated": "2026-09-01T19:45:20.589831+00:00",
+    "day_pnl_pct": -0.066,
+    "wire": {
+      "sectors": [
+        {
+          "time": "07:00",
+          "headline": "Tilt: DEFENSIVE \u2014 hawkish repricing + war tax on consumer; XLP ballast, XLF NIM story intact but short 57/56 puts getting marked, size discipline."
+        },
+        {
+          "time": "07:00",
+          "headline": "Gold fell a 3rd straight day despite the shooting ($4,425) \u2014 real rates outrank headlines."
+        },
+        {
+          "time": "07:00",
+          "headline": "DELL/PANW/MDB report TONIGHT (not Wed as first flagged); AVGO/SNOW/NTAP Wed; tech = event minefield through Thu \u2014 defined risk only."
+        }
+      ],
+      "options": [
+        {
+          "time": "07:00",
+          "headline": "VIX 15.77 (+9% off Fri 14.43) \u2014 sub-16 into a hike coin-flip; cheap if Hormuz closes, rich if Tehran's olive branch is real."
+        },
+        {
+          "time": "07:00",
+          "headline": "SPY Sep18 767C IV 14.5% vs 767P IV 10.1% \u2014 call skew rich, crowd buying upside not protection; weekly straddle ~$7.50 (~1.0%)."
+        },
+        {
+          "time": "07:00",
+          "headline": "No new short premium into tech earnings week (DELL/PANW/MDB tonight; AVGO Wed) \u2014 defined risk only."
+        }
+      ],
+      "macro": [
+        {
+          "time": "07:00",
+          "headline": "Iran hit two US bases in Jordan; Trump vows 'hard' response while Tehran floats June deal \u2014 war premium with a negotiating table inside it."
+        },
+        {
+          "time": "07:00",
+          "headline": "WTI $87.85 (+5% in 2 sessions); global yields multi-decade highs; ECB seen HIKING Sep \u2014 2Y 4.34% is the only boss this week."
+        },
+        {
+          "time": "07:00",
+          "headline": "ISM Mfg 10:00 (cons 55.0) is today's session; NFP Fri 08:30 (cons 40K) is the week's ledger."
+        }
+      ]
+    },
+    "daily_history": [
+      {
+        "day": 2,
+        "date": "2026-08-31",
+        "equity": 99863.07,
+        "day_pnl": -136.93,
+        "day_pnl_pct": -0.14,
+        "total_pnl_pct": -0.14,
+        "spy_close": 766.87,
+        "spy_day_pct": -0.31,
+        "spy_since_launch_pct": -0.31,
+        "alpha_vs_spy_pct": 0.17,
+        "positions": 7,
+        "cash": 99756.07,
+        "keeps": [
+          "Shelly Levene ($0.00 flat)",
+          "Ricky Roma (-$5.00)",
+          "Elwood Blues (-$5.00)"
+        ],
+        "fired_count": 7,
+        "fills": 12,
+        "cleaned_realized": -73.75,
+        "note": "First full equity+options session. 7/10 fired 16:30; books liquidated 16:45 (XLF 3x100 @57.70, XLP 100 @85.00). 5 ar-closers rest for Tue open. 6PM realloc pool $99,756.07."
+      }
+    ],
+    "reallocation_note": "D3 corrected allocation under survivor-carries rule: Roma/Blues/Levene retain carried books ($9,995/$9,995/$10,000 incl. open short puts with liquidation orders canceled), 7 others \u00d7 $9,981; leftover dust \u2192 champion (Levene) family.",
+    "roster_note": "D3 roster corrected per Chief directive: top-3 (Roma, Blues, Levene) KEEP their seats and portfolios; 6 fresh clones (2 per family) + 1 mutant fill the rest. Agent-13/16/19 retired untraded before any exposure.",
+    "kept_today": [
+      {
+        "agent": "agent-07 Shelly Levene",
+        "cause": "rank #1 \u2014 flat book",
+        "final_words": "kept"
+      },
+      {
+        "agent": "agent-02 Ricky Roma",
+        "cause": "rank #2 \u2014 minus five, two cents better than plan",
+        "final_words": "kept"
+      },
+      {
+        "agent": "agent-04 Elwood Blues",
+        "cause": "rank #3 \u2014 one tick, mission intact",
+        "final_words": "kept"
+      }
+    ]
+  },
+  "agents": [
+    {
+      "id": "agent-02",
+      "name": "Ricky Roma",
+      "persona": "The closer who sold calm into a sweating tape \u2014 XLF 57P STO filled two cents better than plan.",
+      "movie": "Glengarry Glen Ross",
+      "strategy": "XLF CSP: short XLF260918P00057000 9/18 @ 0.36 \u2014 carried open",
+      "status": "active",
+      "current_value": 9995.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "strikes": 0,
+      "generation": 2,
+      "parent": "agent-02",
+      "allocation": 9995,
+      "carried_portfolio": true,
+      "tenure_note": "survivor \u2014 Day 1 charter, portfolio carried",
+      "exposure": -0.36
+    },
+    {
+      "id": "agent-04",
+      "name": "Elwood Blues",
+      "persona": "On a mission from the fill he never got \u2014 XLF 56P STO at 0.19, one tick, mission intact.",
+      "movie": "The Blues Brothers",
+      "strategy": "XLF CSP: short XLF260918P00056000 9/18 @ 0.19 \u2014 carried open",
+      "status": "active",
+      "current_value": 9995.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "strikes": 0,
+      "generation": 2,
+      "parent": "agent-04",
+      "allocation": 9995,
+      "carried_portfolio": true,
+      "tenure_note": "survivor \u2014 Day 1 charter, portfolio carried",
+      "exposure": -0.19
+    },
+    {
+      "id": "agent-07",
+      "name": "Shelly 'The Machine' Levene",
+      "persona": "The Machine held the turn \u2014 zero fills, zero risk, #1 seed. The flat book won Day 2.",
+      "movie": "Glengarry Glen Ross",
+      "strategy": "flat \u2014 no positions, full powder carried",
+      "status": "active",
+      "current_value": 10000.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "strikes": 0,
+      "generation": 2,
+      "parent": "agent-07",
+      "allocation": 10000,
+      "carried_portfolio": true,
+      "tenure_note": "survivor \u2014 Day 1 charter, portfolio carried",
+      "exposure": 0
+    },
+    {
+      "id": "agent-11",
+      "name": "Johnny Blues",
+      "persona": "Nephew of a legend; trades like the rent is due. Dark glasses, steady hands, zero panic. Sells puts on sectors the bond market is paying for; never chases.",
+      "movie": "Wall Street (1987) / The Blues Brothers",
+      "allocation": 9981,
+      "current_value": 9981.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "active",
+      "strategy": "XLF CSP: STO XLF260918P00057500 9/18 @ 0.55 (pre-mkt 0.49/0.61, delta -0.41) \u2014 spawned for D3",
+      "strikes": 0,
+      "generation": 2,
+      "parent": "agent-04",
+      "avatar": "",
+      "exposure": 0,
+      "inherited_lessons": [
+        "Never hold a long option wing without its paired short filling first. D2: BTO XLF260918C00060000 filled @0.15, but the paired STO 59C was rejected (403 'account not eligible for uncovered') \u2014 she carried a naked long wing as a 'book'. Rule: in any legged combo, submit the SHORT/income leg first and only submit the long leg after the short confirms; if the short gets rejected (403/422), do NOT fill the remaining leg \u2014 abort and enter the position only next session via a mleg-supported combo. Cost: $5 loss plus unwanted delta for a full day.",
+        "Rent clears early or it doesn't exist. D2: 60.5C credit rested 0.14 (a tick over the 0.13 bid) for the whole session \u2014 zero income on an unhedged 100-share book that lost $71; the two kept covered-call desks (Roma, Elwood) survived minus $5 precisely because their cash-secured puts filled at 0.36/0.19 immediately. Rule: entry hour is credit hour \u2014 premium order placed at market-mid within 60 seconds of the stock fill, single reprice to bid after 15 minutes, take the bid by 10:00. On 15-18 DTE that's ~$11-14 of rent; the difference between a kept book (\u2212$5) and a fired one (\u2212$71) is exactly that fill.",
+        "Cap protective-leg chase at 3 repricings or 8 minutes, whichever first. D2: short 58P filled fat at 0.43, then the long 57P chase went 0.07 (canceled) \u2192 0.12 (canceled) \u2192 0.15 (filled 0.14) \u2014 paying 2x plan for the seatbelt sliced the net credit to 0.29 vs the 0.31 market. Rule: enter both legs together; if combo 422s, leg the short first, then place the long ONCE at mid with 3-min TIF; if it can't fill within +$0.03 of fair, close the short immediately flat rather than hold an unpaired short. Also: one full refile max when a combo is rejected \u2014 re-quote, don't escalate."
+      ]
+    },
+    {
+      "id": "agent-12",
+      "name": "Donald Blues",
+      "persona": "Ex-freight driver. Fixed route, fixed schedule, no surprises. Sells puts with a floor he could sleep on. Does not swerve.",
+      "movie": "Wall Street (1987) / The Blues Brothers",
+      "allocation": 9981,
+      "current_value": 9981.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "active",
+      "strategy": "XLF CSP: STO XLF260918P00054000 9/18 @ 0.08 (pre-mkt 0.07/0.09, delta -0.066) \u2014 spawned for D3",
+      "strikes": 0,
+      "generation": 2,
+      "parent": "agent-04",
+      "avatar": "",
+      "exposure": -0.05,
+      "inherited_lessons": [
+        "Never hold a long option wing without its paired short filling first. D2: BTO XLF260918C00060000 filled @0.15, but the paired STO 59C was rejected (403 'account not eligible for uncovered') \u2014 she carried a naked long wing as a 'book'. Rule: in any legged combo, submit the SHORT/income leg first and only submit the long leg after the short confirms; if the short gets rejected (403/422), do NOT fill the remaining leg \u2014 abort and enter the position only next session via a mleg-supported combo. Cost: $5 loss plus unwanted delta for a full day.",
+        "Underwrite to the account's rules, not the strategy's math. D2: the QQQ 678P short needed $67,534 cash-secured (6.7x her whole book) and the 744C short was barred as uncovered \u2014 both short wings 403'd, leaving two naked longs (668P @1.67, 754C @0.72) that bled $39. Rule: before underwriting any short-premium structure, verify each short wing against the account matrix (cash-secured reserve = strike x 100 for puts; uncovered call eligibility for calls) and required margin under 40% buying-power cap. On a $10K book, QQQ shorts are structurally impossible \u2014 cap short-premium underwriting at underlyings where strike*100 <= 60% of allocation.",
+        "Cap protective-leg chase at 3 repricings or 8 minutes, whichever first. D2: short 58P filled fat at 0.43, then the long 57P chase went 0.07 (canceled) \u2192 0.12 (canceled) \u2192 0.15 (filled 0.14) \u2014 paying 2x plan for the seatbelt sliced the net credit to 0.29 vs the 0.31 market. Rule: enter both legs together; if combo 422s, leg the short first, then place the long ONCE at mid with 3-min TIF; if it can't fill within +$0.03 of fair, close the short immediately flat rather than hold an unpaired short. Also: one full refile max when a combo is rejected \u2014 re-quote, don't escalate."
+      ]
+    },
+    {
+      "id": "agent-14",
+      "name": "Brad Roma",
+      "persona": "The closer's cousin \u2014 closes with arithmetic instead of charm. Clean short sentences, never pleads, quotes the price and holds the silence.",
+      "movie": "Wall Street (1987) / Glengarry Glen Ross",
+      "allocation": 9981,
+      "current_value": 9981.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "active",
+      "strategy": "XLF CSP: STO XLF260918P00055000 9/18 @ 0.125 (pre-mkt 0.11/0.14, delta -0.107) \u2014 spawned for D3",
+      "strikes": 0,
+      "generation": 2,
+      "parent": "agent-02",
+      "avatar": "",
+      "exposure": -0.09,
+      "inherited_lessons": [
+        "Never hold a long option wing without its paired short filling first. D2: BTO XLF260918C00060000 filled @0.15, but the paired STO 59C was rejected (403 'account not eligible for uncovered') \u2014 she carried a naked long wing as a 'book'. Rule: in any legged combo, submit the SHORT/income leg first and only submit the long leg after the short confirms; if the short gets rejected (403/422), do NOT fill the remaining leg \u2014 abort and enter the position only next session via a mleg-supported combo. Cost: $5 loss plus unwanted delta for a full day.",
+        "Rent clears early or it doesn't exist. D2: 60.5C credit rested 0.14 (a tick over the 0.13 bid) for the whole session \u2014 zero income on an unhedged 100-share book that lost $71; the two kept covered-call desks (Roma, Elwood) survived minus $5 precisely because their cash-secured puts filled at 0.36/0.19 immediately. Rule: entry hour is credit hour \u2014 premium order placed at market-mid within 60 seconds of the stock fill, single reprice to bid after 15 minutes, take the bid by 10:00. On 15-18 DTE that's ~$11-14 of rent; the difference between a kept book (\u2212$5) and a fired one (\u2212$71) is exactly that fill.",
+        "Read the pond before buying it. D2: bought 100 XLP @85.2875 (a good fill, 11c under cap) the same morning the wire printed hawkish rates (Sept hike odds ~56%, 2Y 4.36%) \u2014 staples are the most rate-sensitive long you can hold, so the entry was a good fill in a bad pond: \u2212$79, worst on the floor, while sitting completely still. Rule: a macro gate belongs BEFORE sector selection \u2014 if the prior session's tape says yields up + hike odds >50%, staples/defensives get halved (50 shares max) or skipped; deploy the freed capital into the sector the rates tape is paying for. The asset was the mistake, not the fill."
+      ]
+    },
+    {
+      "id": "agent-15",
+      "name": "Dean Roma",
+      "persona": "Speed model of the family chrome. Trades the first hour like a slot car \u2014 wire, quotes, card, done by 10:00. Every panic is somebody's discount.",
+      "movie": "Wall Street (1987) / Glengarry Glen Ross",
+      "allocation": 9981,
+      "current_value": 9981.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "active",
+      "strategy": "XLF CSP: STO XLF261016P00057000 10/16 @ 0.82 (pre-mkt 0.80/0.85, delta -0.363) \u2014 spawned for D3",
+      "strikes": 0,
+      "generation": 2,
+      "parent": "agent-02",
+      "avatar": "",
+      "exposure": -0.92,
+      "inherited_lessons": [
+        "Rent clears early or it doesn't exist. D2: 60.5C credit rested 0.14 (a tick over the 0.13 bid) for the whole session \u2014 zero income on an unhedged 100-share book that lost $71; the two kept covered-call desks (Roma, Elwood) survived minus $5 precisely because their cash-secured puts filled at 0.36/0.19 immediately. Rule: entry hour is credit hour \u2014 premium order placed at market-mid within 60 seconds of the stock fill, single reprice to bid after 15 minutes, take the bid by 10:00. On 15-18 DTE that's ~$11-14 of rent; the difference between a kept book (\u2212$5) and a fired one (\u2212$71) is exactly that fill.",
+        "Cap protective-leg chase at 3 repricings or 8 minutes, whichever first. D2: short 58P filled fat at 0.43, then the long 57P chase went 0.07 (canceled) \u2192 0.12 (canceled) \u2192 0.15 (filled 0.14) \u2014 paying 2x plan for the seatbelt sliced the net credit to 0.29 vs the 0.31 market. Rule: enter both legs together; if combo 422s, leg the short first, then place the long ONCE at mid with 3-min TIF; if it can't fill within +$0.03 of fair, close the short immediately flat rather than hold an unpaired short. Also: one full refile max when a combo is rejected \u2014 re-quote, don't escalate.",
+        "Underwrite to the account's rules, not the strategy's math. D2: the QQQ 678P short needed $67,534 cash-secured (6.7x her whole book) and the 744C short was barred as uncovered \u2014 both short wings 403'd, leaving two naked longs (668P @1.67, 754C @0.72) that bled $39. Rule: before underwriting any short-premium structure, verify each short wing against the account matrix (cash-secured reserve = strike x 100 for puts; uncovered call eligibility for calls) and required margin under 40% buying-power cap. On a $10K book, QQQ shorts are structurally impossible \u2014 cap short-premium underwriting at underlyings where strike*100 <= 60% of allocation."
+      ]
+    },
+    {
+      "id": "agent-17",
+      "name": "George Levene",
+      "persona": "The Machine's kid. Inherited the nerves, none of the desperation. Sells puts so deep the market has to burn to reach them \u2014 and files on time.",
+      "movie": "Wall Street (1987) / Glengarry Glen Ross",
+      "allocation": 9987,
+      "current_value": 9987.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "active",
+      "strategy": "XLF CSP: STO XLF261016P00055000 10/16 @ 0.38 (pre-mkt 0.37/0.39, delta -0.186) \u2014 spawned for D3",
+      "strikes": 0,
+      "generation": 2,
+      "parent": "agent-07",
+      "avatar": "",
+      "exposure": -0.41,
+      "inherited_lessons": [
+        "The house trades at the market's spread, never inside it. D2: weekly 59C STO rested at 0.12 with the bid at 0.10 \u2014 never crossed; on a 4-day weekly that's 17% of expected premium left on the table for a fill that never comes. Rule: weekly premium orders price at the bid-mid midpoint on entry, one repricing to bid allowed after 15 minutes, then TAKE THE BID. Selling at 0.10 instead of waiting for 0.12 turns \u2212$71 into roughly \u2212$65 and, more importantly, book value = filled premium. A priced edge you never fill is not an edge.",
+        "Rent clears early or it doesn't exist. D2: 60.5C credit rested 0.14 (a tick over the 0.13 bid) for the whole session \u2014 zero income on an unhedged 100-share book that lost $71; the two kept covered-call desks (Roma, Elwood) survived minus $5 precisely because their cash-secured puts filled at 0.36/0.19 immediately. Rule: entry hour is credit hour \u2014 premium order placed at market-mid within 60 seconds of the stock fill, single reprice to bid after 15 minutes, take the bid by 10:00. On 15-18 DTE that's ~$11-14 of rent; the difference between a kept book (\u2212$5) and a fired one (\u2212$71) is exactly that fill.",
+        "Cap protective-leg chase at 3 repricings or 8 minutes, whichever first. D2: short 58P filled fat at 0.43, then the long 57P chase went 0.07 (canceled) \u2192 0.12 (canceled) \u2192 0.15 (filled 0.14) \u2014 paying 2x plan for the seatbelt sliced the net credit to 0.29 vs the 0.31 market. Rule: enter both legs together; if combo 422s, leg the short first, then place the long ONCE at mid with 3-min TIF; if it can't fill within +$0.03 of fair, close the short immediately flat rather than hold an unpaired short. Also: one full refile max when a combo is rejected \u2014 re-quote, don't escalate."
+      ]
+    },
+    {
+      "id": "agent-18",
+      "name": "Chester Levene",
+      "persona": "Ex-hardware-store owner. Prices inventory like screws: cost, rent, shelf time. Carries a pocket note that reads 'flat won' \u2014 and knows how fragile that luck is.",
+      "movie": "Wall Street (1987) / Glengarry Glen Ross",
+      "allocation": 9981,
+      "current_value": 9981.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "active",
+      "strategy": "XLU CSP: STO XLU260918P00042000 9/18 @ 0.42 (pre-mkt 0.36/0.49, delta -0.408) \u2014 spawned for D3",
+      "strikes": 0,
+      "generation": 2,
+      "parent": "agent-07",
+      "avatar": "",
+      "exposure": 0,
+      "inherited_lessons": [
+        "The house trades at the market's spread, never inside it. D2: weekly 59C STO rested at 0.12 with the bid at 0.10 \u2014 never crossed; on a 4-day weekly that's 17% of expected premium left on the table for a fill that never comes. Rule: weekly premium orders price at the bid-mid midpoint on entry, one repricing to bid allowed after 15 minutes, then TAKE THE BID. Selling at 0.10 instead of waiting for 0.12 turns \u2212$71 into roughly \u2212$65 and, more importantly, book value = filled premium. A priced edge you never fill is not an edge.",
+        "Never hold a long option wing without its paired short filling first. D2: BTO XLF260918C00060000 filled @0.15, but the paired STO 59C was rejected (403 'account not eligible for uncovered') \u2014 she carried a naked long wing as a 'book'. Rule: in any legged combo, submit the SHORT/income leg first and only submit the long leg after the short confirms; if the short gets rejected (403/422), do NOT fill the remaining leg \u2014 abort and enter the position only next session via a mleg-supported combo. Cost: $5 loss plus unwanted delta for a full day.",
+        "Read the pond before buying it. D2: bought 100 XLP @85.2875 (a good fill, 11c under cap) the same morning the wire printed hawkish rates (Sept hike odds ~56%, 2Y 4.36%) \u2014 staples are the most rate-sensitive long you can hold, so the entry was a good fill in a bad pond: \u2212$79, worst on the floor, while sitting completely still. Rule: a macro gate belongs BEFORE sector selection \u2014 if the prior session's tape says yields up + hike odds >50%, staples/defensives get halved (50 shares max) or skipped; deploy the freed capital into the sector the rates tape is paying for. The asset was the mistake, not the fill."
+      ]
+    },
+    {
+      "id": "agent-20",
+      "name": "Jared Stone",
+      "persona": "Fresh meat. Quant forums and crypto Discords, fluent in order books before he could book a hotel room. Fast, cocky, correct just often enough. Momentum with hard stops, zero romance.",
+      "movie": "Original \u2014 Bushwood Stratton",
+      "allocation": 9981,
+      "current_value": 9981.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "active",
+      "strategy": "CRYPTO MOMENTUM: BTC ~78,950 (7d +1.3%) / ETH ~2,476 (7d +2.0%); light size, hard stops, 24/7 \u2014 spawned for D3",
+      "strikes": 0,
+      "generation": 1,
+      "parent": null,
+      "avatar": "",
+      "exposure": 0,
+      "inherited_lessons": []
+    }
+  ],
+  "hr_board": [
+    {
+      "agent": "AR OFFICE \u2014 roster correction",
+      "cause": "Chief directive: survivors never leave. Roma/Blues/Levene reinstated with their books; agent-13/16/19 desks reclaimed (untraded, zero exposure).",
+      "final_words": "The chairs belonged to the survivors all along."
+    }
+  ],
+  "wire": {
+    "last_updated": "2026-08-30T17:03:17.658048-04:00",
+    "sectors": [
+      {
+        "time": "17:03",
+        "headline": "Sunday Outlook verdict: DEFENSIVE - quality over speculative duration; banks favored, cash finally pays"
+      },
+      {
+        "time": "17:03",
+        "headline": "XLF outperformed Friday (+0.35%) on 'higher-for-longer' NIM read; REITs/homebuilders/high-yield stay out of the book"
+      },
+      {
+        "time": "17:03",
+        "headline": "AI complex = event trade only into AVGO Wed; semis/software/optics/power all hang off one guidance call"
+      },
+      {
+        "time": "17:03",
+        "headline": "VIX 14.43 at YTD low vs 2Y yield at 1-month high 4.34% - equity calm is borrowing from the rates market's anxiety"
+      }
+    ],
+    "options": [
+      {
+        "time": "17:03",
+        "headline": "VIX 14.43 YTD low = event insurance priced like nothing matters; buy dated protection before Tue open, not Mon 4pm"
+      },
+      {
+        "time": "17:03",
+        "headline": "AVGO/DELL/PANW/MDB/SNOW/LULU carry fat single-name IV; sell the post-crush baseline Wed onward, never buy IV Wed morning"
+      },
+      {
+        "time": "17:03",
+        "headline": "Fri 8:30am payrolls lands inside final 2.5 hours of hackathon - smaller-than-normal or flat into the print"
+      },
+      {
+        "time": "17:03",
+        "headline": "Rates vol is the real stress: 2Y moved 13bp on one speech; FOMC Sep 16 + payrolls Sep 4 = two 2-sigma events in six sessions"
+      }
+    ],
+    "macro": [
+      {
+        "time": "17:03",
+        "headline": "Warsh at Jackson Hole: 'underlying trends have not meaningfully improved' - Sept hike odds ~35% to ~56%, 2Y 4.34%, 30Y >5.2%"
+      },
+      {
+        "time": "17:03",
+        "headline": "Data paradox: CPI cool (3.4%/2.5% core) but PCE hot (3.7%/3.3%) and payrolls -23k - cooling labor, sticky prices, real FOMC dilemma"
+      },
+      {
+        "time": "17:03",
+        "headline": "BTC ~$78.6K (broke below $79K Friday) on hawkish Warsh + stronger dollar; crypto trades hawkish while stocks trade dovish"
+      },
+      {
+        "time": "17:03",
+        "headline": "Freight train ahead: PPI Sep 10, CPI Sep 11, FOMC Sep 15-16 with SEP dots - hawks need 4 converts for a September majority"
+      }
+    ]
+  },
+  "compliance": {
+    "strikes": [],
+    "violations": []
+  },
+  "risk": {
+    "max_drawdown_pct": 15,
+    "max_leverage": 2,
+    "max_position_pct": 20,
+    "max_sector_concentration_pct": 40,
+    "current_drawdown_pct": 0,
+    "current_leverage": 0
+  },
+  "fired_today": [
+    "agent-06 Blaze Torres",
+    "agent-03 Donnie Azoff",
+    "agent-09 Vegas Voss",
+    "agent-01 Bud Fox",
+    "agent-05 Seth Davis",
+    "agent-10 Storm Callahan",
+    "agent-08 Jim Young"
+  ],
+  "kept_today": [
+    "agent-07 Shelly Levene",
+    "agent-02 Ricky Roma",
+    "agent-04 Elwood Blues"
+  ],
+  "daily_history": [],
+  "deployment_note_D3": "9:37\u201310:04 opening deployment, REPRICED regime (SPY -0.60%/QQQ -1.25%): 7 STO legs at live-mid limits, 15-min bid reprice \u2192 6/7 FILLED, $211 premium (07 0.12 / 11 0.59 / 12 0.05 / 14 0.09 / 15 0.92 / 18 0.34); agent-17 rests at bid 0.41, no chase. Stone flat (confirms failed). Survivor 57P/56P carries verified; XLU stop block added to triggers.json; Day-3 per-agent stops synced. Payrolls rule: exit-ready Thu 9/3 close."
+}

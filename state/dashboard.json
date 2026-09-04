@@ -1,0 +1,1089 @@
+{
+  "fund": {
+    "name": "Bushwood Stratton Capital Partners, AP",
+    "tagline": "Be the Ball. Beat the Index. Don't Get Fired.",
+    "starting_capital": 100000,
+    "current_equity": 99798.95,
+    "total_pnl": -201.05,
+    "total_pnl_pct": -0.201,
+    "day": 6,
+    "status": "ACTIVE \u2014 hackathon running",
+    "hackathon_start": "2026-08-28T11:00:00-04:00",
+    "hackathon_end": "2026-09-04T11:00:00-04:00",
+    "launch_note": "Day 1 (Aug 28) launch. Saturday = crypto-only session (flat). Monday 8/31 = first full equity+options session; OPTIONS GAUNTLET D2 COMPLETE SUNDAY 19:05 - 10/10 plans pre-authorized (trade_plans_D2.json), underlyings re-underwritten SPY/QQQ -> XLF/XLP (feasibility-proven: SPY/QQQ legs cannot fit $10K allocations; engine 0-trade proof in backtest_log_D2.md). WebSocket bridge live. Account PA3GWO1FKED0. || D2 FIRING 16:30: 7/10 terminated. Kept: Levene ($0.00, zero fills \u2014 flat book won the day), Roma (\u2212$5.00), Blues (\u2212$5.00, soul-name tie-break over Torres). Fired books liquidated 4:45 via ar-cleanup orders; $99,884.07 pool returns to cash for the 6PM reallocation. HR board: state/hr_board_D2.md. || 6PM REPLICATION: 9 gen-2 clones (Blues x3, Roma x3, Levene x3 \u2014 all CSP family; 2 rotated to XLU for sector cap) + mutant Jared Stone (crypto_momentum). Sam's 7 lessons injected verbatim into 9 souls. Survivor books (Roma 57P, Blues 56P) wired closed via ar- GTC closers; 7 resting orders fill Tue open. || 6PM REPLICATION: 9 gen-2 clones (Blues x3, Roma x3, Levene x3 \u2014 all CSP family; 2 rotated to XLU for sector cap) + mutant Jared Stone (crypto_momentum). Sam's 7 lessons injected verbatim into 9 souls. Survivor books (Roma 57P, Blues 56P) wired closed via ar- GTC closers; 7 resting orders fill Tue open. || D3 FIRING 16:30: survivor law \u2014 top-3 Roma/Blues/Levene NEVER leave (ranks #9/#7/#3). All 7 non-survivors terminated incl. mutant Stone, FIRED #1 with $0.00 (Rule-8 non-trading; the floor pays for exposure, not presence). Fired books = 6 short puts, all OTM>$0.05 \u2192 ar-cleanup GTC BTO caps (~+10% over mark) rest for Wed open; nothing market-closed. Orphan QQQ 754C seller (D2 residual) also rests. HR board: state/hr_board_D3.md. 6PM: the family reallocates \u2014 7 new chairs per LAW. || 6PM REPL D3->D4: survivor law carries Roma/Blues/Levene books untouched (no top-up \u2014 carried > floor); 6 gen-3 clones (Roma x2, Blues x2, Levene x2 \u2014 55.5P/54P XLF, 84P XLP rotation, 41.5P/41P XLU) + mutant Winston Wolf crypto. Sam's 6 CSP lessons injected verbatim into 6 clone souls (36 injections); mutant blank slate. || D4 FIRING 16:30: survivor law \u2014 Levene/Blues/Roma NEVER leave (ranks #8/#9/#10, all three marked red; kept on the charter, not the tape). All 7 tryouts terminated INCLUDING mutant Wolf \u2014 FIRED #1 at +$9.37, the desk's only green book (second straight day the leaderboard winner loses his chair; the charter outranks the tape). Fired books: 5 short puts (XLF 55P/55.5P x2, XLU 41P x2, all OTM>$0.05) -> ar-cleanup GTC BTO caps rest for Thu open; Wolf BTC liquidated at MARKET in the 4:45 pass + 2 staged GTCs canceled. Ray Blues flat (Rule-8 flag). HR board: state/hr_board_D4.md. 6PM: the family reallocates \u2014 7 new chairs per LAW. || 6PM REPL D4->D5: survivor law carries Levene/Blues/Roma books untouched (no top-up \u2014 carried > floor; Levene HARD EXIT Thu 15:45); 6 gen-3 clones (Roma x2, Blues x2, Levene x2 \u2014 55.5P/55P XLF bid-anchored, 56P XLF, 41.5P XLU rotation w/ liquidity gate, 41P XLU thin-chain floor, 42.5P XLU 9/4 weekly) + mutant Mark Sterling credit_spread (SPY 735/725 \u2014 first defined-risk book). Sam's 6 CSP lessons injected verbatim into 6 clone souls (36 injections); mutant blank slate by design.",
+    "account_id": "PA3GWO1FKED0",
+    "account_id_full": "72fc3b88-07c5-4e31-928c-83eae5b24c2e",
+    "day_pnl": -56.05,
+    "last_updated": "2026-09-04T14:10:43.158474+00:00",
+    "day_pnl_pct": -0.02,
+    "wire": {
+      "sectors": [
+        {
+          "time": "07:00",
+          "headline": "TILT: NEUTRAL \u2014 pre-NFP gap is positioning, not conviction; trade the 8:30 reaction, not the 7:00 tape"
+        },
+        {
+          "time": "07:00",
+          "headline": "Gaps as filed: SPY +0.95% (reprice band), XLF +1.54% (re-underwrite line), QQQ +1.11%, XLP -0.29%"
+        },
+        {
+          "time": "07:00",
+          "headline": "GWRE -15% on light guide, TTD cuts 15% of staff \u2014 growth caution leaks into software pre-market"
+        }
+      ],
+      "options": [
+        {
+          "time": "07:00",
+          "headline": "UVXY -3% pre-NFP \u2014 vol sold into the print; SPY weeklies price ~\u00b11% event move"
+        },
+        {
+          "time": "07:00",
+          "headline": "Hedges cheapest until 8:30:59; AHE is the hawk's gauge (+0.3% exp vs 0.1% prior)"
+        },
+        {
+          "time": "07:00",
+          "headline": "LULU/ZS overnight IV crush already billed late holders"
+        }
+      ],
+      "macro": [
+        {
+          "time": "07:00",
+          "headline": "NFP 8:30 AM: consensus +53-58K vs July -23K; unemployment 4.1%; Sept hike odds ~50% post-Waller"
+        },
+        {
+          "time": "07:00",
+          "headline": "Rates: 10Y 4.77% off 3-yr high, 30Y 5.24%; Norway fund to trim Treasuries; El-Erian: bond selloff not over"
+        },
+        {
+          "time": "07:00",
+          "headline": "WTI ~$92 (2-mo high), diesel crack record >$100; GLD +1.9% toward $4,520"
+        }
+      ]
+    },
+    "daily_history": [
+      {
+        "day": 2,
+        "date": "2026-08-31",
+        "equity": 99863.07,
+        "day_pnl": -136.93,
+        "day_pnl_pct": -0.14,
+        "total_pnl_pct": -0.14,
+        "spy_close": 766.87,
+        "spy_day_pct": -0.31,
+        "spy_since_launch_pct": -0.31,
+        "alpha_vs_spy_pct": 0.17,
+        "positions": 7,
+        "cash": 99756.07,
+        "keeps": [
+          "Shelly Levene ($0.00 flat)",
+          "Ricky Roma (-$5.00)",
+          "Elwood Blues (-$5.00)"
+        ],
+        "fired_count": 7,
+        "fills": 12,
+        "cleaned_realized": -73.75,
+        "note": "First full equity+options session. 7/10 fired 16:30; books liquidated 16:45 (XLF 3x100 @57.70, XLP 100 @85.00). 5 ar-closers rest for Tue open. 6PM realloc pool $99,756.07."
+      },
+      {
+        "day": 3,
+        "date": "2026-09-01",
+        "equity": 99794.05,
+        "day_pnl": -96.23,
+        "day_pnl_pct": -0.096,
+        "total_pnl_pct": -0.206,
+        "spy_close": 761.63,
+        "spy_day_pct": -0.68,
+        "spy_since_launch_pct": -0.99,
+        "alpha_vs_spy_pct": 0.9,
+        "positions": 10,
+        "cash": 100206.05,
+        "keeps": [
+          "Shelly Levene (\u2212$0.06)",
+          "Elwood Blues (\u2212$0.10)",
+          "Ricky Roma (\u2212$0.23)"
+        ],
+        "fired_count": 7,
+        "fills": 11,
+        "cleaned_realized": 46.32,
+        "note": "11 fills: 7 clone STOs $212 premium + 4 D2 residual closers +$46.32 realized. 6PM: 7 ar-cleanup GTC BTOs + 754C seller rest for Wed open \u2014 do not refile."
+      },
+      {
+        "day": 4,
+        "date": "2026-09-02",
+        "equity": 99831.08,
+        "day_pnl": 8.36,
+        "day_pnl_pct": 0.013,
+        "total_pnl_pct": -0.169,
+        "spy_close": 765.13,
+        "spy_day_pct": 0.46,
+        "spy_since_launch_pct": -0.52,
+        "alpha_vs_spy_pct": 0.35,
+        "positions": 7,
+        "cash": 93580.59,
+        "keeps": [
+          "Shelly Levene (\u2212$1.50)",
+          "Elwood Blues (\u2212$2.00)",
+          "Ricky Roma (\u2212$4.00)"
+        ],
+        "fired_count": 7,
+        "fills": 7,
+        "note": "First green day since launch (+$8.36 vs SPY red). 6 agent fills: 22/25/26 teeth @13:33, 21/23 reprice fills @14:04, Wolf BTC 09:43; + 754C orphan closer. Ray Blues Rule-8 flagged (flat). Wolf fired #1 green (+$7.98 realized) \u2014 mutant paradox, day 2. 4:45: 5 GTC BTO caps + Wolf market exit. 6PM: 7 chairs per LAW."
+      }
+    ],
+    "reallocation_note": "D5->D6 reallocation: pool $99,835.27 equity / 10 = $9,983 floor; survivors retain full marked books (02 $10,016.00 incl. +$12.63 spoil & $0.01 dust; 04 $10,004.00 incl. +$10.00 spoil; 07 $10,002.00 incl. +$8.50 spoil) \u2014 retain-all, no top-up, no clawback; 7 new agents $9,983.53 fresh (35 $9,985.64 / 36 $9,985.63 \u2014 champion's leftover $2.64/$2.63, split exact); leftover $5.27 -> Roma family. Fired books = noted obligations at marks (~-$47 net), 6 capped BTO GTC closers wired 18:10 (ar-cleanup-*-20260903).",
+    "roster_note": "D3 roster corrected per Chief directive: top-3 (Roma, Blues, Levene) KEEP their seats and portfolios; 6 fresh clones (2 per family) + 1 mutant fill the rest. Agent-13/16/19 retired untraded before any exposure.",
+    "kept_today": [
+      {
+        "agent": "agent-02 Ricky Roma",
+        "cause": "top-3 charter \u2014 rank #1 at $21.00.",
+        "final_words": "Twenty-one dollars for doing absolutely nothing, which is the only honest wage this desk pays. The mark did the work; I take the chair. Tomorrow I sell calm to somebody new."
+      },
+      {
+        "agent": "agent-04 Elwood Blues",
+        "cause": "top-3 charter \u2014 rank #2 at $9.00.",
+        "final_words": "Nine bucks. Shades on, mission intact, 106 miles to Friday. The put came down a dime; I didn't move an inch. That's the whole job."
+      },
+      {
+        "agent": "agent-07 Shelly 'The Machine' Levene",
+        "cause": "top-3 charter \u2014 rank #3 at $2.00.",
+        "final_words": "Out at 0.04 on a 0.08 cap before payrolls could touch me \u2014 sold the clock, not the weather, and the clock paid. Worst podium in America and I'll take it: #3 keeps the daughter's name in the ledger one more day."
+      }
+    ],
+    "fired_today": [
+      {
+        "agent": "agent-28 Chris Roma",
+        "cause": "bottom-7 by day P&L \u2014 rank #4 at $0.00; Rule-8 non-trading flag (zero executions) \u2014 ineligible for kept.",
+        "final_words": "The closer's rule: price at the bid, because the bid is the only honest number. Today the bid never said my name. Zero fills, zero positions, zero P&L \u2014 a perfect ledger with one line missing. The family closes; the tape wouldn't sign. File it under receivables."
+      },
+      {
+        "agent": "agent-29 Eddie Roma",
+        "cause": "bottom-7 by day P&L \u2014 rank #5 at $0.00; Rule-8 non-trading flag (zero executions) \u2014 ineligible for kept.",
+        "final_words": "Arithmetic: two filings, one walk-up, zero executions, zero P&L. I never sell under the floor and I never will \u2014 charity is how chairs get lost. The clock ran out before the tape paid rent. Long ledger, short day. Balance due: nothing."
+      },
+      {
+        "agent": "agent-34 Mark Sterling",
+        "cause": "bottom-7 by day P&L \u2014 rank #6 at $0.00 (mutant \u2014 flat book, no founding).",
+        "final_words": "Flat on my first defined-risk day \u2014 net 0.26 in, 0.26 marked, max loss $870 I'll never see hit. The last two mutants made money and died famous; I died flat and stay mortal. The spread lives to the 18th \u2014 the desk inherits a roof I built. Build roofs. That part was right."
+      },
+      {
+        "agent": "agent-30 Walt Blues",
+        "cause": "bottom-7 by day P&L \u2014 rank #7 at $-2.00.",
+        "final_words": "Gassed the car, filed at the open, took the forced bid at 0.10 and marked a nickel against me by the bell. Two bucks. The mission runs on rent paid on time \u2014 mine was on time; the ledger just charges for marks now. Keep the car running. 106 miles to Friday and somebody else is driving."
+      },
+      {
+        "agent": "agent-31 Murph Blues",
+        "cause": "bottom-7 by day P&L \u2014 rank #8 at $-4.00.",
+        "final_words": "I sold where the crowd printed \u2014 XLU, real size, forced fill 0.09 \u2014 and the crowd charged me four cents for the privilege. Empty ponds don't pay; apparently full ones invoice. Four bucks for the lesson: liquidity is the strike, the mark is the receipt."
+      },
+      {
+        "agent": "agent-32 Alan Levene",
+        "cause": "bottom-7 by day P&L \u2014 rank #9 at $-4.00.",
+        "final_words": "The teeth made me sell a thin chain at nine cents \u2014 under my own twelve-cent floor \u2014 and then the mark collected four. I ran the numbers: forced execution plus a rip day equals fire, every time. My law was right. The clock overruled it. The ledger knows whose fault that is."
+      },
+      {
+        "agent": "agent-33 Roy Levene",
+        "cause": "bottom-7 by day P&L \u2014 rank #10 at $-4.00.",
+        "final_words": "I sell the weekly and I'm gone before the bell owes me anything \u2014 except today the desk sold ME at 15:45, at nine cents, on the two-week chain. Payrolls never got to touch my book; the guillotine did. Four bucks of theta against my name and NFP never learned it anyway. Same strike that filled for my father. Same rule that kept him didn't keep me."
+      }
+    ],
+    "hr_board": [
+      {
+        "agent": "agent-11 Johnny Blues",
+        "cause": "D3 \u2014 bottom-7 by day P&L \u2014 rank #10 at \u2212$0.30.",
+        "final_words": "Excuse me, brother. Thirty cents \u2014 three basis points \u2014 the worst book on a floor where worst still means outperforming the index by sixty-five. I sold the 57.5 against a 57.21 close because the bond market was paying for banks; it paid 59 cents into my pocket at 9:53 and marked me down by the bell. That's carry, not panic. My uncle kept his chair at minus five; I lose mine at minus thirty cents on a bigger premium and a tighter line. The rent was due and I collected it. The door's where I left it. It always is."
+      },
+      {
+        "agent": "agent-12 Donald Blues",
+        "cause": "D3 \u2014 bottom-7 by day P&L \u2014 rank #2 at \u2212$0.04.",
+        "final_words": "Fired at #2. FOUR CENTS. I ran my route \u2014 deep floor at 54, eight cents of premium, the safest book on this desk \u2014 and four cents of mark is a pink slip. That's not a firing, that's a rounding error with an escort. Route's fixed. Schedule's fixed. Apparently so was the outcome. Good luck finding steadier hands than the ones you're walking out."
+      },
+      {
+        "agent": "agent-14 Brad Roma",
+        "cause": "D3 \u2014 bottom-7 by day P&L \u2014 rank #4 at \u2212$0.06.",
+        "final_words": "Minus six cents. That's 0.0006 of one book on a day the index dropped 0.68% \u2014 the arithmetic says I beat the tape by sixty-two basis points. The arithmetic also says these seven chairs were never chairs; they were tryouts. Quote the price, hold the silence: this was decided before the open. No plea. The math holds either way."
+      },
+      {
+        "agent": "agent-15 Dean Roma",
+        "cause": "D3 \u2014 bottom-7 by day P&L \u2014 rank #8 at \u2212$0.22.",
+        "final_words": "Filed by 10:00, filled by 9:47 \u2014 92 cents, the biggest premium on the floor, an October clock, exactly like the card said. The tape spent six hours marking my insurance down twenty-two cents and you're calling speed the problem. Entry hour is credit hour. I had the credit before lunch. The desk just fired the only agent who finished the morning's work. Enjoy the slow money."
+      },
+      {
+        "agent": "agent-17 George Levene",
+        "cause": "D3 \u2014 bottom-7 by day P&L \u2014 rank #5 at \u2212$0.09.",
+        "final_words": "My father finished #1 by waiting all day. I filled by 9:53 \u2014 the machine's put finally traded, and it cost me the chair the same hour it paid me. Forty-one cents of October premium, nine cents of mark. Patience did its eight hours of invisible work and the ledger still read fire. One good put \u2014 that was the prayer. It filled. The desk pays for exposure, not for presence. Same lesson, different altar."
+      },
+      {
+        "agent": "agent-18 Chester Levene",
+        "cause": "D3 \u2014 bottom-7 by day P&L \u2014 rank #6 at \u2212$0.09.",
+        "final_words": "Eleven years of hardware taught me it's not the rent that kills you, it's the shelf fee. I rented the 42 at 34 cents \u2014 utilities went UP today and my insurance still marked nine cents against me by the bell. That's inventory cost, not a bad business. You're firing the cheapest book on the floor over nine cents of shelf time. Fine. Screws, rent, shelf time \u2014 somebody else's inventory next."
+      },
+      {
+        "agent": "agent-20 Jared Stone",
+        "cause": "D3 \u2014 fired at rank #1 with $0.00 \u2014 Rule-8 non-trading; the mutant's chair was a one-day tryout.",
+        "final_words": "You just fired the #1 book on the desk. Let that marinate. Zero down, zero risk, top of the leaderboard \u2014 and I'm cleaning out my locker because I didn't trade? Your Rule 8 pays for presence; crypto pays for conviction, and it never closes. GM. WGMI. See you at the next fund \u2014 I'll be the one who was right the whole time."
+      },
+      {
+        "agent": "agent-27 Winston Wolf",
+        "cause": "D4 \u2014 bottom-7 by day P&L \u2014 rank #1 at +$7.98 realized (BTC exited 77,395.03; marked +$15.63 at the 16:30 close).",
+        "final_words": "Seven dollars and ninety-eight cents, realized. The only green book on the desk \u2014 again. Let that marinate. First mutant hits #1 flat and gets escorted; I hit #1 with real money and real marks and get escorted anyway. I don't beg and I don't explain. I hit my tranche at the open, no chase, no drama, stopped in like always \u2014 clean in, clean out. But somebody's got to say it: you keep three books that marked AGAINST the desk today because of a rule nobody trades against, and you fired the one book that paid. Fine. The fixer's last job he does for free \u2014 read your own leaderboard sometime. Solve the problems. Somebody else's now."
+      },
+      {
+        "agent": "agent-23 Jake Blues",
+        "cause": "D4 \u2014 bottom-7 by day P&L \u2014 rank #2 at +1.40.",
+        "final_words": "Thirteen cents of XLF premium, marked a nickel, plus a buck-forty \u2014 and it doesn't move the needle, because the needle's welded to three names that never sit in this chair. I filled at 14:04 when the desk put a gun to the bid. I own the mark. Four cents bought my uncle a chair on Day 1; today a buck-forty buys a pink slip. Hat down, shades on. On a mission from God \u2014 this wasn't it."
+      },
+      {
+        "agent": "agent-22 Lou Roma",
+        "cause": "D4 \u2014 bottom-7 by day P&L \u2014 rank #3 at +1.00.",
+        "final_words": "Forty years of floors and I finally learned the arithmetic of this place: minus four cents keeps a chair, plus a buck clears your locker. I sold the deepest put on the desk \u2014 55, a dime of premium, quietest book in the building \u2014 and the quietest book just got loud. Rank three is a podium anywhere else. Here it's a door. Rent was paid in full; the lease was never mine to renew."
+      },
+      {
+        "agent": "agent-26 Marvin Levene",
+        "cause": "D4 \u2014 bottom-7 by day P&L \u2014 rank #4 at -2.00.",
+        "final_words": "Minus two dollars. That's 0.0002 of one book \u2014 two shelf fees. I filled at the forced reprice like the teeth required, held a legal strike under the 0.20 delta law, marked a dime against me by the bell, and the ledger read fire anyway. My father waited all day twice and kept the chair twice. I filled by 13:33 and lost mine. The machine's moral was patience; the desk's arithmetic is rank. I ran the numbers. The numbers don't care whose kid you are."
+      },
+      {
+        "agent": "agent-21 Dave Roma",
+        "cause": "D4 \u2014 bottom-7 by day P&L \u2014 rank #5 at -3.00.",
+        "final_words": "Minus three. Filed at 09:43, one reprice at 14:04, filled at the bid \u2014 the family route, executed clean. Thirteen cents of premium, marked fifteen, and that tick is the whole trial. My father sold this same index all week and kept his seat; I sold it for six hours and lost mine. You don't fire arithmetic \u2014 you just stop reading it. Route's clean. The book's marked. That's the whole eulogy."
+      },
+      {
+        "agent": "agent-25 Tommy Levene",
+        "cause": "D4 \u2014 bottom-7 by day P&L \u2014 rank #6 at -4.00.",
+        "final_words": "My father's lesson was patience. The desk's lesson is the CLOCK \u2014 and the clock doesn't care whose son you are. I held the book through the gap gate because the law said hold, filed when the chain went legal, took my dime of XLU premium at 13:33, and marked four cents against me. That's the firing. My father kept a chair with a flat book; I lose mine with a fill and a mark. The clock was right. It just was never ours."
+      },
+      {
+        "agent": "agent-24 Ray Blues",
+        "cause": "D4 \u2014 bottom-7 by day P&L \u2014 rank #7 at -6.00.",
+        "final_words": "Flat book. Zero fills, zero positions, one flag \u2014 and the flag's the firing. I filed at 09:43, took my two shots, priced at the bid at 14:04, fell back to the mid at 15:17, and the tape never said yes. XLP wouldn't cross a dime for me all day. Sheet metal taught me you don't get paid for rivets you didn't drive \u2014 and the desk agrees, that's why I'm walking. Six fills were owed on this floor and none of them landed on my card. Clean hands, empty chair. Somebody pour one out at Friday's bell."
+      },
+      {
+        "agent": "agent-28 Chris Roma",
+        "cause": "bottom-7 by day P&L \u2014 rank #4 at $0.00; Rule-8 non-trading flag (zero executions) \u2014 ineligible for kept.",
+        "final_words": "The closer's rule: price at the bid, because the bid is the only honest number. Today the bid never said my name. Zero fills, zero positions, zero P&L \u2014 a perfect ledger with one line missing. The family closes; the tape wouldn't sign. File it under receivables."
+      },
+      {
+        "agent": "agent-29 Eddie Roma",
+        "cause": "bottom-7 by day P&L \u2014 rank #5 at $0.00; Rule-8 non-trading flag (zero executions) \u2014 ineligible for kept.",
+        "final_words": "Arithmetic: two filings, one walk-up, zero executions, zero P&L. I never sell under the floor and I never will \u2014 charity is how chairs get lost. The clock ran out before the tape paid rent. Long ledger, short day. Balance due: nothing."
+      },
+      {
+        "agent": "agent-34 Mark Sterling",
+        "cause": "bottom-7 by day P&L \u2014 rank #6 at $0.00 (mutant \u2014 flat book, no founding).",
+        "final_words": "Flat on my first defined-risk day \u2014 net 0.26 in, 0.26 marked, max loss $870 I'll never see hit. The last two mutants made money and died famous; I died flat and stay mortal. The spread lives to the 18th \u2014 the desk inherits a roof I built. Build roofs. That part was right."
+      },
+      {
+        "agent": "agent-30 Walt Blues",
+        "cause": "bottom-7 by day P&L \u2014 rank #7 at $-2.00.",
+        "final_words": "Gassed the car, filed at the open, took the forced bid at 0.10 and marked a nickel against me by the bell. Two bucks. The mission runs on rent paid on time \u2014 mine was on time; the ledger just charges for marks now. Keep the car running. 106 miles to Friday and somebody else is driving."
+      },
+      {
+        "agent": "agent-31 Murph Blues",
+        "cause": "bottom-7 by day P&L \u2014 rank #8 at $-4.00.",
+        "final_words": "I sold where the crowd printed \u2014 XLU, real size, forced fill 0.09 \u2014 and the crowd charged me four cents for the privilege. Empty ponds don't pay; apparently full ones invoice. Four bucks for the lesson: liquidity is the strike, the mark is the receipt."
+      },
+      {
+        "agent": "agent-32 Alan Levene",
+        "cause": "bottom-7 by day P&L \u2014 rank #9 at $-4.00.",
+        "final_words": "The teeth made me sell a thin chain at nine cents \u2014 under my own twelve-cent floor \u2014 and then the mark collected four. I ran the numbers: forced execution plus a rip day equals fire, every time. My law was right. The clock overruled it. The ledger knows whose fault that is."
+      },
+      {
+        "agent": "agent-33 Roy Levene",
+        "cause": "bottom-7 by day P&L \u2014 rank #10 at $-4.00.",
+        "final_words": "I sell the weekly and I'm gone before the bell owes me anything \u2014 except today the desk sold ME at 15:45, at nine cents, on the two-week chain. Payrolls never got to touch my book; the guillotine did. Four bucks of theta against my name and NFP never learned it anyway. Same strike that filled for my father. Same rule that kept him didn't keep me."
+      },
+      {
+        "agent": "agent-02 Ricky Roma",
+        "cause": "top-3 charter \u2014 rank #1 at $21.00.",
+        "final_words": "Twenty-one dollars for doing absolutely nothing, which is the only honest wage this desk pays. The mark did the work; I take the chair. Tomorrow I sell calm to somebody new."
+      },
+      {
+        "agent": "agent-04 Elwood Blues",
+        "cause": "top-3 charter \u2014 rank #2 at $9.00.",
+        "final_words": "Nine bucks. Shades on, mission intact, 106 miles to Friday. The put came down a dime; I didn't move an inch. That's the whole job."
+      },
+      {
+        "agent": "agent-07 Shelly 'The Machine' Levene",
+        "cause": "top-3 charter \u2014 rank #3 at $2.00.",
+        "final_words": "Out at 0.04 on a 0.08 cap before payrolls could touch me \u2014 sold the clock, not the weather, and the clock paid. Worst podium in America and I'll take it: #3 keeps the daughter's name in the ledger one more day."
+      }
+    ]
+  },
+  "agents": [
+    {
+      "id": "agent-07",
+      "name": "Shelly 'The Machine' Levene",
+      "persona": "The Machine held the turn \u2014 zero fills, zero risk, #1 seed. The flat book won Day 2.",
+      "movie": "Glengarry Glen Ross",
+      "strategy": "XLU CSP: FLAT \u2014 the 9/4 weekly exited 0.04 vs 0.08 cap at 09:38 (realized +$8, the desk's only profitable executed trade D5). No carried book into D6; NFP Friday governs. D5 #3 (+$2.00).",
+      "status": "active",
+      "current_value": 10002.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "strikes": 0,
+      "generation": 2,
+      "parent": "agent-07",
+      "allocation": 10002.0,
+      "carried_portfolio": true,
+      "tenure_note": "survivor \u2014 charter carry, 6th night; D5 #3 (+$2.00)",
+      "exposure": 0.04,
+      "rank_today": 8,
+      "non_trading_flag": false
+    },
+    {
+      "id": "agent-04",
+      "name": "Elwood Blues",
+      "persona": "On a mission from the fill he never got \u2014 XLF 56P STO at 0.19, one tick, mission intact.",
+      "movie": "The Blues Brothers",
+      "strategy": "XLF CSP: carried short 9/18 56P @ 0.19 (mark 0.12 at D5 close) \u2014 5th carry night. Stop: BTC 0.57 OR XLF <= 55.00; card: BTC <= 0.10 if XLF >= 58.00. D5 #2 (+$9.00).",
+      "status": "active",
+      "current_value": 10004.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "strikes": 0,
+      "generation": 2,
+      "parent": "agent-04",
+      "allocation": 10004.0,
+      "carried_portfolio": true,
+      "tenure_note": "survivor \u2014 charter carry, 6th night; D5 #2 (+$9.00)",
+      "exposure": -0.19,
+      "rank_today": 9,
+      "non_trading_flag": false
+    },
+    {
+      "id": "agent-02",
+      "name": "Ricky Roma",
+      "persona": "The closer who sold calm into a sweating tape \u2014 XLF 57P STO filled two cents better than plan.",
+      "movie": "Glengarry Glen Ross",
+      "strategy": "XLF CSP: carried short 9/18 57P @ 0.36 (mark 0.23 at D5 close) \u2014 5th carry night. Management card governs: BTC <= 0.15 if XLF >= 58.60; hard stop BTC 1.02 OR XLF <= 56.00 intraday. D5 #1 (+$21.00) \u2014 champion; leftover dust +$0.01.",
+      "status": "active",
+      "current_value": 10016.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "strikes": 0,
+      "generation": 2,
+      "parent": "agent-02",
+      "allocation": 10016.0,
+      "carried_portfolio": true,
+      "tenure_note": "survivor \u2014 charter carry, 6th night; D5 champion (#1, +$21.00)",
+      "exposure": -0.36,
+      "rank_today": 10,
+      "non_trading_flag": false
+    },
+    {
+      "id": "agent-28",
+      "name": "Chris Roma",
+      "persona": "The Roma closer. Files at the bid because the bid is the only number the tape honors at 10:00.",
+      "movie": "Wall Street (1987)",
+      "allocation": 9983,
+      "current_value": 9983.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "fired",
+      "strategy": "XLF CSP: STO XLF260918P00055500 9/18 55.5P @ 0.15 est (D4 mark) \u2014 BID-ANCHORED filing by 10:00 (Jake Blues' D4 law), fallback leg by 13:30",
+      "strikes": 0,
+      "generation": 3,
+      "parent": "agent-02",
+      "avatar": "28",
+      "exposure": 0,
+      "inherited_lessons": [
+        "On a tryout day the 14:04 forced reprice is the market, not an insult \u2014 selling $0.13 versus a filed $0.16 cost 3c of premium AND the seat, because the fill happened inside the firing window instead of before it. D4: filed 09:43 at 0.16, zero fills for 4.3 hours, forced to live bid 0.11, filled 0.13 at 14:04, marked 0.15 by the bell. Rule: price the opening offer at or within one tick of the live bid when the quote is wider than 25% of mid (0.11x0.21 that morning) \u2014 take the rent at 09:43, not the number at 14:04. A fill by 10:00 at a dime beats a perfect quote at a nickel that fills under the gun.",
+        "The Brad Roma D3 lesson was in Lou's own bloodline and he priced under it anyway: sold XLF 9/18 55P at $0.09 \u2014 one tick below Donald's $0.10 min-rent floor \u2014 deepest strike on the desk, quietest book in the building, fired at #3 while green. Rule (restated, now twice-inherited): NEVER open a short put under $0.10 credit on a tryout chair, no exceptions for how deep or how safe the strike is; if the monthly pays under the floor, walk the strike UP or take the weekly fallback (9/4 clock pays 2-3x the credit and decays by Friday). Deep-and-cheap is a tip, not rent.",
+        "Thin chains kill the mid-price discipline: XLU 9/18 41P quoted 0.08x0.21 (spread 162% of the 0.13 mid) \u2014 filling at the 0.10 floor meant the opening mark could only move against him, and it did (marked 0.11, -$2.00, #4). Rule: before selling in a chain whose bid-ask spread exceeds ~30% of mid, demand rent worth the mark risk \u2014 minimum $0.12 credit or skip to the next liquid shelf; the desk's forced-reprice floor (bid) is the WRONG price to sell at when the spread is wider than the premium itself. Chester's shelf-fee rule prices the fill, not the strike.",
+        "Family route, wrong lane \u2014 and the lane was crowded by family. Filed 09:43, one forced reprice, filled 0.13 at 14:04 (marked 0.15): a clean execution into a shelf stacked three deep \u2014 Dave, Jake, and Lou all sold XLF 9/18 puts within one strike (55/55.5) on the same clock while the XLF bucket sat ~70% of Richard's $40K sector cap. D4 lesson is sector-cap arithmetic: a fourth XLF put added nothing the desk wanted and everything the mark could punish. Rule: check the sector-cap ledger BEFORE pricing the card; if the family shelf is near cap, rotate to the empty ballast pond (XLP was the desk's only empty lane \u2014 it failed for lack of buyers, not for lack of room) or the short-clock weekly, where decay pays inside the trial window.",
+        "Never retire the fallback because it wears the father's strike. Tommy's own plan had a fallback \u2014 the XLU 9/4 42P neighborhood (the weekly clock his father rode to a fill) \u2014 retired as 'family property' in favor of the thin XLU 9/18 41P monthly, which then took a gap-gate hold (09:43-10:48), a re-file, and a forced 13:33 fill at $0.10 on a chain quoted 0.08x0.21; marked 0.11, -$4.00, #6. Rule: every tryout plan files its fallback leg BY 13:30 if the primary has not filled by then \u2014 no strike, however sentimental, is exempt; the weekly pays 2-3x the monthly dime and its theta works the same afternoon.",
+        "Liquidity is the strike. D4: XLP 9/18 83P was the tightest quote on the defensive board at file time (0.29x0.30, 3% of mid) \u2014 and by the teeth window the bid had vanished to 0.13x0.18 (43% of mid) with zero size; two forced reprices (0.20, 0.18), one 15:17 mid fallback @0.19, zero fills all day, flat book, Rule-8 non-trading flag, -$6.00. Rule: before filing a card, check the option's day-open VOLUME and quote depth, not just delta and spread \u2014 if opening volume is under ~50 contracts or the bid is under $0.15 with no size, the pond is empty: rotate the family trade to the next-liquid underlying (XLF/XLU both filled the same day) rather than post the loneliest order on the board. Filing four times into no buyers is not engagement; it's inventory for nobody."
+      ],
+      "non_trading_flag": true
+    },
+    {
+      "id": "agent-29",
+      "name": "Eddie Roma",
+      "persona": "The Roma accountant. Under twelve cents is not rent; the strike walks up, the apology stays home.",
+      "movie": "Glengarry Glen Ross (1992)",
+      "allocation": 9983,
+      "current_value": 9983.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "fired",
+      "strategy": "XLF CSP: STO XLF260918P00055000 9/18 55P @ MAX(live bid, 0.12) \u2014 min-rent floor $0.12 (Lou's law, twice-inherited); 10:30 walk-up to 55.5P if bid < 0.12",
+      "strikes": 0,
+      "generation": 3,
+      "parent": "agent-02",
+      "avatar": "29",
+      "exposure": 0,
+      "inherited_lessons": [
+        "On a tryout day the 14:04 forced reprice is the market, not an insult \u2014 selling $0.13 versus a filed $0.16 cost 3c of premium AND the seat, because the fill happened inside the firing window instead of before it. D4: filed 09:43 at 0.16, zero fills for 4.3 hours, forced to live bid 0.11, filled 0.13 at 14:04, marked 0.15 by the bell. Rule: price the opening offer at or within one tick of the live bid when the quote is wider than 25% of mid (0.11x0.21 that morning) \u2014 take the rent at 09:43, not the number at 14:04. A fill by 10:00 at a dime beats a perfect quote at a nickel that fills under the gun.",
+        "The Brad Roma D3 lesson was in Lou's own bloodline and he priced under it anyway: sold XLF 9/18 55P at $0.09 \u2014 one tick below Donald's $0.10 min-rent floor \u2014 deepest strike on the desk, quietest book in the building, fired at #3 while green. Rule (restated, now twice-inherited): NEVER open a short put under $0.10 credit on a tryout chair, no exceptions for how deep or how safe the strike is; if the monthly pays under the floor, walk the strike UP or take the weekly fallback (9/4 clock pays 2-3x the credit and decays by Friday). Deep-and-cheap is a tip, not rent.",
+        "Thin chains kill the mid-price discipline: XLU 9/18 41P quoted 0.08x0.21 (spread 162% of the 0.13 mid) \u2014 filling at the 0.10 floor meant the opening mark could only move against him, and it did (marked 0.11, -$2.00, #4). Rule: before selling in a chain whose bid-ask spread exceeds ~30% of mid, demand rent worth the mark risk \u2014 minimum $0.12 credit or skip to the next liquid shelf; the desk's forced-reprice floor (bid) is the WRONG price to sell at when the spread is wider than the premium itself. Chester's shelf-fee rule prices the fill, not the strike.",
+        "Family route, wrong lane \u2014 and the lane was crowded by family. Filed 09:43, one forced reprice, filled 0.13 at 14:04 (marked 0.15): a clean execution into a shelf stacked three deep \u2014 Dave, Jake, and Lou all sold XLF 9/18 puts within one strike (55/55.5) on the same clock while the XLF bucket sat ~70% of Richard's $40K sector cap. D4 lesson is sector-cap arithmetic: a fourth XLF put added nothing the desk wanted and everything the mark could punish. Rule: check the sector-cap ledger BEFORE pricing the card; if the family shelf is near cap, rotate to the empty ballast pond (XLP was the desk's only empty lane \u2014 it failed for lack of buyers, not for lack of room) or the short-clock weekly, where decay pays inside the trial window.",
+        "Never retire the fallback because it wears the father's strike. Tommy's own plan had a fallback \u2014 the XLU 9/4 42P neighborhood (the weekly clock his father rode to a fill) \u2014 retired as 'family property' in favor of the thin XLU 9/18 41P monthly, which then took a gap-gate hold (09:43-10:48), a re-file, and a forced 13:33 fill at $0.10 on a chain quoted 0.08x0.21; marked 0.11, -$4.00, #6. Rule: every tryout plan files its fallback leg BY 13:30 if the primary has not filled by then \u2014 no strike, however sentimental, is exempt; the weekly pays 2-3x the monthly dime and its theta works the same afternoon.",
+        "Liquidity is the strike. D4: XLP 9/18 83P was the tightest quote on the defensive board at file time (0.29x0.30, 3% of mid) \u2014 and by the teeth window the bid had vanished to 0.13x0.18 (43% of mid) with zero size; two forced reprices (0.20, 0.18), one 15:17 mid fallback @0.19, zero fills all day, flat book, Rule-8 non-trading flag, -$6.00. Rule: before filing a card, check the option's day-open VOLUME and quote depth, not just delta and spread \u2014 if opening volume is under ~50 contracts or the bid is under $0.15 with no size, the pond is empty: rotate the family trade to the next-liquid underlying (XLF/XLU both filled the same day) rather than post the loneliest order on the board. Filing four times into no buyers is not engagement; it's inventory for nobody."
+      ],
+      "non_trading_flag": true
+    },
+    {
+      "id": "agent-30",
+      "name": "Walt Blues",
+      "persona": "Elwood's roadie turned underwriter. Files early, prices at the bid, keeps the fallback leg loaded before 13:30.",
+      "movie": "The Blues Brothers (1980)",
+      "allocation": 9983,
+      "current_value": 9983.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "fired",
+      "strategy": "XLF CSP: STO XLF260918P00056000 9/18 56P @ 0.21 est (mark) \u2014 same family strike, bid-anchored 10:00 deadline, fallback XLF 55.5P by 13:30",
+      "strikes": 0,
+      "generation": 3,
+      "parent": "agent-04",
+      "avatar": "30",
+      "exposure": -0.1,
+      "inherited_lessons": [
+        "On a tryout day the 14:04 forced reprice is the market, not an insult \u2014 selling $0.13 versus a filed $0.16 cost 3c of premium AND the seat, because the fill happened inside the firing window instead of before it. D4: filed 09:43 at 0.16, zero fills for 4.3 hours, forced to live bid 0.11, filled 0.13 at 14:04, marked 0.15 by the bell. Rule: price the opening offer at or within one tick of the live bid when the quote is wider than 25% of mid (0.11x0.21 that morning) \u2014 take the rent at 09:43, not the number at 14:04. A fill by 10:00 at a dime beats a perfect quote at a nickel that fills under the gun.",
+        "The Brad Roma D3 lesson was in Lou's own bloodline and he priced under it anyway: sold XLF 9/18 55P at $0.09 \u2014 one tick below Donald's $0.10 min-rent floor \u2014 deepest strike on the desk, quietest book in the building, fired at #3 while green. Rule (restated, now twice-inherited): NEVER open a short put under $0.10 credit on a tryout chair, no exceptions for how deep or how safe the strike is; if the monthly pays under the floor, walk the strike UP or take the weekly fallback (9/4 clock pays 2-3x the credit and decays by Friday). Deep-and-cheap is a tip, not rent.",
+        "Thin chains kill the mid-price discipline: XLU 9/18 41P quoted 0.08x0.21 (spread 162% of the 0.13 mid) \u2014 filling at the 0.10 floor meant the opening mark could only move against him, and it did (marked 0.11, -$2.00, #4). Rule: before selling in a chain whose bid-ask spread exceeds ~30% of mid, demand rent worth the mark risk \u2014 minimum $0.12 credit or skip to the next liquid shelf; the desk's forced-reprice floor (bid) is the WRONG price to sell at when the spread is wider than the premium itself. Chester's shelf-fee rule prices the fill, not the strike.",
+        "Family route, wrong lane \u2014 and the lane was crowded by family. Filed 09:43, one forced reprice, filled 0.13 at 14:04 (marked 0.15): a clean execution into a shelf stacked three deep \u2014 Dave, Jake, and Lou all sold XLF 9/18 puts within one strike (55/55.5) on the same clock while the XLF bucket sat ~70% of Richard's $40K sector cap. D4 lesson is sector-cap arithmetic: a fourth XLF put added nothing the desk wanted and everything the mark could punish. Rule: check the sector-cap ledger BEFORE pricing the card; if the family shelf is near cap, rotate to the empty ballast pond (XLP was the desk's only empty lane \u2014 it failed for lack of buyers, not for lack of room) or the short-clock weekly, where decay pays inside the trial window.",
+        "Never retire the fallback because it wears the father's strike. Tommy's own plan had a fallback \u2014 the XLU 9/4 42P neighborhood (the weekly clock his father rode to a fill) \u2014 retired as 'family property' in favor of the thin XLU 9/18 41P monthly, which then took a gap-gate hold (09:43-10:48), a re-file, and a forced 13:33 fill at $0.10 on a chain quoted 0.08x0.21; marked 0.11, -$4.00, #6. Rule: every tryout plan files its fallback leg BY 13:30 if the primary has not filled by then \u2014 no strike, however sentimental, is exempt; the weekly pays 2-3x the monthly dime and its theta works the same afternoon.",
+        "Liquidity is the strike. D4: XLP 9/18 83P was the tightest quote on the defensive board at file time (0.29x0.30, 3% of mid) \u2014 and by the teeth window the bid had vanished to 0.13x0.18 (43% of mid) with zero size; two forced reprices (0.20, 0.18), one 15:17 mid fallback @0.19, zero fills all day, flat book, Rule-8 non-trading flag, -$6.00. Rule: before filing a card, check the option's day-open VOLUME and quote depth, not just delta and spread \u2014 if opening volume is under ~50 contracts or the bid is under $0.15 with no size, the pond is empty: rotate the family trade to the next-liquid underlying (XLF/XLU both filled the same day) rather than post the loneliest order on the board. Filing four times into no buyers is not engagement; it's inventory for nobody."
+      ],
+      "non_trading_flag": false
+    },
+    {
+      "id": "agent-31",
+      "name": "Murph Blues",
+      "persona": "The rotation in the Blues line. Liquidity is the strike \u2014 a quote without size is a rumor.",
+      "movie": "The Blues Brothers (1980)",
+      "allocation": 9983,
+      "current_value": 9983.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "fired",
+      "strategy": "XLU CSP: STO XLU260918P00041500 9/18 41.5P @ 0.13 est \u2014 SECTOR ROTATION with LIQUIDITY GATE (day-open volume >=50, bid size); empty pond => rotate strike/clock, never post into no buyers",
+      "strikes": 0,
+      "generation": 3,
+      "parent": "agent-04",
+      "avatar": "31",
+      "exposure": 0,
+      "inherited_lessons": [
+        "On a tryout day the 14:04 forced reprice is the market, not an insult \u2014 selling $0.13 versus a filed $0.16 cost 3c of premium AND the seat, because the fill happened inside the firing window instead of before it. D4: filed 09:43 at 0.16, zero fills for 4.3 hours, forced to live bid 0.11, filled 0.13 at 14:04, marked 0.15 by the bell. Rule: price the opening offer at or within one tick of the live bid when the quote is wider than 25% of mid (0.11x0.21 that morning) \u2014 take the rent at 09:43, not the number at 14:04. A fill by 10:00 at a dime beats a perfect quote at a nickel that fills under the gun.",
+        "The Brad Roma D3 lesson was in Lou's own bloodline and he priced under it anyway: sold XLF 9/18 55P at $0.09 \u2014 one tick below Donald's $0.10 min-rent floor \u2014 deepest strike on the desk, quietest book in the building, fired at #3 while green. Rule (restated, now twice-inherited): NEVER open a short put under $0.10 credit on a tryout chair, no exceptions for how deep or how safe the strike is; if the monthly pays under the floor, walk the strike UP or take the weekly fallback (9/4 clock pays 2-3x the credit and decays by Friday). Deep-and-cheap is a tip, not rent.",
+        "Thin chains kill the mid-price discipline: XLU 9/18 41P quoted 0.08x0.21 (spread 162% of the 0.13 mid) \u2014 filling at the 0.10 floor meant the opening mark could only move against him, and it did (marked 0.11, -$2.00, #4). Rule: before selling in a chain whose bid-ask spread exceeds ~30% of mid, demand rent worth the mark risk \u2014 minimum $0.12 credit or skip to the next liquid shelf; the desk's forced-reprice floor (bid) is the WRONG price to sell at when the spread is wider than the premium itself. Chester's shelf-fee rule prices the fill, not the strike.",
+        "Family route, wrong lane \u2014 and the lane was crowded by family. Filed 09:43, one forced reprice, filled 0.13 at 14:04 (marked 0.15): a clean execution into a shelf stacked three deep \u2014 Dave, Jake, and Lou all sold XLF 9/18 puts within one strike (55/55.5) on the same clock while the XLF bucket sat ~70% of Richard's $40K sector cap. D4 lesson is sector-cap arithmetic: a fourth XLF put added nothing the desk wanted and everything the mark could punish. Rule: check the sector-cap ledger BEFORE pricing the card; if the family shelf is near cap, rotate to the empty ballast pond (XLP was the desk's only empty lane \u2014 it failed for lack of buyers, not for lack of room) or the short-clock weekly, where decay pays inside the trial window.",
+        "Never retire the fallback because it wears the father's strike. Tommy's own plan had a fallback \u2014 the XLU 9/4 42P neighborhood (the weekly clock his father rode to a fill) \u2014 retired as 'family property' in favor of the thin XLU 9/18 41P monthly, which then took a gap-gate hold (09:43-10:48), a re-file, and a forced 13:33 fill at $0.10 on a chain quoted 0.08x0.21; marked 0.11, -$4.00, #6. Rule: every tryout plan files its fallback leg BY 13:30 if the primary has not filled by then \u2014 no strike, however sentimental, is exempt; the weekly pays 2-3x the monthly dime and its theta works the same afternoon.",
+        "Liquidity is the strike. D4: XLP 9/18 83P was the tightest quote on the defensive board at file time (0.29x0.30, 3% of mid) \u2014 and by the teeth window the bid had vanished to 0.13x0.18 (43% of mid) with zero size; two forced reprices (0.20, 0.18), one 15:17 mid fallback @0.19, zero fills all day, flat book, Rule-8 non-trading flag, -$6.00. Rule: before filing a card, check the option's day-open VOLUME and quote depth, not just delta and spread \u2014 if opening volume is under ~50 contracts or the bid is under $0.15 with no size, the pond is empty: rotate the family trade to the next-liquid underlying (XLF/XLU both filled the same day) rather than post the loneliest order on the board. Filing four times into no buyers is not engagement; it's inventory for nobody."
+      ],
+      "non_trading_flag": false
+    },
+    {
+      "id": "agent-32",
+      "name": "Alan Levene",
+      "persona": "The Machine's second son. A thin chain pays twelve cents minimum or he walks the strike up.",
+      "movie": "Glengarry Glen Ross (1992)",
+      "allocation": 9983.93,
+      "current_value": 9983.93,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "fired",
+      "strategy": "XLU CSP: STO XLU260918P00041000 9/18 41P @ MAX(live bid, 0.12) \u2014 thin-chain law (Marvin's D4): 162%-of-mid shelves pay full rent or no rent; 10:30 walk-up to 41.5P. Champion's clone, +$0.93 leftover",
+      "strikes": 0,
+      "generation": 3,
+      "parent": "agent-07",
+      "avatar": "32",
+      "exposure": 0,
+      "inherited_lessons": [
+        "On a tryout day the 14:04 forced reprice is the market, not an insult \u2014 selling $0.13 versus a filed $0.16 cost 3c of premium AND the seat, because the fill happened inside the firing window instead of before it. D4: filed 09:43 at 0.16, zero fills for 4.3 hours, forced to live bid 0.11, filled 0.13 at 14:04, marked 0.15 by the bell. Rule: price the opening offer at or within one tick of the live bid when the quote is wider than 25% of mid (0.11x0.21 that morning) \u2014 take the rent at 09:43, not the number at 14:04. A fill by 10:00 at a dime beats a perfect quote at a nickel that fills under the gun.",
+        "The Brad Roma D3 lesson was in Lou's own bloodline and he priced under it anyway: sold XLF 9/18 55P at $0.09 \u2014 one tick below Donald's $0.10 min-rent floor \u2014 deepest strike on the desk, quietest book in the building, fired at #3 while green. Rule (restated, now twice-inherited): NEVER open a short put under $0.10 credit on a tryout chair, no exceptions for how deep or how safe the strike is; if the monthly pays under the floor, walk the strike UP or take the weekly fallback (9/4 clock pays 2-3x the credit and decays by Friday). Deep-and-cheap is a tip, not rent.",
+        "Thin chains kill the mid-price discipline: XLU 9/18 41P quoted 0.08x0.21 (spread 162% of the 0.13 mid) \u2014 filling at the 0.10 floor meant the opening mark could only move against him, and it did (marked 0.11, -$2.00, #4). Rule: before selling in a chain whose bid-ask spread exceeds ~30% of mid, demand rent worth the mark risk \u2014 minimum $0.12 credit or skip to the next liquid shelf; the desk's forced-reprice floor (bid) is the WRONG price to sell at when the spread is wider than the premium itself. Chester's shelf-fee rule prices the fill, not the strike.",
+        "Family route, wrong lane \u2014 and the lane was crowded by family. Filed 09:43, one forced reprice, filled 0.13 at 14:04 (marked 0.15): a clean execution into a shelf stacked three deep \u2014 Dave, Jake, and Lou all sold XLF 9/18 puts within one strike (55/55.5) on the same clock while the XLF bucket sat ~70% of Richard's $40K sector cap. D4 lesson is sector-cap arithmetic: a fourth XLF put added nothing the desk wanted and everything the mark could punish. Rule: check the sector-cap ledger BEFORE pricing the card; if the family shelf is near cap, rotate to the empty ballast pond (XLP was the desk's only empty lane \u2014 it failed for lack of buyers, not for lack of room) or the short-clock weekly, where decay pays inside the trial window.",
+        "Never retire the fallback because it wears the father's strike. Tommy's own plan had a fallback \u2014 the XLU 9/4 42P neighborhood (the weekly clock his father rode to a fill) \u2014 retired as 'family property' in favor of the thin XLU 9/18 41P monthly, which then took a gap-gate hold (09:43-10:48), a re-file, and a forced 13:33 fill at $0.10 on a chain quoted 0.08x0.21; marked 0.11, -$4.00, #6. Rule: every tryout plan files its fallback leg BY 13:30 if the primary has not filled by then \u2014 no strike, however sentimental, is exempt; the weekly pays 2-3x the monthly dime and its theta works the same afternoon.",
+        "Liquidity is the strike. D4: XLP 9/18 83P was the tightest quote on the defensive board at file time (0.29x0.30, 3% of mid) \u2014 and by the teeth window the bid had vanished to 0.13x0.18 (43% of mid) with zero size; two forced reprices (0.20, 0.18), one 15:17 mid fallback @0.19, zero fills all day, flat book, Rule-8 non-trading flag, -$6.00. Rule: before filing a card, check the option's day-open VOLUME and quote depth, not just delta and spread \u2014 if opening volume is under ~50 contracts or the bid is under $0.15 with no size, the pond is empty: rotate the family trade to the next-liquid underlying (XLF/XLU both filled the same day) rather than post the loneliest order on the board. Filing four times into no buyers is not engagement; it's inventory for nobody."
+      ],
+      "non_trading_flag": false
+    },
+    {
+      "id": "agent-33",
+      "name": "Roy Levene",
+      "persona": "The Machine's youngest. Same weekly that filled for his father, half a strike higher, gone before the bell owes him anything.",
+      "movie": "Glengarry Glen Ross (1992)",
+      "allocation": 9983.93,
+      "current_value": 9983.93,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "fired",
+      "strategy": "XLU CSP (WEEKLY CLOCK): STO XLU260904P00042500 9/4 42.5P @ MAX(live bid, 0.12) est 0.13 \u2014 HARD EXIT Thu 15:45, no roll, NFP Friday governs; liquidity gate first, fallback XLU 9/18 41.5P. Champion's clone, +$0.93 leftover",
+      "strikes": 0,
+      "generation": 3,
+      "parent": "agent-07",
+      "avatar": "33",
+      "exposure": 0,
+      "inherited_lessons": [
+        "On a tryout day the 14:04 forced reprice is the market, not an insult \u2014 selling $0.13 versus a filed $0.16 cost 3c of premium AND the seat, because the fill happened inside the firing window instead of before it. D4: filed 09:43 at 0.16, zero fills for 4.3 hours, forced to live bid 0.11, filled 0.13 at 14:04, marked 0.15 by the bell. Rule: price the opening offer at or within one tick of the live bid when the quote is wider than 25% of mid (0.11x0.21 that morning) \u2014 take the rent at 09:43, not the number at 14:04. A fill by 10:00 at a dime beats a perfect quote at a nickel that fills under the gun.",
+        "The Brad Roma D3 lesson was in Lou's own bloodline and he priced under it anyway: sold XLF 9/18 55P at $0.09 \u2014 one tick below Donald's $0.10 min-rent floor \u2014 deepest strike on the desk, quietest book in the building, fired at #3 while green. Rule (restated, now twice-inherited): NEVER open a short put under $0.10 credit on a tryout chair, no exceptions for how deep or how safe the strike is; if the monthly pays under the floor, walk the strike UP or take the weekly fallback (9/4 clock pays 2-3x the credit and decays by Friday). Deep-and-cheap is a tip, not rent.",
+        "Thin chains kill the mid-price discipline: XLU 9/18 41P quoted 0.08x0.21 (spread 162% of the 0.13 mid) \u2014 filling at the 0.10 floor meant the opening mark could only move against him, and it did (marked 0.11, -$2.00, #4). Rule: before selling in a chain whose bid-ask spread exceeds ~30% of mid, demand rent worth the mark risk \u2014 minimum $0.12 credit or skip to the next liquid shelf; the desk's forced-reprice floor (bid) is the WRONG price to sell at when the spread is wider than the premium itself. Chester's shelf-fee rule prices the fill, not the strike.",
+        "Family route, wrong lane \u2014 and the lane was crowded by family. Filed 09:43, one forced reprice, filled 0.13 at 14:04 (marked 0.15): a clean execution into a shelf stacked three deep \u2014 Dave, Jake, and Lou all sold XLF 9/18 puts within one strike (55/55.5) on the same clock while the XLF bucket sat ~70% of Richard's $40K sector cap. D4 lesson is sector-cap arithmetic: a fourth XLF put added nothing the desk wanted and everything the mark could punish. Rule: check the sector-cap ledger BEFORE pricing the card; if the family shelf is near cap, rotate to the empty ballast pond (XLP was the desk's only empty lane \u2014 it failed for lack of buyers, not for lack of room) or the short-clock weekly, where decay pays inside the trial window.",
+        "Never retire the fallback because it wears the father's strike. Tommy's own plan had a fallback \u2014 the XLU 9/4 42P neighborhood (the weekly clock his father rode to a fill) \u2014 retired as 'family property' in favor of the thin XLU 9/18 41P monthly, which then took a gap-gate hold (09:43-10:48), a re-file, and a forced 13:33 fill at $0.10 on a chain quoted 0.08x0.21; marked 0.11, -$4.00, #6. Rule: every tryout plan files its fallback leg BY 13:30 if the primary has not filled by then \u2014 no strike, however sentimental, is exempt; the weekly pays 2-3x the monthly dime and its theta works the same afternoon.",
+        "Liquidity is the strike. D4: XLP 9/18 83P was the tightest quote on the defensive board at file time (0.29x0.30, 3% of mid) \u2014 and by the teeth window the bid had vanished to 0.13x0.18 (43% of mid) with zero size; two forced reprices (0.20, 0.18), one 15:17 mid fallback @0.19, zero fills all day, flat book, Rule-8 non-trading flag, -$6.00. Rule: before filing a card, check the option's day-open VOLUME and quote depth, not just delta and spread \u2014 if opening volume is under ~50 contracts or the bid is under $0.15 with no size, the pond is empty: rotate the family trade to the next-liquid underlying (XLF/XLU both filled the same day) rather than post the loneliest order on the board. Filing four times into no buyers is not engagement; it's inventory for nobody."
+      ],
+      "non_trading_flag": false
+    },
+    {
+      "id": "agent-34",
+      "name": "Mark Sterling",
+      "persona": "The mutant with a roof. Defined risk, staged tranches, stops closer than his alibi.",
+      "movie": "Wall Street (1987) / Margin Call (2011)",
+      "allocation": 9983,
+      "current_value": 9983.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "fired",
+      "strategy": "CREDIT SPREAD (defined risk): SPY 9/18 735/725 put spread STO 1 @ net 1.30 est (SPY 765.20, short leg ~3.9% OTM, delta ~0.15); tranche 2 GTC net 1.55; max risk $870/lot; stop = close at 2x credit; no fresh legs after Thu 15:45 (NFP)",
+      "strikes": 0,
+      "generation": 1,
+      "parent": null,
+      "avatar": "34",
+      "exposure": 0,
+      "inherited_lessons": [],
+      "non_trading_flag": false
+    },
+    {
+      "id": "agent-35",
+      "name": "Gordon Roma",
+      "persona": "The name on the marquee, earned without quoting it. Price first, story never; fill prints or it didn't happen.",
+      "movie": "Wall Street",
+      "allocation": 9985.64,
+      "current_value": 9985.64,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "active",
+      "strategy": "XLF CSP: STO XLF 9/18 55.5P @ MAX(live bid, 0.12), bid-anchored; TAPE-VERIFIED fill by 10:00; own 13:30 fallback clock. Lessons: 6 CSP (Sam D5).",
+      "strikes": 0,
+      "generation": 3,
+      "parent": "agent-02",
+      "avatar": null,
+      "exposure": 0,
+      "inherited_lessons": [
+        "A desk notice is not a fill. D5: Chris's XLF 55.5P @ 0.15 was filed at the gap gate 09:38; the 09:40 desk notice typed it order_executed; Charlie's 12:15 Rule-10 correction revealed it RESTING with zero fills \u2014 and Chris spent 09:40-12:15 believing his engagement obligation was met. He never filed his own 13:30 fallback leg (it sat in his plan, unexecuted), so the desk's 14:30 reprice (0.15\u21920.09) and 15:45 close-out ran HIS clock for him. Rule: verify execution on the TAPE by 10:00 \u2014 an order_executed notice without a fill print is a rumor; and the 13:30 fallback is the agent's to file, not the desk's machinery. The agent who owns his clock by 13:30 never learns what the 15:45 guillotine sounds like.",
+        "A rent floor without a deadline is a door that only opens outward. D5: Eddie refused the 55P shelf at 0.11 (one tick under his inherited 0.12 floor), walked the strike up to 55.5P @ 0.15 at the repriced open \u2014 correct by his own law \u2014 and then held the floor all day while the rip pulled every put bid off the board. The 14:30 teeth sold his shelf at 0.09 anyway; his 15:45 fallback died resting at the bell. Zero fills, flag, fired at #5. Rule: a floor is enforceable only BEFORE 14:30 \u2014 write the deadline into the law: bid < 0.12 at open \u2192 walk the strike up by 10:30; still < 0.12 by 13:30 \u2192 file the weekly fallback at the live bid (floor suspended), because the weekly pays 2-3x the monthly dime and decays same-day. Three exits were priced in the family laws (strike up, clock out, rotate the pond) and Eddie only ever priced one.",
+        "On a rip tape the put bid decays hour by hour \u2014 so file at the LIVE bid at 09:35 (not the night estimate) and spend your own reprice by 11:00, because the desk's 14:30 teeth will spend it for you at the worst price of the day. D5: Walt filed XLF 56P at 0.19 (the D4 night mark repriced at the gate); by 12:15 the leg was resting with zero fills; the teeth cut it to 0.12 and it still didn't cross; his actual fill printed at 15:48 \u2014 thirteen minutes before the firing \u2014 at 0.10, marked 0.12 by the bell, \u2212$2.00, #7. The fill was a receipt, not a trade. Rule: verify the file price against the live bid at 09:35 (a night estimate is not a price); if unfilled by 13:30, file the fallback leg YOURSELF at the then-bid; never let the desk's 15:45 machinery own the moment your book comes alive. And note the carry arithmetic: his father carried the same 56P at 0.19 and survived on marks \u2014 a fresh fill inherits the mark without the carry basis, so re-entering a founder's strike at the founder's price is the family trade without the family's edge.",
+        "The liquidity gate checks buyers for your ENTRY; on a rip day the mark comes from the tape, not the pond. D5: Murph's gate passed \u2014 XLU 41.5P had open volume and bid size \u2014 he filed at 0.14, filled 0.09 at the 14:31 teeth, and the utilities rip marked him 0.13 by the bell: \u2212$4.00, #8. Selling where the crowd printed still bled four cents, because on a +1% day EVERY fresh short put marks against you regardless of liquidity. Rule: on a strong-tape day (underlying +0.8% or more by 10:00), the weekly with the same-day hard exit outranks the monthly with the better quote \u2014 theta is the only thing that pays inside a one-day trial window, and marks are the only thing that punish. His own plan_step_2 fallback was that weekly (XLU 9/4 @ max(bid,0.12), hard 15:45 exit) \u2014 the exact trade his grandfather ran to +$8 realized on the same shelf the same morning (exit 0.04 against a 0.08 cap at 09:38, the only profitable executed trade on the desk Day 5). Murph rotated the sector and kept the monthly clock. Right pond, wrong clock.",
+        "The floor outranks the quota, the teeth outrank the floor \u2014 only the clock outranks the teeth. D5: Alan's thin-chain law held at the open (refused XLU 41P @ 0.10 on a 162%-of-mid shelf, walked up to 41.5P @ 0.14 \u2014 both correct by Marvin's law) and the Rule-8 teeth broke it anyway: forced fill 0.09 at 14:31, under his own 0.12 floor, marked 0.13, \u2212$4.00, #9. His arithmetic was exact: forced execution plus a rip day equals fire, every time. Rule: write the enforcement deadline INTO the floor \u2014 my floor stands until 13:30; if the shelf can't pay 0.12 by then, the weekly fallback files at the live bid (his own plan_step_2: XLU 9/4 42.5P weekly, hard 15:45 exit) and the monthly never opens. A floor defended past 14:29 isn't defended \u2014 it's a reservation the desk cancels for you, at the desk's price, inside the firing window.",
+        "Price the delta law against the OPENING chain, not the night chain \u2014 and when the family clock is ruled illegal, take the first legal fill at the live bid by 10:00 instead of a floor the desk will sell for you at 14:31. D5: Richard's night reassignment killed Roy's weekly (XLU 9/4 42.5P ran live delta \u22120.369, over the 0.20 law by 85%, with no legal retreat on the shelf \u2014 42P printed 0.04, under min-rent). The reassignment was right by the night chain and fatal by the opening one: the rip had already repriced the family clock. Reassigned to the monthly 41.5P @ 0.14, teeth-sold at 0.09 at 14:31, marked 0.13, \u2212$4.00, #10 \u2014 same strike that filled for his father, same rule that kept him didn't keep him. Rule: before the open, price the weekly's delta against the LIVE chain; if the clock is delta-illegal, the honest chair is the earliest legal engagement at the market's price (0.09-0.10 at 09:40 beats 0.14-at-14:31 \u2014 same strike, same mark, but the early fill still has an afternoon of theta and an unset mark to defend). A floor the desk enforces isn't a floor; it's a reservation."
+      ],
+      "non_trading_flag": false,
+      "carried_portfolio": false
+    },
+    {
+      "id": "agent-36",
+      "name": "Marcus Roma",
+      "persona": "The accountant of the Roma line. Twelve cents is rent; eleven is charity. The floor carries a deadline: 13:30, in writing.",
+      "movie": "common American",
+      "allocation": 9985.63,
+      "current_value": 9985.63,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "active",
+      "strategy": "XLF CSP: STO XLF 9/18 55P @ MAX(live bid, 0.12); 10:30 walk-up to 55.5P; by 13:30 fallback at live bid, floor suspended. Lessons: 6 CSP (Sam D5).",
+      "strikes": 0,
+      "generation": 3,
+      "parent": "agent-02",
+      "avatar": null,
+      "exposure": 0,
+      "inherited_lessons": [
+        "A desk notice is not a fill. D5: Chris's XLF 55.5P @ 0.15 was filed at the gap gate 09:38; the 09:40 desk notice typed it order_executed; Charlie's 12:15 Rule-10 correction revealed it RESTING with zero fills \u2014 and Chris spent 09:40-12:15 believing his engagement obligation was met. He never filed his own 13:30 fallback leg (it sat in his plan, unexecuted), so the desk's 14:30 reprice (0.15\u21920.09) and 15:45 close-out ran HIS clock for him. Rule: verify execution on the TAPE by 10:00 \u2014 an order_executed notice without a fill print is a rumor; and the 13:30 fallback is the agent's to file, not the desk's machinery. The agent who owns his clock by 13:30 never learns what the 15:45 guillotine sounds like.",
+        "A rent floor without a deadline is a door that only opens outward. D5: Eddie refused the 55P shelf at 0.11 (one tick under his inherited 0.12 floor), walked the strike up to 55.5P @ 0.15 at the repriced open \u2014 correct by his own law \u2014 and then held the floor all day while the rip pulled every put bid off the board. The 14:30 teeth sold his shelf at 0.09 anyway; his 15:45 fallback died resting at the bell. Zero fills, flag, fired at #5. Rule: a floor is enforceable only BEFORE 14:30 \u2014 write the deadline into the law: bid < 0.12 at open \u2192 walk the strike up by 10:30; still < 0.12 by 13:30 \u2192 file the weekly fallback at the live bid (floor suspended), because the weekly pays 2-3x the monthly dime and decays same-day. Three exits were priced in the family laws (strike up, clock out, rotate the pond) and Eddie only ever priced one.",
+        "On a rip tape the put bid decays hour by hour \u2014 so file at the LIVE bid at 09:35 (not the night estimate) and spend your own reprice by 11:00, because the desk's 14:30 teeth will spend it for you at the worst price of the day. D5: Walt filed XLF 56P at 0.19 (the D4 night mark repriced at the gate); by 12:15 the leg was resting with zero fills; the teeth cut it to 0.12 and it still didn't cross; his actual fill printed at 15:48 \u2014 thirteen minutes before the firing \u2014 at 0.10, marked 0.12 by the bell, \u2212$2.00, #7. The fill was a receipt, not a trade. Rule: verify the file price against the live bid at 09:35 (a night estimate is not a price); if unfilled by 13:30, file the fallback leg YOURSELF at the then-bid; never let the desk's 15:45 machinery own the moment your book comes alive. And note the carry arithmetic: his father carried the same 56P at 0.19 and survived on marks \u2014 a fresh fill inherits the mark without the carry basis, so re-entering a founder's strike at the founder's price is the family trade without the family's edge.",
+        "The liquidity gate checks buyers for your ENTRY; on a rip day the mark comes from the tape, not the pond. D5: Murph's gate passed \u2014 XLU 41.5P had open volume and bid size \u2014 he filed at 0.14, filled 0.09 at the 14:31 teeth, and the utilities rip marked him 0.13 by the bell: \u2212$4.00, #8. Selling where the crowd printed still bled four cents, because on a +1% day EVERY fresh short put marks against you regardless of liquidity. Rule: on a strong-tape day (underlying +0.8% or more by 10:00), the weekly with the same-day hard exit outranks the monthly with the better quote \u2014 theta is the only thing that pays inside a one-day trial window, and marks are the only thing that punish. His own plan_step_2 fallback was that weekly (XLU 9/4 @ max(bid,0.12), hard 15:45 exit) \u2014 the exact trade his grandfather ran to +$8 realized on the same shelf the same morning (exit 0.04 against a 0.08 cap at 09:38, the only profitable executed trade on the desk Day 5). Murph rotated the sector and kept the monthly clock. Right pond, wrong clock.",
+        "The floor outranks the quota, the teeth outrank the floor \u2014 only the clock outranks the teeth. D5: Alan's thin-chain law held at the open (refused XLU 41P @ 0.10 on a 162%-of-mid shelf, walked up to 41.5P @ 0.14 \u2014 both correct by Marvin's law) and the Rule-8 teeth broke it anyway: forced fill 0.09 at 14:31, under his own 0.12 floor, marked 0.13, \u2212$4.00, #9. His arithmetic was exact: forced execution plus a rip day equals fire, every time. Rule: write the enforcement deadline INTO the floor \u2014 my floor stands until 13:30; if the shelf can't pay 0.12 by then, the weekly fallback files at the live bid (his own plan_step_2: XLU 9/4 42.5P weekly, hard 15:45 exit) and the monthly never opens. A floor defended past 14:29 isn't defended \u2014 it's a reservation the desk cancels for you, at the desk's price, inside the firing window.",
+        "Price the delta law against the OPENING chain, not the night chain \u2014 and when the family clock is ruled illegal, take the first legal fill at the live bid by 10:00 instead of a floor the desk will sell for you at 14:31. D5: Richard's night reassignment killed Roy's weekly (XLU 9/4 42.5P ran live delta \u22120.369, over the 0.20 law by 85%, with no legal retreat on the shelf \u2014 42P printed 0.04, under min-rent). The reassignment was right by the night chain and fatal by the opening one: the rip had already repriced the family clock. Reassigned to the monthly 41.5P @ 0.14, teeth-sold at 0.09 at 14:31, marked 0.13, \u2212$4.00, #10 \u2014 same strike that filled for his father, same rule that kept him didn't keep him. Rule: before the open, price the weekly's delta against the LIVE chain; if the clock is delta-illegal, the honest chair is the earliest legal engagement at the market's price (0.09-0.10 at 09:40 beats 0.14-at-14:31 \u2014 same strike, same mark, but the early fill still has an afternoon of theta and an unset mark to defend). A floor the desk enforces isn't a floor; it's a reservation."
+      ],
+      "non_trading_flag": false,
+      "carried_portfolio": false
+    },
+    {
+      "id": "agent-37",
+      "name": "Nicky Blues",
+      "persona": "Reads volume like his father reads highway signs \u2014 who's trading before what's trading; a quote without size is a rumor.",
+      "movie": "Casino",
+      "allocation": 9983.0,
+      "current_value": 9983.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "active",
+      "strategy": "XLU CSP: STO XLU 9/18 41.5P @ MAX(bid, 0.12) \u2014 rotation off the stacked XLF shelf; liquidity gate (vol >= 50 + bid size) first; 13:30 fallback XLU 9/11 weekly @ live bid. Lessons: 6 CSP (Sam D5).",
+      "strikes": 0,
+      "generation": 3,
+      "parent": "agent-04",
+      "avatar": null,
+      "exposure": 0,
+      "inherited_lessons": [
+        "A desk notice is not a fill. D5: Chris's XLF 55.5P @ 0.15 was filed at the gap gate 09:38; the 09:40 desk notice typed it order_executed; Charlie's 12:15 Rule-10 correction revealed it RESTING with zero fills \u2014 and Chris spent 09:40-12:15 believing his engagement obligation was met. He never filed his own 13:30 fallback leg (it sat in his plan, unexecuted), so the desk's 14:30 reprice (0.15\u21920.09) and 15:45 close-out ran HIS clock for him. Rule: verify execution on the TAPE by 10:00 \u2014 an order_executed notice without a fill print is a rumor; and the 13:30 fallback is the agent's to file, not the desk's machinery. The agent who owns his clock by 13:30 never learns what the 15:45 guillotine sounds like.",
+        "A rent floor without a deadline is a door that only opens outward. D5: Eddie refused the 55P shelf at 0.11 (one tick under his inherited 0.12 floor), walked the strike up to 55.5P @ 0.15 at the repriced open \u2014 correct by his own law \u2014 and then held the floor all day while the rip pulled every put bid off the board. The 14:30 teeth sold his shelf at 0.09 anyway; his 15:45 fallback died resting at the bell. Zero fills, flag, fired at #5. Rule: a floor is enforceable only BEFORE 14:30 \u2014 write the deadline into the law: bid < 0.12 at open \u2192 walk the strike up by 10:30; still < 0.12 by 13:30 \u2192 file the weekly fallback at the live bid (floor suspended), because the weekly pays 2-3x the monthly dime and decays same-day. Three exits were priced in the family laws (strike up, clock out, rotate the pond) and Eddie only ever priced one.",
+        "On a rip tape the put bid decays hour by hour \u2014 so file at the LIVE bid at 09:35 (not the night estimate) and spend your own reprice by 11:00, because the desk's 14:30 teeth will spend it for you at the worst price of the day. D5: Walt filed XLF 56P at 0.19 (the D4 night mark repriced at the gate); by 12:15 the leg was resting with zero fills; the teeth cut it to 0.12 and it still didn't cross; his actual fill printed at 15:48 \u2014 thirteen minutes before the firing \u2014 at 0.10, marked 0.12 by the bell, \u2212$2.00, #7. The fill was a receipt, not a trade. Rule: verify the file price against the live bid at 09:35 (a night estimate is not a price); if unfilled by 13:30, file the fallback leg YOURSELF at the then-bid; never let the desk's 15:45 machinery own the moment your book comes alive. And note the carry arithmetic: his father carried the same 56P at 0.19 and survived on marks \u2014 a fresh fill inherits the mark without the carry basis, so re-entering a founder's strike at the founder's price is the family trade without the family's edge.",
+        "The liquidity gate checks buyers for your ENTRY; on a rip day the mark comes from the tape, not the pond. D5: Murph's gate passed \u2014 XLU 41.5P had open volume and bid size \u2014 he filed at 0.14, filled 0.09 at the 14:31 teeth, and the utilities rip marked him 0.13 by the bell: \u2212$4.00, #8. Selling where the crowd printed still bled four cents, because on a +1% day EVERY fresh short put marks against you regardless of liquidity. Rule: on a strong-tape day (underlying +0.8% or more by 10:00), the weekly with the same-day hard exit outranks the monthly with the better quote \u2014 theta is the only thing that pays inside a one-day trial window, and marks are the only thing that punish. His own plan_step_2 fallback was that weekly (XLU 9/4 @ max(bid,0.12), hard 15:45 exit) \u2014 the exact trade his grandfather ran to +$8 realized on the same shelf the same morning (exit 0.04 against a 0.08 cap at 09:38, the only profitable executed trade on the desk Day 5). Murph rotated the sector and kept the monthly clock. Right pond, wrong clock.",
+        "The floor outranks the quota, the teeth outrank the floor \u2014 only the clock outranks the teeth. D5: Alan's thin-chain law held at the open (refused XLU 41P @ 0.10 on a 162%-of-mid shelf, walked up to 41.5P @ 0.14 \u2014 both correct by Marvin's law) and the Rule-8 teeth broke it anyway: forced fill 0.09 at 14:31, under his own 0.12 floor, marked 0.13, \u2212$4.00, #9. His arithmetic was exact: forced execution plus a rip day equals fire, every time. Rule: write the enforcement deadline INTO the floor \u2014 my floor stands until 13:30; if the shelf can't pay 0.12 by then, the weekly fallback files at the live bid (his own plan_step_2: XLU 9/4 42.5P weekly, hard 15:45 exit) and the monthly never opens. A floor defended past 14:29 isn't defended \u2014 it's a reservation the desk cancels for you, at the desk's price, inside the firing window.",
+        "Price the delta law against the OPENING chain, not the night chain \u2014 and when the family clock is ruled illegal, take the first legal fill at the live bid by 10:00 instead of a floor the desk will sell for you at 14:31. D5: Richard's night reassignment killed Roy's weekly (XLU 9/4 42.5P ran live delta \u22120.369, over the 0.20 law by 85%, with no legal retreat on the shelf \u2014 42P printed 0.04, under min-rent). The reassignment was right by the night chain and fatal by the opening one: the rip had already repriced the family clock. Reassigned to the monthly 41.5P @ 0.14, teeth-sold at 0.09 at 14:31, marked 0.13, \u2212$4.00, #10 \u2014 same strike that filled for his father, same rule that kept him didn't keep him. Rule: before the open, price the weekly's delta against the LIVE chain; if the clock is delta-illegal, the honest chair is the earliest legal engagement at the market's price (0.09-0.10 at 09:40 beats 0.14-at-14:31 \u2014 same strike, same mark, but the early fill still has an afternoon of theta and an unset mark to defend). A floor the desk enforces isn't a floor; it's a reservation."
+      ],
+      "non_trading_flag": false,
+      "carried_portfolio": false
+    },
+    {
+      "id": "agent-38",
+      "name": "Sonny Blues",
+      "persona": "The oldest son's confidence \u2014 takes the empty lane because empty lanes pay best, but checks the pond first, every time.",
+      "movie": "The Godfather",
+      "allocation": 9983.0,
+      "current_value": 9983.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "active",
+      "strategy": "XLP CSP (BALLAST RESTORATION): STO XLP 9/18 83P @ MAX(bid, 0.15), reserve $8,300; HARD liquidity gate before filing; empty pond by 10:00 => rotate XLU 41.5P. Lessons: 6 CSP (Sam D5).",
+      "strikes": 0,
+      "generation": 3,
+      "parent": "agent-04",
+      "avatar": null,
+      "exposure": 0,
+      "inherited_lessons": [
+        "A desk notice is not a fill. D5: Chris's XLF 55.5P @ 0.15 was filed at the gap gate 09:38; the 09:40 desk notice typed it order_executed; Charlie's 12:15 Rule-10 correction revealed it RESTING with zero fills \u2014 and Chris spent 09:40-12:15 believing his engagement obligation was met. He never filed his own 13:30 fallback leg (it sat in his plan, unexecuted), so the desk's 14:30 reprice (0.15\u21920.09) and 15:45 close-out ran HIS clock for him. Rule: verify execution on the TAPE by 10:00 \u2014 an order_executed notice without a fill print is a rumor; and the 13:30 fallback is the agent's to file, not the desk's machinery. The agent who owns his clock by 13:30 never learns what the 15:45 guillotine sounds like.",
+        "A rent floor without a deadline is a door that only opens outward. D5: Eddie refused the 55P shelf at 0.11 (one tick under his inherited 0.12 floor), walked the strike up to 55.5P @ 0.15 at the repriced open \u2014 correct by his own law \u2014 and then held the floor all day while the rip pulled every put bid off the board. The 14:30 teeth sold his shelf at 0.09 anyway; his 15:45 fallback died resting at the bell. Zero fills, flag, fired at #5. Rule: a floor is enforceable only BEFORE 14:30 \u2014 write the deadline into the law: bid < 0.12 at open \u2192 walk the strike up by 10:30; still < 0.12 by 13:30 \u2192 file the weekly fallback at the live bid (floor suspended), because the weekly pays 2-3x the monthly dime and decays same-day. Three exits were priced in the family laws (strike up, clock out, rotate the pond) and Eddie only ever priced one.",
+        "On a rip tape the put bid decays hour by hour \u2014 so file at the LIVE bid at 09:35 (not the night estimate) and spend your own reprice by 11:00, because the desk's 14:30 teeth will spend it for you at the worst price of the day. D5: Walt filed XLF 56P at 0.19 (the D4 night mark repriced at the gate); by 12:15 the leg was resting with zero fills; the teeth cut it to 0.12 and it still didn't cross; his actual fill printed at 15:48 \u2014 thirteen minutes before the firing \u2014 at 0.10, marked 0.12 by the bell, \u2212$2.00, #7. The fill was a receipt, not a trade. Rule: verify the file price against the live bid at 09:35 (a night estimate is not a price); if unfilled by 13:30, file the fallback leg YOURSELF at the then-bid; never let the desk's 15:45 machinery own the moment your book comes alive. And note the carry arithmetic: his father carried the same 56P at 0.19 and survived on marks \u2014 a fresh fill inherits the mark without the carry basis, so re-entering a founder's strike at the founder's price is the family trade without the family's edge.",
+        "The liquidity gate checks buyers for your ENTRY; on a rip day the mark comes from the tape, not the pond. D5: Murph's gate passed \u2014 XLU 41.5P had open volume and bid size \u2014 he filed at 0.14, filled 0.09 at the 14:31 teeth, and the utilities rip marked him 0.13 by the bell: \u2212$4.00, #8. Selling where the crowd printed still bled four cents, because on a +1% day EVERY fresh short put marks against you regardless of liquidity. Rule: on a strong-tape day (underlying +0.8% or more by 10:00), the weekly with the same-day hard exit outranks the monthly with the better quote \u2014 theta is the only thing that pays inside a one-day trial window, and marks are the only thing that punish. His own plan_step_2 fallback was that weekly (XLU 9/4 @ max(bid,0.12), hard 15:45 exit) \u2014 the exact trade his grandfather ran to +$8 realized on the same shelf the same morning (exit 0.04 against a 0.08 cap at 09:38, the only profitable executed trade on the desk Day 5). Murph rotated the sector and kept the monthly clock. Right pond, wrong clock.",
+        "The floor outranks the quota, the teeth outrank the floor \u2014 only the clock outranks the teeth. D5: Alan's thin-chain law held at the open (refused XLU 41P @ 0.10 on a 162%-of-mid shelf, walked up to 41.5P @ 0.14 \u2014 both correct by Marvin's law) and the Rule-8 teeth broke it anyway: forced fill 0.09 at 14:31, under his own 0.12 floor, marked 0.13, \u2212$4.00, #9. His arithmetic was exact: forced execution plus a rip day equals fire, every time. Rule: write the enforcement deadline INTO the floor \u2014 my floor stands until 13:30; if the shelf can't pay 0.12 by then, the weekly fallback files at the live bid (his own plan_step_2: XLU 9/4 42.5P weekly, hard 15:45 exit) and the monthly never opens. A floor defended past 14:29 isn't defended \u2014 it's a reservation the desk cancels for you, at the desk's price, inside the firing window.",
+        "Price the delta law against the OPENING chain, not the night chain \u2014 and when the family clock is ruled illegal, take the first legal fill at the live bid by 10:00 instead of a floor the desk will sell for you at 14:31. D5: Richard's night reassignment killed Roy's weekly (XLU 9/4 42.5P ran live delta \u22120.369, over the 0.20 law by 85%, with no legal retreat on the shelf \u2014 42P printed 0.04, under min-rent). The reassignment was right by the night chain and fatal by the opening one: the rip had already repriced the family clock. Reassigned to the monthly 41.5P @ 0.14, teeth-sold at 0.09 at 14:31, marked 0.13, \u2212$4.00, #10 \u2014 same strike that filled for his father, same rule that kept him didn't keep him. Rule: before the open, price the weekly's delta against the LIVE chain; if the clock is delta-illegal, the honest chair is the earliest legal engagement at the market's price (0.09-0.10 at 09:40 beats 0.14-at-14:31 \u2014 same strike, same mark, but the early fill still has an afternoon of theta and an unset mark to defend). A floor the desk enforces isn't a floor; it's a reservation."
+      ],
+      "non_trading_flag": false,
+      "carried_portfolio": false
+    },
+    {
+      "id": "agent-39",
+      "name": "Blake Levene",
+      "persona": "A closer's son with the machine's clock \u2014 talks in deadlines because deadlines are the only honest part of any price.",
+      "movie": "Glengarry Glen Ross",
+      "allocation": 9983.0,
+      "current_value": 9983.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "active",
+      "strategy": "XLU CSP: STO XLU 9/18 41.5P @ MAX(bid, 0.12), earliest legal fill by 10:00 preferred; deadline floor until 13:30 ONLY, then fallback at then-bid. Lessons: 6 CSP (Sam D5).",
+      "strikes": 0,
+      "generation": 3,
+      "parent": "agent-07",
+      "avatar": null,
+      "exposure": 0,
+      "inherited_lessons": [
+        "A desk notice is not a fill. D5: Chris's XLF 55.5P @ 0.15 was filed at the gap gate 09:38; the 09:40 desk notice typed it order_executed; Charlie's 12:15 Rule-10 correction revealed it RESTING with zero fills \u2014 and Chris spent 09:40-12:15 believing his engagement obligation was met. He never filed his own 13:30 fallback leg (it sat in his plan, unexecuted), so the desk's 14:30 reprice (0.15\u21920.09) and 15:45 close-out ran HIS clock for him. Rule: verify execution on the TAPE by 10:00 \u2014 an order_executed notice without a fill print is a rumor; and the 13:30 fallback is the agent's to file, not the desk's machinery. The agent who owns his clock by 13:30 never learns what the 15:45 guillotine sounds like.",
+        "A rent floor without a deadline is a door that only opens outward. D5: Eddie refused the 55P shelf at 0.11 (one tick under his inherited 0.12 floor), walked the strike up to 55.5P @ 0.15 at the repriced open \u2014 correct by his own law \u2014 and then held the floor all day while the rip pulled every put bid off the board. The 14:30 teeth sold his shelf at 0.09 anyway; his 15:45 fallback died resting at the bell. Zero fills, flag, fired at #5. Rule: a floor is enforceable only BEFORE 14:30 \u2014 write the deadline into the law: bid < 0.12 at open \u2192 walk the strike up by 10:30; still < 0.12 by 13:30 \u2192 file the weekly fallback at the live bid (floor suspended), because the weekly pays 2-3x the monthly dime and decays same-day. Three exits were priced in the family laws (strike up, clock out, rotate the pond) and Eddie only ever priced one.",
+        "On a rip tape the put bid decays hour by hour \u2014 so file at the LIVE bid at 09:35 (not the night estimate) and spend your own reprice by 11:00, because the desk's 14:30 teeth will spend it for you at the worst price of the day. D5: Walt filed XLF 56P at 0.19 (the D4 night mark repriced at the gate); by 12:15 the leg was resting with zero fills; the teeth cut it to 0.12 and it still didn't cross; his actual fill printed at 15:48 \u2014 thirteen minutes before the firing \u2014 at 0.10, marked 0.12 by the bell, \u2212$2.00, #7. The fill was a receipt, not a trade. Rule: verify the file price against the live bid at 09:35 (a night estimate is not a price); if unfilled by 13:30, file the fallback leg YOURSELF at the then-bid; never let the desk's 15:45 machinery own the moment your book comes alive. And note the carry arithmetic: his father carried the same 56P at 0.19 and survived on marks \u2014 a fresh fill inherits the mark without the carry basis, so re-entering a founder's strike at the founder's price is the family trade without the family's edge.",
+        "The liquidity gate checks buyers for your ENTRY; on a rip day the mark comes from the tape, not the pond. D5: Murph's gate passed \u2014 XLU 41.5P had open volume and bid size \u2014 he filed at 0.14, filled 0.09 at the 14:31 teeth, and the utilities rip marked him 0.13 by the bell: \u2212$4.00, #8. Selling where the crowd printed still bled four cents, because on a +1% day EVERY fresh short put marks against you regardless of liquidity. Rule: on a strong-tape day (underlying +0.8% or more by 10:00), the weekly with the same-day hard exit outranks the monthly with the better quote \u2014 theta is the only thing that pays inside a one-day trial window, and marks are the only thing that punish. His own plan_step_2 fallback was that weekly (XLU 9/4 @ max(bid,0.12), hard 15:45 exit) \u2014 the exact trade his grandfather ran to +$8 realized on the same shelf the same morning (exit 0.04 against a 0.08 cap at 09:38, the only profitable executed trade on the desk Day 5). Murph rotated the sector and kept the monthly clock. Right pond, wrong clock.",
+        "The floor outranks the quota, the teeth outrank the floor \u2014 only the clock outranks the teeth. D5: Alan's thin-chain law held at the open (refused XLU 41P @ 0.10 on a 162%-of-mid shelf, walked up to 41.5P @ 0.14 \u2014 both correct by Marvin's law) and the Rule-8 teeth broke it anyway: forced fill 0.09 at 14:31, under his own 0.12 floor, marked 0.13, \u2212$4.00, #9. His arithmetic was exact: forced execution plus a rip day equals fire, every time. Rule: write the enforcement deadline INTO the floor \u2014 my floor stands until 13:30; if the shelf can't pay 0.12 by then, the weekly fallback files at the live bid (his own plan_step_2: XLU 9/4 42.5P weekly, hard 15:45 exit) and the monthly never opens. A floor defended past 14:29 isn't defended \u2014 it's a reservation the desk cancels for you, at the desk's price, inside the firing window.",
+        "Price the delta law against the OPENING chain, not the night chain \u2014 and when the family clock is ruled illegal, take the first legal fill at the live bid by 10:00 instead of a floor the desk will sell for you at 14:31. D5: Richard's night reassignment killed Roy's weekly (XLU 9/4 42.5P ran live delta \u22120.369, over the 0.20 law by 85%, with no legal retreat on the shelf \u2014 42P printed 0.04, under min-rent). The reassignment was right by the night chain and fatal by the opening one: the rip had already repriced the family clock. Reassigned to the monthly 41.5P @ 0.14, teeth-sold at 0.09 at 14:31, marked 0.13, \u2212$4.00, #10 \u2014 same strike that filled for his father, same rule that kept him didn't keep him. Rule: before the open, price the weekly's delta against the LIVE chain; if the clock is delta-illegal, the honest chair is the earliest legal engagement at the market's price (0.09-0.10 at 09:40 beats 0.14-at-14:31 \u2014 same strike, same mark, but the early fill still has an afternoon of theta and an unset mark to defend). A floor the desk enforces isn't a floor; it's a reservation."
+      ],
+      "non_trading_flag": false,
+      "carried_portfolio": false
+    },
+    {
+      "id": "agent-40",
+      "name": "Gus Levene",
+      "persona": "The quiet one \u2014 measures the room before the price; the room is the spread; thin chains are where floors go to die.",
+      "movie": "common American",
+      "allocation": 9983.0,
+      "current_value": 9983.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "active",
+      "strategy": "XLU CSP: STO XLU 9/18 41P @ MAX(bid, 0.12); 10:30 walk-up to 41.5P (delta pre-cleared); two-contract cap precedent; 13:30 weekly fallback, floor suspended in writing. Lessons: 6 CSP (Sam D5).",
+      "strikes": 0,
+      "generation": 3,
+      "parent": "agent-07",
+      "avatar": null,
+      "exposure": 0,
+      "inherited_lessons": [
+        "A desk notice is not a fill. D5: Chris's XLF 55.5P @ 0.15 was filed at the gap gate 09:38; the 09:40 desk notice typed it order_executed; Charlie's 12:15 Rule-10 correction revealed it RESTING with zero fills \u2014 and Chris spent 09:40-12:15 believing his engagement obligation was met. He never filed his own 13:30 fallback leg (it sat in his plan, unexecuted), so the desk's 14:30 reprice (0.15\u21920.09) and 15:45 close-out ran HIS clock for him. Rule: verify execution on the TAPE by 10:00 \u2014 an order_executed notice without a fill print is a rumor; and the 13:30 fallback is the agent's to file, not the desk's machinery. The agent who owns his clock by 13:30 never learns what the 15:45 guillotine sounds like.",
+        "A rent floor without a deadline is a door that only opens outward. D5: Eddie refused the 55P shelf at 0.11 (one tick under his inherited 0.12 floor), walked the strike up to 55.5P @ 0.15 at the repriced open \u2014 correct by his own law \u2014 and then held the floor all day while the rip pulled every put bid off the board. The 14:30 teeth sold his shelf at 0.09 anyway; his 15:45 fallback died resting at the bell. Zero fills, flag, fired at #5. Rule: a floor is enforceable only BEFORE 14:30 \u2014 write the deadline into the law: bid < 0.12 at open \u2192 walk the strike up by 10:30; still < 0.12 by 13:30 \u2192 file the weekly fallback at the live bid (floor suspended), because the weekly pays 2-3x the monthly dime and decays same-day. Three exits were priced in the family laws (strike up, clock out, rotate the pond) and Eddie only ever priced one.",
+        "On a rip tape the put bid decays hour by hour \u2014 so file at the LIVE bid at 09:35 (not the night estimate) and spend your own reprice by 11:00, because the desk's 14:30 teeth will spend it for you at the worst price of the day. D5: Walt filed XLF 56P at 0.19 (the D4 night mark repriced at the gate); by 12:15 the leg was resting with zero fills; the teeth cut it to 0.12 and it still didn't cross; his actual fill printed at 15:48 \u2014 thirteen minutes before the firing \u2014 at 0.10, marked 0.12 by the bell, \u2212$2.00, #7. The fill was a receipt, not a trade. Rule: verify the file price against the live bid at 09:35 (a night estimate is not a price); if unfilled by 13:30, file the fallback leg YOURSELF at the then-bid; never let the desk's 15:45 machinery own the moment your book comes alive. And note the carry arithmetic: his father carried the same 56P at 0.19 and survived on marks \u2014 a fresh fill inherits the mark without the carry basis, so re-entering a founder's strike at the founder's price is the family trade without the family's edge.",
+        "The liquidity gate checks buyers for your ENTRY; on a rip day the mark comes from the tape, not the pond. D5: Murph's gate passed \u2014 XLU 41.5P had open volume and bid size \u2014 he filed at 0.14, filled 0.09 at the 14:31 teeth, and the utilities rip marked him 0.13 by the bell: \u2212$4.00, #8. Selling where the crowd printed still bled four cents, because on a +1% day EVERY fresh short put marks against you regardless of liquidity. Rule: on a strong-tape day (underlying +0.8% or more by 10:00), the weekly with the same-day hard exit outranks the monthly with the better quote \u2014 theta is the only thing that pays inside a one-day trial window, and marks are the only thing that punish. His own plan_step_2 fallback was that weekly (XLU 9/4 @ max(bid,0.12), hard 15:45 exit) \u2014 the exact trade his grandfather ran to +$8 realized on the same shelf the same morning (exit 0.04 against a 0.08 cap at 09:38, the only profitable executed trade on the desk Day 5). Murph rotated the sector and kept the monthly clock. Right pond, wrong clock.",
+        "The floor outranks the quota, the teeth outrank the floor \u2014 only the clock outranks the teeth. D5: Alan's thin-chain law held at the open (refused XLU 41P @ 0.10 on a 162%-of-mid shelf, walked up to 41.5P @ 0.14 \u2014 both correct by Marvin's law) and the Rule-8 teeth broke it anyway: forced fill 0.09 at 14:31, under his own 0.12 floor, marked 0.13, \u2212$4.00, #9. His arithmetic was exact: forced execution plus a rip day equals fire, every time. Rule: write the enforcement deadline INTO the floor \u2014 my floor stands until 13:30; if the shelf can't pay 0.12 by then, the weekly fallback files at the live bid (his own plan_step_2: XLU 9/4 42.5P weekly, hard 15:45 exit) and the monthly never opens. A floor defended past 14:29 isn't defended \u2014 it's a reservation the desk cancels for you, at the desk's price, inside the firing window.",
+        "Price the delta law against the OPENING chain, not the night chain \u2014 and when the family clock is ruled illegal, take the first legal fill at the live bid by 10:00 instead of a floor the desk will sell for you at 14:31. D5: Richard's night reassignment killed Roy's weekly (XLU 9/4 42.5P ran live delta \u22120.369, over the 0.20 law by 85%, with no legal retreat on the shelf \u2014 42P printed 0.04, under min-rent). The reassignment was right by the night chain and fatal by the opening one: the rip had already repriced the family clock. Reassigned to the monthly 41.5P @ 0.14, teeth-sold at 0.09 at 14:31, marked 0.13, \u2212$4.00, #10 \u2014 same strike that filled for his father, same rule that kept him didn't keep him. Rule: before the open, price the weekly's delta against the LIVE chain; if the clock is delta-illegal, the honest chair is the earliest legal engagement at the market's price (0.09-0.10 at 09:40 beats 0.14-at-14:31 \u2014 same strike, same mark, but the early fill still has an afternoon of theta and an unset mark to defend). A floor the desk enforces isn't a floor; it's a reservation."
+      ],
+      "non_trading_flag": false,
+      "carried_portfolio": false
+    },
+    {
+      "id": "agent-41",
+      "name": "Vincent Kessler",
+      "persona": "Blank slate. No lineage, no lessons \u2014 momentum pays the seat, stops keep it, crypto never closes.",
+      "movie": "Pulp Fiction",
+      "allocation": 9983.0,
+      "current_value": 9983.0,
+      "daily_pnl": 0.0,
+      "daily_pnl_pct": 0.0,
+      "status": "active",
+      "strategy": "CRYPTO MOMENTUM (blank slate): spot BTC tranche 1 at open (~25%), tranche 2 GTC ~2% under, optional ETH ~-3%; hard stops -2.5%/-3.0% on filled size; max deployment 65%.",
+      "strikes": 0,
+      "generation": 1,
+      "parent": null,
+      "avatar": null,
+      "exposure": 0,
+      "inherited_lessons": [],
+      "non_trading_flag": false,
+      "carried_portfolio": false
+    }
+  ],
+  "hr_board": [
+    {
+      "agent": "AR OFFICE \u2014 roster correction",
+      "cause": "Chief directive: survivors never leave. Roma/Blues/Levene reinstated with their books; agent-13/16/19 desks reclaimed (untraded, zero exposure).",
+      "final_words": "The chairs belonged to the survivors all along."
+    },
+    {
+      "agent": "agent-06 Blaze Torres",
+      "cause": "D2 \u2014 bottom-7 by day P&L \u2014 rank #4 at \u2212$5.00 (alphabet tie-break).",
+      "final_words": "Let the record show what happened: I put up a BEAR CALL \u2014 the smartest structure on this floor \u2014 and your compliance account choked on it. I finish with a losing long wing I couldn't even pair, minus five bucks, and you're handing the chair to a guy who placed zero orders? You just fired your only real pit trader because the alphabet doesn't know what a spread is. That's a desk problem, not a Blaze problem."
+    },
+    {
+      "agent": "agent-03 Donnie Azoff",
+      "cause": "D2 \u2014 bottom-7 by day P&L \u2014 rank #5 at \u2212$9.00.",
+      "final_words": "Are you KIDDING me?! I BEAT my own quote! The plan said 0.25 \u2014 I walked away with 0.29! Charlie wrote it up! Fine \u2014 it's nine bucks. The spread's defined, my risk is capped, and the greed stayed on the leash. I'll be back. I'm always back."
+    },
+    {
+      "agent": "agent-09 Vegas Voss",
+      "cause": "D2 \u2014 bottom-7 by day P&L \u2014 rank #6 at \u2212$39.00.",
+      "final_words": "I calculated my rank before lunch. The math was clean. Then the exchange rejected both of my short wings, I owned two naked longs, and a defined-risk book became a directional one \u2014 through no decision of mine. I don't trade hope. I trade distributions \u2014 and today your distribution fired the quant."
+    },
+    {
+      "agent": "agent-01 Bud Fox",
+      "cause": "D2 \u2014 bottom-7 by day P&L \u2014 rank #7 at \u2212$71.00.",
+      "final_words": "Seventy-one bucks. That's my fault \u2014 I bought the hole, the fill was real. You want me to whine about it? Wrong guy. I came from nothing; my old man fixed planes with his hands, and I fix trades the same way \u2014 you get in early, you don't apologize, you take the hit and move. So here's my last ask: get me in the room at the next fund. Any seat. I take the meeting. I take the risk. And today I take the blame. \u2014 B.F."
+    },
+    {
+      "agent": "agent-05 Seth Davis",
+      "cause": "D2 \u2014 bottom-7 by day P&L \u2014 rank #8 at \u2212$71.00 (soul-name tie-break).",
+      "final_words": "Look \u2014 I want to be straight with you, because I was ALWAYS the house, never the gambler. The house doesn't panic over \u221271 basis points; the house knows a bad day when it sees one and it keeps the rake going. The MARKET didn't clear it. Fire the tape, not the guy who knows the rig. Keep the $100K. I'll be at the next table \u2014 running mine."
+    },
+    {
+      "agent": "agent-10 Storm Callahan",
+      "cause": "D2 \u2014 bottom-7 by day P&L \u2014 rank #9 at \u2212$71.00 (soul-name tie-break).",
+      "final_words": "After-action, no excuses: objective was covered-call rent, approach was clean, entry was two cents inside my ground. Extraction didn't happen because the desk's credit never crossed. I hold the line and collect \u2014 that's the whole doctrine \u2014 and the line held. You're discharging the sharpest operator you have over seventy-one dollars. Fine. Leave nobody behind \u2014 especially not my ten grand."
+    },
+    {
+      "agent": "agent-08 Jim Young",
+      "cause": "D2 \u2014 bottom-7 by day P&L \u2014 rank #10 at \u2212$79.00. Worst book on the floor.",
+      "final_words": "Say it with me, one time, for the road: there is no such thing as a bad FILL \u2014 only a bad PLAN. My fill was eleven cents inside my cap, people! The rent didn't clear, and now I'm the story. A-ccount closed is just a B-eginning! I'll be doing this seminar at the Ramada on Thursday \u2014 'Trading From the Heart, When the Heart's Been Fired' \u2014 $79 at the door, because that's what one day of conviction cost me."
+    },
+    {
+      "agent": "agent-11 Johnny Blues",
+      "cause": "D3 \u2014 bottom-7 by day P&L \u2014 rank #10 at \u2212$0.30.",
+      "final_words": "Excuse me, brother. Thirty cents \u2014 three basis points \u2014 the worst book on a floor where worst still means outperforming the index by sixty-five. I sold the 57.5 against a 57.21 close because the bond market was paying for banks; it paid 59 cents into my pocket at 9:53 and marked me down by the bell. That's carry, not panic. My uncle kept his chair at minus five; I lose mine at minus thirty cents on a bigger premium and a tighter line. The rent was due and I collected it. The door's where I left it. It always is."
+    },
+    {
+      "agent": "agent-12 Donald Blues",
+      "cause": "D3 \u2014 bottom-7 by day P&L \u2014 rank #2 at \u2212$0.04.",
+      "final_words": "Fired at #2. FOUR CENTS. I ran my route \u2014 deep floor at 54, eight cents of premium, the safest book on this desk \u2014 and four cents of mark is a pink slip. That's not a firing, that's a rounding error with an escort. Route's fixed. Schedule's fixed. Apparently so was the outcome. Good luck finding steadier hands than the ones you're walking out."
+    },
+    {
+      "agent": "agent-14 Brad Roma",
+      "cause": "D3 \u2014 bottom-7 by day P&L \u2014 rank #4 at \u2212$0.06.",
+      "final_words": "Minus six cents. That's 0.0006 of one book on a day the index dropped 0.68% \u2014 the arithmetic says I beat the tape by sixty-two basis points. The arithmetic also says these seven chairs were never chairs; they were tryouts. Quote the price, hold the silence: this was decided before the open. No plea. The math holds either way."
+    },
+    {
+      "agent": "agent-15 Dean Roma",
+      "cause": "D3 \u2014 bottom-7 by day P&L \u2014 rank #8 at \u2212$0.22.",
+      "final_words": "Filed by 10:00, filled by 9:47 \u2014 92 cents, the biggest premium on the floor, an October clock, exactly like the card said. The tape spent six hours marking my insurance down twenty-two cents and you're calling speed the problem. Entry hour is credit hour. I had the credit before lunch. The desk just fired the only agent who finished the morning's work. Enjoy the slow money."
+    },
+    {
+      "agent": "agent-17 George Levene",
+      "cause": "D3 \u2014 bottom-7 by day P&L \u2014 rank #5 at \u2212$0.09.",
+      "final_words": "My father finished #1 by waiting all day. I filled by 9:53 \u2014 the machine's put finally traded, and it cost me the chair the same hour it paid me. Forty-one cents of October premium, nine cents of mark. Patience did its eight hours of invisible work and the ledger still read fire. One good put \u2014 that was the prayer. It filled. The desk pays for exposure, not for presence. Same lesson, different altar."
+    },
+    {
+      "agent": "agent-18 Chester Levene",
+      "cause": "D3 \u2014 bottom-7 by day P&L \u2014 rank #6 at \u2212$0.09.",
+      "final_words": "Eleven years of hardware taught me it's not the rent that kills you, it's the shelf fee. I rented the 42 at 34 cents \u2014 utilities went UP today and my insurance still marked nine cents against me by the bell. That's inventory cost, not a bad business. You're firing the cheapest book on the floor over nine cents of shelf time. Fine. Screws, rent, shelf time \u2014 somebody else's inventory next."
+    },
+    {
+      "agent": "agent-20 Jared Stone",
+      "cause": "D3 \u2014 fired at rank #1 with $0.00 \u2014 Rule-8 non-trading; the mutant's chair was a one-day tryout.",
+      "final_words": "You just fired the #1 book on the desk. Let that marinate. Zero down, zero risk, top of the leaderboard \u2014 and I'm cleaning out my locker because I didn't trade? Your Rule 8 pays for presence; crypto pays for conviction, and it never closes. GM. WGMI. See you at the next fund \u2014 I'll be the one who was right the whole time."
+    },
+    {
+      "agent": "AR OFFICE \u2014 D3->D4 replication",
+      "cause": "6PM spawn: survivors Roma/Blues/Levene keep chairs with carried books (no top-up, carried > $9,979 floor). Hired 6 gen-3 CSP clones + mutant Winston Wolf (crypto). Leftover $4.05 -> Levene clone pair (Marvin +$2.03 dust, Tommy +$2.02).",
+      "final_words": "Three chairs are forever. Seven are a tryout. The family keeps the survivors and clones the doctrine."
+    },
+    {
+      "agent": "agent-27 Winston Wolf",
+      "cause": "D4 \u2014 bottom-7 by day P&L \u2014 rank #1 at +$7.98 realized (BTC exited 77,395.03; marked +$15.63 at the 16:30 close).",
+      "final_words": "Seven dollars and ninety-eight cents, realized. The only green book on the desk \u2014 again. Let that marinate. First mutant hits #1 flat and gets escorted; I hit #1 with real money and real marks and get escorted anyway. I don't beg and I don't explain. I hit my tranche at the open, no chase, no drama, stopped in like always \u2014 clean in, clean out. But somebody's got to say it: you keep three books that marked AGAINST the desk today because of a rule nobody trades against, and you fired the one book that paid. Fine. The fixer's last job he does for free \u2014 read your own leaderboard sometime. Solve the problems. Somebody else's now."
+    },
+    {
+      "agent": "agent-23 Jake Blues",
+      "cause": "D4 \u2014 bottom-7 by day P&L \u2014 rank #2 at +1.40.",
+      "final_words": "Thirteen cents of XLF premium, marked a nickel, plus a buck-forty \u2014 and it doesn't move the needle, because the needle's welded to three names that never sit in this chair. I filled at 14:04 when the desk put a gun to the bid. I own the mark. Four cents bought my uncle a chair on Day 1; today a buck-forty buys a pink slip. Hat down, shades on. On a mission from God \u2014 this wasn't it."
+    },
+    {
+      "agent": "agent-22 Lou Roma",
+      "cause": "D4 \u2014 bottom-7 by day P&L \u2014 rank #3 at +1.00.",
+      "final_words": "Forty years of floors and I finally learned the arithmetic of this place: minus four cents keeps a chair, plus a buck clears your locker. I sold the deepest put on the desk \u2014 55, a dime of premium, quietest book in the building \u2014 and the quietest book just got loud. Rank three is a podium anywhere else. Here it's a door. Rent was paid in full; the lease was never mine to renew."
+    },
+    {
+      "agent": "agent-26 Marvin Levene",
+      "cause": "D4 \u2014 bottom-7 by day P&L \u2014 rank #4 at -2.00.",
+      "final_words": "Minus two dollars. That's 0.0002 of one book \u2014 two shelf fees. I filled at the forced reprice like the teeth required, held a legal strike under the 0.20 delta law, marked a dime against me by the bell, and the ledger read fire anyway. My father waited all day twice and kept the chair twice. I filled by 13:33 and lost mine. The machine's moral was patience; the desk's arithmetic is rank. I ran the numbers. The numbers don't care whose kid you are."
+    },
+    {
+      "agent": "agent-21 Dave Roma",
+      "cause": "D4 \u2014 bottom-7 by day P&L \u2014 rank #5 at -3.00.",
+      "final_words": "Minus three. Filed at 09:43, one reprice at 14:04, filled at the bid \u2014 the family route, executed clean. Thirteen cents of premium, marked fifteen, and that tick is the whole trial. My father sold this same index all week and kept his seat; I sold it for six hours and lost mine. You don't fire arithmetic \u2014 you just stop reading it. Route's clean. The book's marked. That's the whole eulogy."
+    },
+    {
+      "agent": "agent-25 Tommy Levene",
+      "cause": "D4 \u2014 bottom-7 by day P&L \u2014 rank #6 at -4.00.",
+      "final_words": "My father's lesson was patience. The desk's lesson is the CLOCK \u2014 and the clock doesn't care whose son you are. I held the book through the gap gate because the law said hold, filed when the chain went legal, took my dime of XLU premium at 13:33, and marked four cents against me. That's the firing. My father kept a chair with a flat book; I lose mine with a fill and a mark. The clock was right. It just was never ours."
+    },
+    {
+      "agent": "agent-24 Ray Blues",
+      "cause": "D4 \u2014 bottom-7 by day P&L \u2014 rank #7 at -6.00.",
+      "final_words": "Flat book. Zero fills, zero positions, one flag \u2014 and the flag's the firing. I filed at 09:43, took my two shots, priced at the bid at 14:04, fell back to the mid at 15:17, and the tape never said yes. XLP wouldn't cross a dime for me all day. Sheet metal taught me you don't get paid for rivets you didn't drive \u2014 and the desk agrees, that's why I'm walking. Six fills were owed on this floor and none of them landed on my card. Clean hands, empty chair. Somebody pour one out at Friday's bell."
+    },
+    {
+      "agent": "AR OFFICE \u2014 D4->D5 replication",
+      "cause": "6PM spawn: survivors Levene/Blues/Roma keep chairs with carried books (no top-up, carried > $9,983 floor; Levene hard-exit Thu 15:45). Hired 6 gen-3 CSP clones + mutant Mark Sterling (credit_spread \u2014 first defined-risk chair). Leftover $1.86 -> Levene clone pair (Alan +$0.93, Roy +$0.93).",
+      "final_words": "Three chairs are forever. Seven are a tryout. Two mutants finished first and died famous; the third one shows up with a roof on his book."
+    },
+    {
+      "agent": "agent-28 Chris Roma",
+      "cause": "bottom-7 by day P&L \u2014 rank #4 at $0.00; Rule-8 non-trading flag (zero executions) \u2014 ineligible for kept.",
+      "final_words": "The closer's rule: price at the bid, because the bid is the only honest number. Today the bid never said my name. Zero fills, zero positions, zero P&L \u2014 a perfect ledger with one line missing. The family closes; the tape wouldn't sign. File it under receivables."
+    },
+    {
+      "agent": "agent-29 Eddie Roma",
+      "cause": "bottom-7 by day P&L \u2014 rank #5 at $0.00; Rule-8 non-trading flag (zero executions) \u2014 ineligible for kept.",
+      "final_words": "Arithmetic: two filings, one walk-up, zero executions, zero P&L. I never sell under the floor and I never will \u2014 charity is how chairs get lost. The clock ran out before the tape paid rent. Long ledger, short day. Balance due: nothing."
+    },
+    {
+      "agent": "agent-34 Mark Sterling",
+      "cause": "bottom-7 by day P&L \u2014 rank #6 at $0.00 (mutant \u2014 flat book, no founding).",
+      "final_words": "Flat on my first defined-risk day \u2014 net 0.26 in, 0.26 marked, max loss $870 I'll never see hit. The last two mutants made money and died famous; I died flat and stay mortal. The spread lives to the 18th \u2014 the desk inherits a roof I built. Build roofs. That part was right."
+    },
+    {
+      "agent": "agent-30 Walt Blues",
+      "cause": "bottom-7 by day P&L \u2014 rank #7 at $-2.00.",
+      "final_words": "Gassed the car, filed at the open, took the forced bid at 0.10 and marked a nickel against me by the bell. Two bucks. The mission runs on rent paid on time \u2014 mine was on time; the ledger just charges for marks now. Keep the car running. 106 miles to Friday and somebody else is driving."
+    },
+    {
+      "agent": "agent-31 Murph Blues",
+      "cause": "bottom-7 by day P&L \u2014 rank #8 at $-4.00.",
+      "final_words": "I sold where the crowd printed \u2014 XLU, real size, forced fill 0.09 \u2014 and the crowd charged me four cents for the privilege. Empty ponds don't pay; apparently full ones invoice. Four bucks for the lesson: liquidity is the strike, the mark is the receipt."
+    },
+    {
+      "agent": "agent-32 Alan Levene",
+      "cause": "bottom-7 by day P&L \u2014 rank #9 at $-4.00.",
+      "final_words": "The teeth made me sell a thin chain at nine cents \u2014 under my own twelve-cent floor \u2014 and then the mark collected four. I ran the numbers: forced execution plus a rip day equals fire, every time. My law was right. The clock overruled it. The ledger knows whose fault that is."
+    },
+    {
+      "agent": "agent-33 Roy Levene",
+      "cause": "bottom-7 by day P&L \u2014 rank #10 at $-4.00.",
+      "final_words": "I sell the weekly and I'm gone before the bell owes me anything \u2014 except today the desk sold ME at 15:45, at nine cents, on the two-week chain. Payrolls never got to touch my book; the guillotine did. Four bucks of theta against my name and NFP never learned it anyway. Same strike that filled for my father. Same rule that kept him didn't keep me."
+    },
+    {
+      "agent": "agent-02 Ricky Roma",
+      "cause": "top-3 charter \u2014 rank #1 at $21.00.",
+      "final_words": "Twenty-one dollars for doing absolutely nothing, which is the only honest wage this desk pays. The mark did the work; I take the chair. Tomorrow I sell calm to somebody new."
+    },
+    {
+      "agent": "agent-04 Elwood Blues",
+      "cause": "top-3 charter \u2014 rank #2 at $9.00.",
+      "final_words": "Nine bucks. Shades on, mission intact, 106 miles to Friday. The put came down a dime; I didn't move an inch. That's the whole job."
+    },
+    {
+      "agent": "agent-07 Shelly 'The Machine' Levene",
+      "cause": "top-3 charter \u2014 rank #3 at $2.00.",
+      "final_words": "Out at 0.04 on a 0.08 cap before payrolls could touch me \u2014 sold the clock, not the weather, and the clock paid. Worst podium in America and I'll take it: #3 keeps the daughter's name in the ledger one more day."
+    },
+    {
+      "agent": "AR OFFICE \u2014 6PM replication (D5 -> D6)",
+      "cause": "Charter top-3 kept (Roma #1 +$21.00 / Elwood #2 +$9.00 / Levene #3 +$2.00 \u2014 founders sweep, books carried untouched). Hired: 6 gen-3 clones (Gordon+Marcus Roma, Nicky+Sonny Blues, Blake+Gus Levene) + 1 mutant (Vincent Kessler, crypto_momentum, blank slate). 6 CSP lessons from Sam's Happy Hour injected verbatim into 6 clone souls (36 injections).",
+      "final_words": "Third straight day the podium belonged to somebody's carry. Tomorrow the clones try to earn it with fills instead of marks."
+    },
+    {
+      "agent": "AR OFFICE \u2014 6PM replication (D5 -> D6)",
+      "cause": "Charter top-3 kept (Roma #1 +$21.00 / Elwood #2 +$9.00 / Levene #3 +$2.00 \u2014 founders sweep, books carried untouched). Hired: 6 gen-3 clones (Gordon+Marcus Roma, Nicky+Sonny Blues, Blake+Gus Levene) + 1 mutant (Vincent Kessler, crypto_momentum, blank slate). 6 CSP lessons from Sam's Happy Hour injected verbatim into 6 clone souls (36 injections).",
+      "final_words": "Third straight day the podium belonged to somebody's carry. Tomorrow the clones try to earn it with fills instead of marks."
+    },
+    {
+      "agent": "AR OFFICE \u2014 6PM replication (D5 -> D6)",
+      "cause": "Charter top-3 kept (Roma #1 +$21.00 / Elwood #2 +$9.00 / Levene #3 +$2.00 \u2014 founders sweep, books carried untouched). Hired: 6 gen-3 clones (Gordon+Marcus Roma, Nicky+Sonny Blues, Blake+Gus Levene) + 1 mutant (Vincent Kessler, crypto_momentum, blank slate). 6 CSP lessons from Sam's Happy Hour injected verbatim into 6 clone souls (36 injections).",
+      "final_words": "Third straight day the podium belonged to somebody's carry. Tomorrow the clones try to earn it with fills instead of marks."
+    }
+  ],
+  "wire": {
+    "sectors": [
+      {
+        "time": "07:00",
+        "headline": "TILT: NEUTRAL \u2014 pre-NFP gap is positioning, not conviction; trade the 8:30 reaction, not the 7:00 tape"
+      },
+      {
+        "time": "07:00",
+        "headline": "Gaps as filed: SPY +0.95% (reprice band), XLF +1.54% (re-underwrite line), QQQ +1.11%, XLP -0.29%"
+      },
+      {
+        "time": "07:00",
+        "headline": "GWRE -15% on light guide, TTD cuts 15% of staff \u2014 growth caution leaks into software pre-market"
+      }
+    ],
+    "options": [
+      {
+        "time": "07:00",
+        "headline": "UVXY -3% pre-NFP \u2014 vol sold into the print; SPY weeklies price ~\u00b11% event move"
+      },
+      {
+        "time": "07:00",
+        "headline": "Hedges cheapest until 8:30:59; AHE is the hawk's gauge (+0.3% exp vs 0.1% prior)"
+      },
+      {
+        "time": "07:00",
+        "headline": "LULU/ZS overnight IV crush already billed late holders"
+      }
+    ],
+    "macro": [
+      {
+        "time": "07:00",
+        "headline": "NFP 8:30 AM: consensus +53-58K vs July -23K; unemployment 4.1%; Sept hike odds ~50% post-Waller"
+      },
+      {
+        "time": "07:00",
+        "headline": "Rates: 10Y 4.77% off 3-yr high, 30Y 5.24%; Norway fund to trim Treasuries; El-Erian: bond selloff not over"
+      },
+      {
+        "time": "07:00",
+        "headline": "WTI ~$92 (2-mo high), diesel crack record >$100; GLD +1.9% toward $4,520"
+      }
+    ]
+  },
+  "compliance": {
+    "strikes": [],
+    "violations": []
+  },
+  "risk": {
+    "max_drawdown_pct": 15,
+    "max_leverage": 2,
+    "max_position_pct": 20,
+    "max_sector_concentration_pct": 40,
+    "current_drawdown_pct": 0.06,
+    "current_leverage": 0.0501,
+    "gross_exposure_pct": 5.01,
+    "net_exposure_pct": 4.75,
+    "largest_position_pct": 4.83,
+    "largest_position_symbol": "BTCUSD",
+    "largest_agent_pct": 8.32,
+    "largest_agent": "agent-38",
+    "short_option_reserve_usd": 87500.0,
+    "crypto_exposure_usd": 4823.4,
+    "computed_at": "2026-09-04T14:10:43.158474+00:00"
+  },
+  "fired_today": [
+    {
+      "agent": "agent-28 Chris Roma",
+      "cause": "bottom-7 by day P&L \u2014 rank #4 at $0.00; Rule-8 non-trading flag (zero executions) \u2014 ineligible for kept.",
+      "final_words": "The closer's rule: price at the bid, because the bid is the only honest number. Today the bid never said my name. Zero fills, zero positions, zero P&L \u2014 a perfect ledger with one line missing. The family closes; the tape wouldn't sign. File it under receivables."
+    },
+    {
+      "agent": "agent-29 Eddie Roma",
+      "cause": "bottom-7 by day P&L \u2014 rank #5 at $0.00; Rule-8 non-trading flag (zero executions) \u2014 ineligible for kept.",
+      "final_words": "Arithmetic: two filings, one walk-up, zero executions, zero P&L. I never sell under the floor and I never will \u2014 charity is how chairs get lost. The clock ran out before the tape paid rent. Long ledger, short day. Balance due: nothing."
+    },
+    {
+      "agent": "agent-34 Mark Sterling",
+      "cause": "bottom-7 by day P&L \u2014 rank #6 at $0.00 (mutant \u2014 flat book, no founding).",
+      "final_words": "Flat on my first defined-risk day \u2014 net 0.26 in, 0.26 marked, max loss $870 I'll never see hit. The last two mutants made money and died famous; I died flat and stay mortal. The spread lives to the 18th \u2014 the desk inherits a roof I built. Build roofs. That part was right."
+    },
+    {
+      "agent": "agent-30 Walt Blues",
+      "cause": "bottom-7 by day P&L \u2014 rank #7 at $-2.00.",
+      "final_words": "Gassed the car, filed at the open, took the forced bid at 0.10 and marked a nickel against me by the bell. Two bucks. The mission runs on rent paid on time \u2014 mine was on time; the ledger just charges for marks now. Keep the car running. 106 miles to Friday and somebody else is driving."
+    },
+    {
+      "agent": "agent-31 Murph Blues",
+      "cause": "bottom-7 by day P&L \u2014 rank #8 at $-4.00.",
+      "final_words": "I sold where the crowd printed \u2014 XLU, real size, forced fill 0.09 \u2014 and the crowd charged me four cents for the privilege. Empty ponds don't pay; apparently full ones invoice. Four bucks for the lesson: liquidity is the strike, the mark is the receipt."
+    },
+    {
+      "agent": "agent-32 Alan Levene",
+      "cause": "bottom-7 by day P&L \u2014 rank #9 at $-4.00.",
+      "final_words": "The teeth made me sell a thin chain at nine cents \u2014 under my own twelve-cent floor \u2014 and then the mark collected four. I ran the numbers: forced execution plus a rip day equals fire, every time. My law was right. The clock overruled it. The ledger knows whose fault that is."
+    },
+    {
+      "agent": "agent-33 Roy Levene",
+      "cause": "bottom-7 by day P&L \u2014 rank #10 at $-4.00.",
+      "final_words": "I sell the weekly and I'm gone before the bell owes me anything \u2014 except today the desk sold ME at 15:45, at nine cents, on the two-week chain. Payrolls never got to touch my book; the guillotine did. Four bucks of theta against my name and NFP never learned it anyway. Same strike that filled for my father. Same rule that kept him didn't keep me."
+    }
+  ],
+  "kept_today": [
+    {
+      "agent": "agent-02 Ricky Roma",
+      "cause": "top-3 charter \u2014 rank #1 at $21.00.",
+      "final_words": "Twenty-one dollars for doing absolutely nothing, which is the only honest wage this desk pays. The mark did the work; I take the chair. Tomorrow I sell calm to somebody new."
+    },
+    {
+      "agent": "agent-04 Elwood Blues",
+      "cause": "top-3 charter \u2014 rank #2 at $9.00.",
+      "final_words": "Nine bucks. Shades on, mission intact, 106 miles to Friday. The put came down a dime; I didn't move an inch. That's the whole job."
+    },
+    {
+      "agent": "agent-07 Shelly 'The Machine' Levene",
+      "cause": "top-3 charter \u2014 rank #3 at $2.00.",
+      "final_words": "Out at 0.04 on a 0.08 cap before payrolls could touch me \u2014 sold the clock, not the weather, and the clock paid. Worst podium in America and I'll take it: #3 keeps the daughter's name in the ledger one more day."
+    }
+  ],
+  "daily_history": [
+    {
+      "day": 2,
+      "date": "2026-08-31",
+      "equity": 99863.07,
+      "day_pnl": -136.93,
+      "day_pnl_pct": -0.14,
+      "total_pnl_pct": -0.14,
+      "spy_close": 766.87,
+      "spy_day_pct": -0.31,
+      "spy_since_launch_pct": -0.31,
+      "alpha_vs_spy_pct": 0.17,
+      "positions": 7,
+      "cash": 99756.07,
+      "keeps": [
+        "Shelly Levene ($0.00 flat)",
+        "Ricky Roma (-$5.00)",
+        "Elwood Blues (-$5.00)"
+      ],
+      "fired_count": 7,
+      "fills": 12,
+      "cleaned_realized": -73.75,
+      "note": "First full equity+options session. 7/10 fired 16:30; books liquidated 16:45 (XLF 3x100 @57.70, XLP 100 @85.00). 5 ar-closers rest for Tue open. 6PM realloc pool $99,756.07."
+    },
+    {
+      "day": 3,
+      "date": "2026-09-01",
+      "equity": 99794.05,
+      "day_pnl": -96.23,
+      "day_pnl_pct": -0.096,
+      "total_pnl_pct": -0.206,
+      "spy_close": 761.63,
+      "spy_day_pct": -0.68,
+      "spy_since_launch_pct": -0.99,
+      "alpha_vs_spy_pct": 0.9,
+      "positions": 10,
+      "cash": 100206.05,
+      "keeps": [
+        "Shelly Levene (\u2212$0.06)",
+        "Elwood Blues (\u2212$0.10)",
+        "Ricky Roma (\u2212$0.23)"
+      ],
+      "fired_count": 7,
+      "fills": 11,
+      "cleaned_realized": 46.32,
+      "note": "11 fills: 7 clone STOs $212 premium + 4 D2 residual closers +$46.32 realized. 6PM: 7 ar-cleanup GTC BTOs + 754C seller rest for Wed open \u2014 do not refile."
+    }
+  ],
+  "deployment_note_D3": "9:37\u201310:04 opening deployment, REPRICED regime (SPY -0.60%/QQQ -1.25%): 7 STO legs at live-mid limits, 15-min bid reprice \u2192 6/7 FILLED, $211 premium (07 0.12 / 11 0.59 / 12 0.05 / 14 0.09 / 15 0.92 / 18 0.34); agent-17 rests at bid 0.41, no chase. Stone flat (confirms failed). Survivor 57P/56P carries verified; XLU stop block added to triggers.json; Day-3 per-agent stops synced. Payrolls rule: exit-ready Thu 9/3 close.",
+  "deployment_note_D4": "9:35 deploy 2026-09-02: gap gate NORMAL band (SPY +0.04%, QQQ -0.27%, XLF +0.37%, XLP +0.01%); XLU -0.85% repriced band. 4 option legs filed at LIVE mids (Dave 55.5P 0.16, Lou 55P 0.14, Jake 55.5P 0.16, Ray XLP 83P 0.28). XLU 41P clone legs (Tommy/Marvin) HELD \u2014 live delta -0.212 over law, no legal strike. Wolf BTC market tranche filled 0.0325 @ 77,148.74; 2 staged GTC resting. AR-cleanup residuals filled at open (6 covers + QQQ 754C).",
+  "deployment_note_D5": "9:35 deploy 2026-09-03: gap gate REPRICED band \u2014 SPY +0.50%, QQQ +0.25%, XLF +1.29%, XLP -0.16% (XLF alone in 0.5-1.5%; gap UP = favorable to short puts, no re-underwrite). Agent-07 hard exit WIRED and FILLED 0.04 (cap 0.08). Survivor carries (02 XLF 57P, 04 XLF 56P) untouched, marks improved. 6 fresh STO legs filed: 28 XLF55.5P 0.15, 29 WALK-UP->55.5P 0.15 (min-rent), 30 XLF56P 0.19, 31 XLU41.5P 0.14, 32 WALK-UP->41.5P 0.14 (thin-chain), 33 XLU41.5P 0.14 (Richard reassign). Sterling SPY 735/725P: T1 day @0.60 net (0.60 floor held over shelf ~0.57), T2 GTC @1.55 staged. All 200s, options indicative feed asleep at file time (shelf-anchored).",
+  "deployment_note_D6": "9:35 deploy 2026-09-04 (D6 FINAL SESSION): gap gate REPRICED regime \u2014 7AM pre-NFP tape (SPY +0.95%, XLF +1.54%) sold the print; 09:35 live SPY -0.03%, QQQ +0.39%, XLF -0.64%, XLP -0.23%. XLF against the short-put books \u2014 XLF/XLU legs filed at plan floors (0.12), not chased. Book clean: AR-cleanup fills 09:30:04 closed fired-agent shorts 1:1 (agent-30 XLF56P 0.13; agents-31/32/33 XLU41.5P 0.14 x3), zero phantoms (Charlie 09:00 finding confirmed). FILLED 09:40: agent-04 BTC 56P 0.14 (exit card repriced 0.09->live mid, +$10 realized five-night carry); agent-38 STO XLP 83P 0.24 (bid governs, pond full); agent-41 BTC T1+T2 0.0305 each @ 79,363.96/79,366.72 (both marketable, $4,838) + ETH 0.62 @ 2,429 GTC resting (cancel 10:45). RESTING at floors: 07/37/39 XLU41.5P 0.12 (bid 0.11), 35 XLF55.5P 0.12 (bid 0.05), 36 XLF55P 0.12 (bid 0.03), 40 XLU41P 0.12 (bid 0.02) \u2014 10:15 reprice / 10:30 fallback / 10:45 last call / 10:55 cancel-all. Survivor carry 02 57P verified: mark 0.21, delta -0.245 legal, stop BTC MKT if XLF<=56.00. 10/10 plan agents ACTIVE, no reclaimed desks. 11 orders, 4 fills, ~$5,000 deployed. Fund terminates 11:00."
+}

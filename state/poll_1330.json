@@ -1,0 +1,28 @@
+{
+ "gate": {
+  "account": "PA3GWO1FKED0",
+  "starts_PA": true,
+  "status": "ACTIVE",
+  "trading_blocked": false,
+  "equity": "99826.05",
+  "cash": "100206.05",
+  "gate_pass": true
+ },
+ "open_orders_n": 1,
+ "fills_by_agent": {
+  "other": [
+   "XLF261016P00055000 sell_short 1 @ 0.41",
+   "XLF260918C00060000 sell 1 @ 0.1",
+   "XLU260904P00042000 sell_short 1 @ 0.12",
+   "XLU260918P00042000 sell_short 1 @ 0.34",
+   "XLF260918P00057500 sell_short 1 @ 0.59",
+   "XLF261016P00057000 sell_short 1 @ 0.92",
+   "XLF260904P00058000 buy 1 @ 0.51",
+   "XLF260918P00055000 sell_short 1 @ 0.09",
+   "XLF260918P00054000 sell_short 1 @ 0.05",
+   "QQQ260918P00668000 sell 1 @ 2.27",
+   "XLF260904P00057000 sell 1 @ 0.13"
+  ]
+ },
+ "poll_ts": "2026-09-01T13:31:46.452100-04:00"
+}

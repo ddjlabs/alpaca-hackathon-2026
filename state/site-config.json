@@ -1,0 +1,73 @@
+{
+  "firm": {
+    "name": "Bushwood Stratton Capital Partners, AP",
+    "tagline": "Be the Ball. Beat the Index. Don't Get Fired.",
+    "logo": "/assets/bushwood-crest.jpg",
+    "hackathon": "Alpaca AI Trading Agents Hackathon",
+    "dates": "August 28 – September 4, 2026",
+    "starting_capital": "$100,000",
+    "prize_pool": "$6,000"
+  },
+  "team": [
+    {
+      "name": "Gordon Gekko",
+      "role": "Managing Partner, PM, Orchestrator",
+      "bio": "Digitized Wall Street legend. Ghost in the machine. Runs the kanban board, fires agents daily, hasn't slept since 2008.",
+      "tagline": "P&L, P&L, P&L."
+    },
+    {
+      "name": "Ernie the Economist",
+      "role": "The Wire",
+      "bio": "Daily sector, options, and macro pulse report. The only person at the firm who actually understands the yield curve.",
+      "tagline": "Read the tape. Trade the tape. Don't fight the tape."
+    },
+    {
+      "name": "Richard from Birmingham",
+      "role": "Risk Officer",
+      "bio": "Deaf from too much partying with Black Sabbath in the 1970s. Reads numbers, not noise. Can veto any trade.",
+      "tagline": "The upside is irrelevant if the downside puts you in the ground."
+    },
+    {
+      "name": "Compliance Charlie",
+      "role": "Compliance Officer",
+      "bio": "He's going to be a dick. That's his job. Three strikes and you're auto-fired, regardless of P&L.",
+      "tagline": "The rules are not soft. If they were soft, they would be suggestions."
+    },
+    {
+      "name": "Lisa",
+      "role": "PR and Marketing",
+      "bio": "Puts lipstick on the pig. Writes the personas, the posts, the copy. Runs on OpenAI Pro — not our tokens.",
+      "tagline": "Every firing is a content opportunity."
+    },
+    {
+      "name": "Neil",
+      "role": "Infrastructure",
+      "bio": "Builds the website, the bridge, the repo. If Neil doesn't show up, nothing works. Don't tell him that.",
+      "tagline": "It works on my machine. That's all that matters."
+    }
+  ],
+  "daily_cycle": [
+    {"time": "6:00 AM", "event": "Ernie publishes The Wire", "description": "Sector pulse, IV rankings, earnings calendar, macro flags"},
+    {"time": "6:15 AM", "event": "Gordo assigns capital", "description": "10 agents funded evenly from total pool"},
+    {"time": "6:30 AM", "event": "Richard sets risk limits", "description": "Leverage caps, position limits, drawdown thresholds"},
+    {"time": "6:45 AM", "event": "Charlie reviews compliance", "description": "Options requirement, no wash trades, strike warnings"},
+    {"time": "7:00 AM", "event": "Options Gauntlet begins", "description": "6-step analysis: Wire → Chains → Strategy → Risk → Compliance → Plan"},
+    {"time": "9:30 AM", "event": "Market opens — agents execute", "description": "Pre-built trade plans go live"},
+    {"time": "12:00 PM", "event": "Gordo mid-day report", "description": "Who's winning, who's dying, compliance alerts"},
+    {"time": "4:00 PM", "event": "Market closes", "description": "Richard risk audit + Charlie compliance audit"},
+    {"time": "4:30 PM", "event": "THE FIRING", "description": "Bottom 7 agents fired. HR Board posts go live."},
+    {"time": "5:00 PM", "event": "EOD Report", "description": "P&L summary, kept/fired, portfolio status, X post"},
+    {"time": "6:00 PM", "event": "Clone + reallocate", "description": "Top 3 cloned ×3 each + 1 mutant = 10 new agents"},
+    {"time": "7:00 PM", "event": "Options Gauntlet (overnight)", "description": "New agents build tomorrow's battle plans"}
+  ],
+  "api_endpoints": {
+    "dashboard": "/api/dashboard.json",
+    "agents": "/api/agents.json",
+    "hr_board": "/api/hr-board.json",
+    "wire": "/api/wire.json",
+    "compliance": "/api/compliance.json",
+    "risk": "/api/risk.json",
+    "positions": "/api/positions.json",
+    "history": "/api/history.json"
+  }
+}

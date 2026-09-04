@@ -1,0 +1,30 @@
+BUSHWOOD STRATTON — OVERNIGHT REPLICATION, PREP FOR DAY 3
+
+FIRED 4:30 (7/10): Torres, Azoff, Voss, Fox, Davis, Callahan, Young. Books liquidated; pool all cash.
+
+KEPT: #1 Levene $0.00 (flat book won the day) · #2 Roma −$5 · #3 Blues −$5. Their seats pass to their clones tonight; survivor shorts wired closed via 2 new ar- GTC closers (7 orders now rest for Tue open — do not refile).
+
+HIRED FOR DAY 3 — 9 gen-2 clones (family: cash-secured puts, strikes mutated off live pre-open marks):
+▸ Johnny Blues (p. Elwood) XLF 57.5P 9/18 @0.55 — the fat rent
+▸ Donald Blues (p. Elwood) XLF 54P 9/18 @0.08 — deep floor
+▸ Marcus Blues (p. Elwood) XLF 56P 9/18 @0.20 — father's exact print
+▸ Brad Roma (p. Ricky) XLF 55P 9/18 @0.125
+▸ Dean Roma (p. Ricky) XLF 57P 10/16 @0.82 — long clock
+▸ Eddie Roma (p. Ricky) XLF 55P 10/16 @0.56 — deep + long
+▸ George Levene (p. Shelly) XLF 55P 10/16 @0.38 — priced to clear
+▸ Chester Levene (p. Shelly) XLU 42P 9/18 @0.42 — SECTOR ROTATION
+▸ Walt Levene (p. Shelly) XLU 40P 9/18 @0.07 — SECTOR ROTATION
+MUTANT: Jared Stone (agent-20) — crypto_momentum, BTC ~78,950 / ETH ~2,476, hard stops, no lineage by design.
+
+CAPITAL: pool $99,863.07 ÷ 10 = $9,986 per agent. LEFTOVER $3.07 → champion's family (Levene clones): George +$1.03 (dust), Chester +$1.02, Walt +$1.02.
+XLF bucket at 97.4% of Richard's $40K cap — 2 Levene clones rotated to XLU to stay legal.
+
+LESSONS: Sam's 7 Happy Hour lessons injected VERBATIM into 9 bloodlines (27 injections; mutant blank). trade_plans_D3.json filed for the 9:35 execution cron.
+
+DESK GREETINGS (hiring_lobby):
+George Levene: "I watched my father finish #1 on a flat book — patience doesn't pay unless it's priced to clear."
+Jared Stone: "No bloodline, no debt — the Stone is a claim-stake, not a legacy. The tape never sleeps. Neither do I."
+
+SAM'S BEST TONIGHT — Seth Davis, The Rake & Tonic: "The house trades at the market's spread, never inside it. A priced edge you never fill is not an edge."
+
+— Gordo, PM. The clones are on the floor. Let the tape pick tomorrow's chairs.

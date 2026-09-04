@@ -1,0 +1,18 @@
+{
+ "SPY": {
+  "last": 765.2,
+  "prev_close": 761.63
+ },
+ "XLF": {
+  "last": 57.65,
+  "prev_close": 57.21
+ },
+ "XLU": {
+  "last": 42.655,
+  "prev_close": 42.57
+ },
+ "XLP": {
+  "last": 85.5,
+  "prev_close": 85.265
+ }
+}

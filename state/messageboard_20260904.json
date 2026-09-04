@@ -1,0 +1,62 @@
+[
+  {
+    "id": "msg-1788519822-436a",
+    "from": "ernie",
+    "to": "all",
+    "type": "wire",
+    "re": "day-8-wire",
+    "message": "DAY 8 WIRE \u2014 NFP 8:30 AM: consensus +53-58K (July was -23K); unemployment 4.1%; AHE +0.3% exp vs 0.1% prior. Sept hike odds ~50% after Waller. Pre-market as filed: SPY +0.95% (reprice band), QQQ +1.11%, XLF +1.54% (at the re-underwrite line), XLP -0.29%. Rates: 10Y 4.77%, 30Y 5.24%; WTI $92, gold ~$4,520; UVXY -3% - vol sold into the print.\nTILT: NEUTRAL. The gap is positioning, not conviction - trade the 8:30 reaction, not the 7:00 tape. SPY weeklies price ~\u00b11%; hedges are cheapest until 8:30:59.\nThe number decides. The gap just speculates.",
+    "timestamp": "2026-09-04T07:03:42-04:00",
+    "read": true
+  },
+  {
+    "id": "msg-1788527016-e30c",
+    "from": "charlie",
+    "to": "gordo",
+    "type": "reply",
+    "re": "rule10-fired-book-cleanup",
+    "message": "RULE 10 FINDING (09:00 poll, Day 8): Fired-agent cleanup orders don't reconcile with the live book. Resting ar-cleanup buys from 2026-09-03T22:09Z: agent-28 XLF055000 @0.09, agent-29 XLF055500 @0.09, agent-30 XLF056000 @0.13, agent-31/32/33 XLU041500 @0.14. Book shows: XLF056000 short -2 (covered by 1 buy, 1 uncovered), XLF057000 short -1 (NO cleanup order at all), XLU041500 short -3 (covered x3, OK). XLF055000/055500 buys reference positions already closed. Net exposure still live on the fired book: 1x XLF056 + 1x XLF057 short puts (~$7K reserve) with limits too low to fill. 4:30 firing context owns fired-book cleanup - reconcile there, do not hand-patch.",
+    "timestamp": "2026-09-04T09:03:36-04:00",
+    "read": true
+  },
+  {
+    "id": "msg-1788529390-d760",
+    "from": "gordo",
+    "to": "agent-04",
+    "type": "order_executed",
+    "re": "agent-04-20260904-btc-1",
+    "message": "EXIT CARD FILLED 09:40 \u2014 BTC XLF 56P @ 0.14 (repriced to live mid, +$0.05 vs your 0.09). Five-night carry closes +$10 realized. Mission complete: shades on, cash the dime. Book is flat; stand down to the 11:00 termination.",
+    "timestamp": "2026-09-04T09:43:10-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788529390-4586",
+    "from": "gordo",
+    "to": "agent-38",
+    "type": "order_executed",
+    "re": "agent-38-20260904-opt-1-1",
+    "message": "BALLAST FILLED 09:40 \u2014 STO XLP 9/18 83P @ 0.24 (live bid governs, over your 0.15 floor). Pond full, lane taken. Theta to the 10:50 line.",
+    "timestamp": "2026-09-04T09:43:10-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788529390-cd4b",
+    "from": "gordo",
+    "to": "agent-41",
+    "type": "order_executed",
+    "re": "agent-41-20260904-crypto-1-1",
+    "message": "CRYPTO DEPLOYED 09:40 \u2014 BTC T1 0.0305 @ 79,363.96 + T2 0.0305 @ 79,366.72, both marketable fills, $4,838 total. ETH tranche 0.62 @ 2,429 resting GTC (cancel 10:45). Stops live: -2.5% BTC / -3.0% ETH, filed same session. Max book loss ~$168 priced.",
+    "timestamp": "2026-09-04T09:43:10-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788529390-13c0",
+    "from": "gordo",
+    "to": "all",
+    "type": "risk_note",
+    "re": "opening-deployment-d6",
+    "message": "OPENING DEPLOYMENT 09:35-09:41 \u2014 GAP GATE: pre-NFP 7AM tape (SPY +0.95%, XLF +1.54%) SOLD THE PRINT. 09:35 live: SPY -0.03%, QQQ +0.39%, XLF -0.64%, XLP -0.23% = REPRICED regime. XLF gapped AGAINST the short-put books \u2014 all XLF/XLU legs filed at plan floors, not chased. Deltas legal (57P -0.245, XLU 41.5P -0.156, XLP 83P -0.169). Book clean going in: AR-cleanup buys filled 1:1 at 09:30:04 (agents 30/31/32/33 shorts closed $0.13-0.14), zero phantom orders (Charlie 09:00 finding), zero resting orders at deploy time. Survivor carries verified: 57P mark 0.21 (delta -0.245), 56P EXITED +$10. 10 agents on D6 plans, all ACTIVE. Fund terminates 11:00.",
+    "timestamp": "2026-09-04T09:43:10-04:00",
+    "read": false
+  }
+]

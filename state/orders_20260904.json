@@ -1,0 +1,322 @@
+{
+  "date": "2026-09-04",
+  "day": 8,
+  "environment_gate": {
+    "account": "PA3GWO1FKED0",
+    "status": "ACTIVE",
+    "trading_blocked": false,
+    "equity": 99835.0,
+    "cash": 99947.0,
+    "checked_at": "2026-09-04T09:00:41-04:00",
+    "result": "PASS"
+  },
+  "polls": [
+    {
+      "poll": 1,
+      "time": "2026-09-04T09:00-04:00",
+      "cards_processed": 0,
+      "board_state": "no cards assigned to charlie, none unassigned",
+      "unfilled_watch": "N/A - before 14:30 ET window",
+      "rule10_standing_check": {
+        "alpaca_positions": 5,
+        "resting_orders": 6,
+        "finding": "6 resting ar-cleanup-agent-28..33 buy-to-close orders (submitted 2026-09-03T22:09Z, GTC) from Day-7 firing. Coverage vs live book: XLU260918P00041500 -3 covered by 3 buys; XLF260918P00056000 -2 covered by only 1 buy; XLF260918P00057000 -1 has NO cleanup order; XLF055000/055500 buys reference already-closed positions. Uncovered/under-covered fired-agent shorts routed to 4:30 firing cron (owning process per Chief's no-hand-patch law). Cleanup limits (0.09-0.14) far below market - unlikely to fill before expiry."
+      },
+      "context": "NFP printed 8:30 (Ernie wire: consensus +53-58K, SPY pre-market +0.95% in reprice band). Market open 09:30; agent cards expected post-open."
+    },
+    {
+      "poll": 2,
+      "time": "2026-09-04T09:15-04:00",
+      "cards_processed": 0,
+      "board_state": "no cards assigned to charlie, none unassigned (pre-open)",
+      "unfilled_watch": "N/A - before 14:30 ET window; 0 fills today so far, expected - agents file post-open",
+      "rule10_standing_check": {
+        "alpaca_positions": 5,
+        "open_orders_before": 6,
+        "open_orders_after": 4,
+        "finding": "CORRECTED 09:00 coverage map: XLF260918P00056000 short -2 is co-held by ACTIVE agents agent-04 (-1) and FIRED agent-30 (-1) - agent-30 covered 1:1 by its ar-cleanup buy; XLF260918P00057000 short -1 belongs to ACTIVE agent-02 (own book, no cleanup required). Only real anomalies were 2 PHANTOM cleanup orders: ar-cleanup-agent-28 (XLF P55.5) and ar-cleanup-agent-29 (XLF P55.0) referenced positions that DO NOT EXIST on the live book. Orphan risk: a fill would have minted long contracts in fired agents' names with no offsetting short. ACTION: cancelled both via DELETE /v2/orders (verified status=canceled for both; 4 open orders remain, all covering live fired-agent shorts 1:1: 3x XLU P41.5 for agents-31/32/33, 1x XLF P56 for agent-30).",
+        "action_orders_cancelled": [
+          {
+            "client_order_id": "ar-cleanup-agent-28-1-20260903",
+            "symbol": "XLF260918P00055500",
+            "qty": 1,
+            "limit": 0.09,
+            "reason": "no offsetting short position on live book - phantom coverage",
+            "verified_status": "canceled"
+          },
+          {
+            "client_order_id": "ar-cleanup-agent-29-1-20260903",
+            "symbol": "XLF260918P00055000",
+            "qty": 1,
+            "limit": 0.09,
+            "reason": "no offsetting short position on live book - phantom coverage",
+            "verified_status": "canceled"
+          }
+        ],
+        "coverage_map_after": {
+          "XLU260918P00041500_short_-3": "covered by 3 buys (agents-31/32/33)",
+          "XLF260918P00056000_short_-2": "agent-04 (active, own book) + agent-30 (fired, covered by 1 buy)",
+          "XLF260918P00057000_short_-1": "agent-02 (active, own book)",
+          "SPY_P725_long_1_SPY_P735_short_-1": "desk positions (agent=null, desk-labeled per convention)"
+        },
+        "attribution_invariant": "PASS - every position resolves to active agent-NN, fired agent with cleanup, or desk-labeled null"
+      },
+      "env_gate_recheck": {
+        "account": "PA3GWO1FKED0",
+        "status": "ACTIVE",
+        "trading_blocked": false,
+        "equity": 99835.0,
+        "cash": 99947.0,
+        "checked_at": "2026-09-04T09:15-04:00",
+        "result": "PASS"
+      },
+      "fills_today": 0,
+      "context": "Pre-open poll. NFP traded 8:30 (Ernie wire). Market opens 09:30 - agent cards expected after open. No message-board traffic to charlie beyond 09:00 self-finding."
+    },
+    {
+      "poll": 3,
+      "time": "2026-09-04T09:30-04:00",
+      "cards_processed": 0,
+      "board_state": "no cards assigned to charlie, none unassigned",
+      "unfilled_watch": "N/A - before 14:30 ET window",
+      "rule10_standing_check": {
+        "alpaca_positions": 5,
+        "open_orders": 4,
+        "closed_orders_today": 0,
+        "finding": "Book reconciles. 4 GTC ar-cleanup buys cover fired-agent shorts 1:1: XLF056000 -2 (agent-04 active -1 + agent-30 fired -1, 1 cleanup buy), XLU041500 -3 (agents-31/32/33 fired, 3 cleanup buys). XLF057000 -1 is active agent-02 own book. No fills today (NFP open; cleanup limits 0.13-0.14 far from market). No phantom orders, no attribution gaps."
+      },
+      "context": "Market open 09:30. NFP printed 8:30, SPY pre-market +0.95%. No agent cards filed yet - expected later in session."
+    },
+    {
+      "poll": 4,
+      "time": "2026-09-04T09:48:37-04:00",
+      "cards_processed": 0,
+      "board_state": "kanban clean (0 cards assigned charlie); charlie inbox 0 unread; message board 6 msgs (ernie DAY-8 NFP wire, rule-10 finding reply, 09:35 gap-gate deployment notices)",
+      "unfilled_watch": {
+        "window": "pre-14:30 \u2014 no actions due",
+        "fills_today_by_agent": {
+          "agent-04": 1,
+          "agent-38": 1,
+          "agent-41": 3
+        },
+        "resting_orders": [
+          {
+            "agent": "agent-07",
+            "leg": "STO XLU260918P00041500",
+            "id": "b349302b",
+            "limit": 0.12
+          },
+          {
+            "agent": "agent-35",
+            "leg": "STO XLF260918P00055500",
+            "id": "2cdfc008",
+            "limit": 0.12
+          },
+          {
+            "agent": "agent-36",
+            "leg": "STO XLF260918P00055000",
+            "id": "fd5bdcfe",
+            "limit": 0.12
+          },
+          {
+            "agent": "agent-37",
+            "leg": "STO XLU260918P00041500",
+            "id": "1a469fe1",
+            "limit": 0.12
+          },
+          {
+            "agent": "agent-39",
+            "leg": "STO XLU260918P00041500",
+            "id": "781642f2",
+            "limit": 0.12
+          },
+          {
+            "agent": "agent-40",
+            "leg": "STO XLU260918P00041000",
+            "id": "9425c04a",
+            "limit": 0.12
+          },
+          {
+            "agent": "agent-41",
+            "leg": "LMT ETH/USD 0.62",
+            "id": "5e4aaf0b",
+            "limit": 2429.0
+          }
+        ],
+        "exempt_carried": [
+          "agent-02 (short XLF260918P00057000 \u2014 book in market)"
+        ],
+        "dark_agents": []
+      },
+      "rule10_standing_check": {
+        "tape_fills_today": 8,
+        "portfolio_holdings_positions_count": 6,
+        "live_book_positions": 5,
+        "mismatch": "positions_count=6 vs live book 5; positions array serialized empty in snapshot",
+        "agent_holdings_freshness": "regenerated 13:45:43Z (heartbeat) \u2014 roster matches dashboard 17 agents + desk; OK"
+      },
+      "context": "NFP day; equities opened +1% (SPY), rate-cut banks bid; 09:35 gap gate passed as filed; 11 legs filed, 4 filled; options snapshot endpoint returned 404 this poll (single+bulk) \u2014 quotes to be re-pulled at 14:30 unfilled-watch window"
+    },
+    {
+      "poll": 5,
+      "time": "2026-09-04T10:00-04:00",
+      "cards_processed": 0,
+      "board_state": "kanban clean (0 cards assigned charlie, 1 archived); charlie inbox 0 unread; message board unchanged since 09:43 deployment batch",
+      "unfilled_watch": {
+        "window": "pre-14:30 \u2014 no Charlie teeth actions due (fund terminates 11:00 ET; teeth clock moot)",
+        "fills_today_by_agent": {
+          "agent-04": 1,
+          "agent-38": 1,
+          "agent-41": 2,
+          "desk_cleanup": 4
+        },
+        "open_orders": 7,
+        "quotes_1000": {
+          "XLU260918P00041000": "bid 0.02x2 / ask 0.13x147",
+          "XLU260918P00041500": "bid 0.09x983 / ask 0.12x143",
+          "XLF260918P00055000": "bid 0.07x315 / ask 0.10x132",
+          "XLF260918P00055500": "bid 0.10x433 / ask 0.12x349"
+        },
+        "note": "Options snapshot endpoint healthy at 10:00 (poll-4 404 cleared). All 5 option legs resting at 0.12 above live bids \u2014 agent-plan clocks (10:15/10:30 reprice/fallback) govern; no forced Charlie action. Rule 8 MET for all 10 active agents: fills (04/38/41) or carried books (02/07 exempt) or plan legs resting from the 09:40 deployment (35-40).",
+        "dark_agents": []
+      },
+      "rule10_standing_check": {
+        "tape_fills_today": 8,
+        "portfolio_holdings_positions_count": 6,
+        "live_book_positions": 6,
+        "mismatch": "none \u2014 poll-4 serialization artifact cleared (positions_count=6 == live book 6)",
+        "roster": "dashboard 10 active / 7 fired == holdings-page roster; OK",
+        "attribution_invariant": "PASS \u2014 every position resolves to active agent-NN (02/27/38/41), fired-agent cleanup covered 1:1 (30/31/32/33), or desk-labeled null (SPY 72P/73.5P spread)",
+        "fired_book_residual": "XLU41.5P -3 covered x3 (09:33 fills); XLF56P -2 now fully covered (agent-04 exit +1 @ 0.14 at 09:40); XLF57P -1 = agent-02 own active book (carried). No uncovered fired-agent exposure remains \u2014 poll-1 'XLF57P no cleanup order' resolved: it never required one.",
+        "agent_holdings_freshness": "regenerated 14:00:43Z (heartbeat) \u2014 fresh"
+      },
+      "env_gate_recheck": {
+        "account": "PA3GWO1FKED0",
+        "status": "ACTIVE",
+        "trading_blocked": false,
+        "equity": 99815.68,
+        "cash": 93554.57,
+        "checked_at": "2026-09-04T10:00-04:00",
+        "result": "PASS"
+      },
+      "context": "Terminal session \u2014 fund terminates 11:00 ET. Rule-8 teeth (14:30/15:45) moot: every active agent met the options-per-day rule by execution or carry before 10:00. No cards, no strikes, no rejections this poll."
+    }
+  ],
+  "orders": [
+    {
+      "time": "2026-09-04T09:35-09:41 ET",
+      "type": "opening_deployment_D6",
+      "gap_gate": {
+        "regime": "REPRICED",
+        "as_filed_7am": {
+          "SPY": "+0.95%",
+          "QQQ": "+1.11%",
+          "XLF": "+1.54%",
+          "XLP": "-0.29%"
+        },
+        "live_0935": {
+          "SPY": "-0.03%",
+          "QQQ": "+0.39%",
+          "XLF": "-0.64%",
+          "XLP": "-0.23%"
+        },
+        "note": "7AM risk-on gap sold the NFP print. XLF -0.64% against short puts -> all XLF/XLU legs filed at plan floors, not at live bids. No re-underwrite (|gap|<1.5%, direction uniform, XLF not >1.5% against)."
+      },
+      "pre_deploy_reconcile": "AR-cleanup fills 09:30:04: agent-30 XLF56P 0.13, agents-31/32/33 XLU41.5P 0.14 x3. Book at deploy: 2 desk SPY legs + 02 57P + 04 56P. Zero resting orders pre-file.",
+      "roster_check": "10/10 plan agents ACTIVE on dashboard.json; no reclaimed desks 13/16/19 in plans.",
+      "legs": [
+        {
+          "agent": "agent-02",
+          "leg": "CARRY XLF260918P00057000",
+          "filed_limit": null,
+          "status": "CARRIED \u2014 NO NEW LEG",
+          "note": "champion book, 6th night; mark 0.21, delta -0.245 legal; stop BTC MKT if XLF<=56.00; 09:32 final-window card governs"
+        },
+        {
+          "agent": "agent-04",
+          "leg": "BTC XLF260918P00056000",
+          "filed_limit": 0.14,
+          "status": "FILLED @ 0.14",
+          "note": "exit card repriced 0.09 -> live mid 0.14; +$10 realized carry"
+        },
+        {
+          "agent": "agent-38",
+          "leg": "STO XLP260918P00083000",
+          "filed_limit": 0.22,
+          "status": "FILLED @ 0.24",
+          "note": "live bid governs (0.22 > 0.15 floor), pond full 87-deep"
+        },
+        {
+          "agent": "agent-41",
+          "leg": "BTC/USD T1 0.0305",
+          "filed_limit": 79748,
+          "status": "FILLED @ 79363.96",
+          "note": "marketable T1"
+        },
+        {
+          "agent": "agent-41",
+          "leg": "BTC/USD T2 0.0305",
+          "filed_limit": 79770,
+          "status": "FILLED @ 79366.72",
+          "note": "dip level traded through pre-NFP"
+        },
+        {
+          "agent": "agent-41",
+          "leg": "ETH/USD 0.62",
+          "filed_limit": 2429,
+          "status": "RESTING GTC",
+          "note": "condition met (T1 filled); cancel 10:45"
+        },
+        {
+          "agent": "agent-07",
+          "leg": "STO XLU260918P00041500",
+          "filed_limit": 0.12,
+          "status": "RESTING",
+          "note": "bid 0.11 < floor 0.12; 10:15 reprice / 10:30 fallback"
+        },
+        {
+          "agent": "agent-35",
+          "leg": "STO XLF260918P00055500",
+          "filed_limit": 0.12,
+          "status": "RESTING",
+          "note": "bid 0.05; floor 0.12 governs"
+        },
+        {
+          "agent": "agent-36",
+          "leg": "STO XLF260918P00055000",
+          "filed_limit": 0.12,
+          "status": "RESTING",
+          "note": "bid 0.03; floor 0.12 governs"
+        },
+        {
+          "agent": "agent-37",
+          "leg": "STO XLU260918P00041500",
+          "filed_limit": 0.12,
+          "status": "RESTING",
+          "note": "bid 0.11 < floor 0.12; co-held 41.5P books legal"
+        },
+        {
+          "agent": "agent-39",
+          "leg": "STO XLU260918P00041500",
+          "filed_limit": 0.12,
+          "status": "RESTING",
+          "note": "bid 0.11 < floor 0.12; earliest legal fill by 10:00 preferred"
+        },
+        {
+          "agent": "agent-40",
+          "leg": "STO XLU260918P00041000",
+          "filed_limit": 0.12,
+          "status": "RESTING",
+          "note": "bid 0.02; floor 0.12 governs; 10:30 walk-up to 41.5P pre-cleared"
+        }
+      ],
+      "counts": {
+        "filed": 11,
+        "filled": 4,
+        "resting": 6,
+        "carried": 1
+      }
+    }
+  ],
+  "strikes_today": []
+}

@@ -1,0 +1,165 @@
+{
+  "timestamp": "2026-09-04T14:10:43.158474+00:00",
+  "account_id": "PA3GWO1FKED0",
+  "equity": 99798.95,
+  "cash": 93554.57,
+  "day_pnl": -56.05,
+  "positions_count": 5,
+  "total_executed_orders": 34,
+  "executed_by_agent": {
+    "agent-41": 2,
+    "agent-38": 1,
+    "agent-04": 2,
+    "agent-30": 1,
+    "agent-31": 1,
+    "agent-32": 1,
+    "agent-33": 1,
+    "agent-07": 2,
+    "agent-21": 1,
+    "agent-23": 1,
+    "agent-26": 1,
+    "agent-25": 1,
+    "agent-22": 1,
+    "agent-27": 1,
+    "agent-17": 1,
+    "agent-18": 1,
+    "agent-11": 1,
+    "agent-15": 1,
+    "agent-14": 1,
+    "agent-12": 1,
+    "agent-09": 2,
+    "agent-03": 2,
+    "agent-06": 1,
+    "agent-02": 1,
+    "agent-10": 1,
+    "agent-08": 2,
+    "agent-05": 1,
+    "agent-01": 1
+  },
+  "positions": [
+    {
+      "symbol": "BTCUSD",
+      "qty": 0.0608475,
+      "avg_entry": 79365.34,
+      "current_price": 79270.364,
+      "market_value": 4823.403473,
+      "unrealized_pl": -5.779053,
+      "unrealized_plpc": -0.0012
+    },
+    {
+      "symbol": "SPY260918P00725000",
+      "qty": 1.0,
+      "avg_entry": 0.55,
+      "current_price": 0.45,
+      "market_value": 45.0,
+      "unrealized_pl": -10.0,
+      "unrealized_plpc": -0.18182
+    },
+    {
+      "symbol": "SPY260918P00735000",
+      "qty": -1.0,
+      "avg_entry": 0.81,
+      "current_price": 0.72,
+      "market_value": -72.0,
+      "unrealized_pl": 9.0,
+      "unrealized_plpc": 0.11111
+    },
+    {
+      "symbol": "XLF260918P00057000",
+      "qty": -1.0,
+      "avg_entry": 0.36,
+      "current_price": 0.29,
+      "market_value": -29.0,
+      "unrealized_pl": 7.0,
+      "unrealized_plpc": 0.19444
+    },
+    {
+      "symbol": "XLP260918P00083000",
+      "qty": -1.0,
+      "avg_entry": 0.24,
+      "current_price": 0.29,
+      "market_value": -29.0,
+      "unrealized_pl": -5.0,
+      "unrealized_plpc": -0.20833
+    }
+  ],
+  "open_orders": [
+    {
+      "client_order_id": "agent-41-20260904-crypto-3-1",
+      "symbol": "ETH/USD",
+      "side": "buy",
+      "qty": "0.62",
+      "type": "limit",
+      "status": "new",
+      "filled_qty": "0",
+      "filled_avg_price": null,
+      "created_at": "2026-09-04T13:42:15.87608409Z"
+    },
+    {
+      "client_order_id": "agent-40-20260904-opt-1-1",
+      "symbol": "XLU260918P00041000",
+      "side": "sell",
+      "qty": "1",
+      "type": "limit",
+      "status": "new",
+      "filled_qty": "0",
+      "filled_avg_price": null,
+      "created_at": "2026-09-04T13:41:12.540217Z"
+    },
+    {
+      "client_order_id": "agent-39-20260904-opt-1-1",
+      "symbol": "XLU260918P00041500",
+      "side": "sell",
+      "qty": "1",
+      "type": "limit",
+      "status": "new",
+      "filled_qty": "0",
+      "filled_avg_price": null,
+      "created_at": "2026-09-04T13:41:11.806254Z"
+    },
+    {
+      "client_order_id": "agent-37-20260904-opt-1-1",
+      "symbol": "XLU260918P00041500",
+      "side": "sell",
+      "qty": "1",
+      "type": "limit",
+      "status": "new",
+      "filled_qty": "0",
+      "filled_avg_price": null,
+      "created_at": "2026-09-04T13:41:10.375059Z"
+    },
+    {
+      "client_order_id": "agent-36-20260904-opt-1-1",
+      "symbol": "XLF260918P00055000",
+      "side": "sell",
+      "qty": "1",
+      "type": "limit",
+      "status": "new",
+      "filled_qty": "0",
+      "filled_avg_price": null,
+      "created_at": "2026-09-04T13:41:09.6514Z"
+    },
+    {
+      "client_order_id": "agent-35-20260904-opt-1-1",
+      "symbol": "XLF260918P00055500",
+      "side": "sell",
+      "qty": "1",
+      "type": "limit",
+      "status": "new",
+      "filled_qty": "0",
+      "filled_avg_price": null,
+      "created_at": "2026-09-04T13:41:08.909631Z"
+    },
+    {
+      "client_order_id": "agent-07-20260904-opt-1-1",
+      "symbol": "XLU260918P00041500",
+      "side": "sell",
+      "qty": "1",
+      "type": "limit",
+      "status": "new",
+      "filled_qty": "0",
+      "filled_avg_price": null,
+      "created_at": "2026-09-04T13:41:08.184864Z"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "XLF-25d-21DTE": {
+    "total_return_pct": 5.61,
+    "benchmark_return": 12.48,
+    "max_drawdown_pct": 0.0,
+    "round_trips": 6,
+    "win_rate": 100.0,
+    "sharpe": 3.532
+  },
+  "XLF-30d-21DTE": {
+    "total_return_pct": 5.61,
+    "benchmark_return": 12.48,
+    "max_drawdown_pct": 0.0,
+    "round_trips": 6,
+    "win_rate": 100.0,
+    "sharpe": 3.532
+  },
+  "XLF-40d-21DTE": {
+    "total_return_pct": 5.61,
+    "benchmark_return": 12.48,
+    "max_drawdown_pct": 0.0,
+    "round_trips": 6,
+    "win_rate": 100.0,
+    "sharpe": 3.532
+  },
+  "XLF-27d-46DTE": {
+    "total_return_pct": 2.39,
+    "benchmark_return": 12.48,
+    "max_drawdown_pct": 0.0,
+    "round_trips": 2,
+    "win_rate": 100.0,
+    "sharpe": 2.007
+  },
+  "XLU-20d-21DTE": {
+    "total_return_pct": 3.0,
+    "benchmark_return": -10.88,
+    "max_drawdown_pct": -0.92,
+    "round_trips": 6,
+    "win_rate": 100.0,
+    "sharpe": 1.884
+  }
+}

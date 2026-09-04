@@ -869,6 +869,277 @@ def backtest_cash_secured_put(
 
 
 # ============================================================
+# CREDIT SPREAD SIMULATION (bull put / bear call)
+# ============================================================
+
+def backtest_credit_spread(
+    bars: List[Dict],
+    symbol: str,
+    initial_cash: float,
+    direction: str = "bull_put",  # "bull_put" (sell put spread) or "bear_call" (sell call spread)
+    wing_width: float = 2.0,      # strike distance $ (e.g. 58/57 spread = 1.0)
+    contracts_per_trade: int = 1,
+    days_to_expiry: int = 30,
+    slippage_bps: float = 5.0,
+    premium_estimate_pct: float = 0.55,  # % of stock price collected NET on the spread
+    position_pct: float = 20.0,   # max % of portfolio risked per spread (max loss = width - credit)
+) -> BacktestResult:
+    """
+    Credit Spread Strategy (bull put OR bear call):
+    - Sell near-the-money option, buy further-OTM option same expiry (1:1)
+    - Collect net credit; max loss = (wing_width - credit) * 100 per contract
+    - At expiry: if spread expires ITM against us, pay (width - credit) per contract
+    - Bull put: profits when stock >= short strike; bear call: profits when stock <= short strike
+    
+    Risk is DEFINED — max loss per spread = (wing_width - net_credit) * 100.
+    Cash reserve = max loss (not full assignment), unlike CSP.
+    
+    Note: premium_estimate_pct simulates net credit as % of stock price
+    (historical option data not available on free tier; 0.3-0.8% typical
+    for 30DTE ~2%-wide spreads on liquid ETFs).
+    """
+    if direction not in ("bull_put", "bear_call"):
+        raise ValueError(f"direction must be 'bull_put' or 'bear_call', got '{direction}'")
+    
+    strat_label = "Bull Put Credit Spread" if direction == "bull_put" else "Bear Call Credit Spread"
+    family = "bull_put" if direction == "bull_put" else "bear_call"
+    
+    result = BacktestResult(
+        strategy_name=strat_label,
+        symbols=[symbol],
+        start_date=bars[0]["t"][:10] if bars else "",
+        end_date=bars[-1]["t"][:10] if bars else "",
+        initial_cash=initial_cash,
+        final_equity=initial_cash,
+    )
+    
+    result.assumptions = [
+        f"Direction: {direction}",
+        f"Wing width: ${wing_width:.2f}",
+        f"Contracts per trade: {contracts_per_trade}",
+        f"Days to expiry: {days_to_expiry}",
+        f"Slippage: {slippage_bps} bps (on underlying bar fills; option exits simulated)",
+        f"Net credit estimate: {premium_estimate_pct}% of stock price (simulated)",
+        f"Max risk per spread: ${(wing_width) * 100 * contracts_per_trade:,.0f} gross; reserve = max loss",
+        f"Max concurrent risk: {position_pct}% of portfolio",
+        "Fill model: expiring spread settles on expiry-bar close (cash-settled proxy)",
+        "Option premiums simulated (historical option data not available via free tier)",
+    ]
+    
+    cash = initial_cash
+    equity_curve = []
+    trades = []
+    round_trips = []
+    position = None  # {short_strike, long_strike, net_credit, contracts, entry_date, entry_bar, expiry_bar}
+    
+    for i, bar in enumerate(bars):
+        date = bar["t"][:10]
+        close = float(bar["c"])
+        
+        # --- Settle existing spread at expiry ---
+        if position and i >= position["expiry_bar"]:
+            short_k = position["short_strike"]
+            long_k = position["long_strike"]
+            credit = position["net_credit"]
+            width = abs(short_k - long_k)
+            contracts = position["contracts"]
+            
+            if direction == "bull_put":
+                # Loss zone: stock below short strike
+                if close < short_k:
+                    # intrinsic value of spread at expiry = short_k - close, capped at width
+                    intrinsic = min(width, short_k - close)
+                    loss = (intrinsic - credit) * 100 * contracts
+                    pnl = credit * 100 * contracts - intrinsic * 100 * contracts
+                    action, exit_px, spread_notes = "expired_itm", close, \
+                        f"Closed below short ${short_k:.0f} — spread settled at ${intrinsic:.2f}"
+                else:
+                    intrinsic = 0.0
+                    loss = 0.0
+                    pnl = credit * 100 * contracts
+                    action, exit_px, spread_notes = "expired_otm", close, \
+                        f"Expired worthless above short ${short_k:.0f} — full credit ${credit:.2f} kept"
+            else:  # bear_call
+                # Loss zone: stock above short strike
+                if close > short_k:
+                    intrinsic = min(width, close - short_k)
+                    loss = (intrinsic - credit) * 100 * contracts
+                    pnl = credit * 100 * contracts - intrinsic * 100 * contracts
+                    action = "expired_itm"
+                    exit_px = close
+                    spread_notes = f"Closed above short ${short_k:.0f} — spread settled at ${intrinsic:.2f}"
+                else:
+                    intrinsic = 0.0
+                    loss = 0.0
+                    pnl = credit * 100 * contracts
+                    action = "expired_otm"
+                    exit_px = close
+                    spread_notes = f"Expired worthless below short ${short_k:.0f} — full credit ${credit:.2f} kept"
+            
+            pnl = round(pnl, 2)
+            trades.append({
+                "date": date,
+                "action": action,
+                "symbol": f"{symbol} {family} ${long_k:.0f}/${short_k:.0f}",
+                "qty": contracts,
+                "price": exit_px,
+                "pnl": pnl,
+                "notes": spread_notes,
+            })
+            
+            rt = RoundTrip(
+                entry_date=position["entry_date"],
+                exit_date=date,
+                symbol=symbol,
+                strategy=family,
+                entry_price=short_k,
+                exit_price=close,
+                qty=100 * contracts,
+                pnl=pnl,
+                pnl_pct=(pnl / (width * 100 * contracts)) * 100 if width > 0 else 0,
+                hold_days=i - position["entry_bar"],
+                win=pnl > 0,
+            )
+            round_trips.append(rt)
+            
+            cash += credit * 100 * contracts - intrinsic * 100 * contracts
+            result.total_premium_collected += credit * 100 * contracts
+            position = None
+        
+        # --- Enter new spread if flat ---
+        if not position and not (close <= 0) and cash > 0:
+            if direction == "bull_put":
+                short_k = close - (wing_width / 2)   # short strike ~half-width OTM
+                long_k = short_k - wing_width
+            else:
+                short_k = close + (wing_width / 2)
+                long_k = short_k + wing_width
+            
+            net_credit = close * (premium_estimate_pct / 100)
+            max_loss = (wing_width - net_credit) * 100 * contracts_per_trade
+            
+            # risk-based reserve
+            if max_loss > cash * (position_pct / 100):
+                equity_curve.append(cash)
+                continue
+            
+            cash += net_credit * 100 * contracts_per_trade
+            
+            trades.append({
+                "date": date,
+                "action": "sell_to_open",
+                "symbol": f"{symbol} {family} ${long_k:.0f}/${short_k:.0f}",
+                "qty": contracts_per_trade,
+                "price": net_credit,
+                "pnl": 0,
+                "notes": f"Sold {family} spread: short ${short_k:.2f} / long ${long_k:.2f} for net credit ${net_credit:.2f} (max loss ${max_loss:.2f})",
+            })
+            
+            position = {
+                "short_strike": round(short_k, 2),
+                "long_strike": round(long_k, 2),
+                "net_credit": net_credit,
+                "contracts": contracts_per_trade,
+                "entry_date": date,
+                "entry_bar": i,
+                "expiry_bar": i + days_to_expiry,
+                "stock_price_at_entry": close,
+            }
+        
+        # --- Mark equity: cash + open spread MTM (credit received already in cash;
+        #     subtract current intrinsic if ITM) ---
+        eq = cash
+        if position:
+            short_k = position["short_strike"]
+            width = abs(short_k - position["long_strike"])
+            if direction == "bull_put" and close < short_k:
+                eq -= min(width, short_k - close) * 100 * position["contracts"]
+            elif direction == "bear_call" and close > short_k:
+                eq -= min(width, close - short_k) * 100 * position["contracts"]
+        equity_curve.append(eq)
+    
+    # Settle any remaining position at last bar
+    if position and bars:
+        short_k = position["short_strike"]
+        width = abs(short_k - position["long_strike"])
+        close = float(bars[-1]["c"])
+        if direction == "bull_put" and close < short_k:
+            intrinsic = min(width, short_k - close)
+        elif direction == "bear_call" and close > short_k:
+            intrinsic = min(width, close - short_k)
+        else:
+            intrinsic = 0.0
+        pnl = round((position["net_credit"] - intrinsic) * 100 * position["contracts"], 2)
+        trades.append({
+            "date": bars[-1]["t"][:10],
+            "action": "settled_at_end",
+            "symbol": f"{symbol} {family} ${position['long_strike']:.0f}/${short_k:.0f}",
+            "qty": position["contracts"],
+            "price": close,
+            "pnl": pnl,
+            "notes": "Spread settled at backtest end",
+        })
+        round_trips.append(RoundTrip(
+            entry_date=position["entry_date"],
+            exit_date=bars[-1]["t"][:10],
+            symbol=symbol,
+            strategy=family,
+            entry_price=short_k,
+            exit_price=close,
+            qty=100 * position["contracts"],
+            pnl=pnl,
+            pnl_pct=(pnl / (width * 100 * position["contracts"])) * 100 if width > 0 else 0,
+            hold_days=len(bars) - position["entry_bar"],
+            win=pnl > 0,
+        ))
+        cash += position["net_credit"] * 100 * position["contracts"] - intrinsic * 100 * position["contracts"]
+        equity_curve[-1] = cash if equity_curve else cash
+    
+    # Metrics
+    result.final_equity = equity_curve[-1] if equity_curve else initial_cash
+    metrics = compute_metrics(equity_curve, round_trips, initial_cash)
+    
+    result.total_return = metrics.get("total_return", 0)
+    result.total_return_pct = metrics.get("total_return_pct", 0)
+    result.annualized_return = metrics.get("annualized_return_pct", 0)
+    result.max_drawdown_pct = metrics.get("max_drawdown_pct", 0)
+    result.sharpe_ratio = metrics.get("sharpe_ratio", 0)
+    result.num_round_trips = metrics.get("num_round_trips", 0)
+    result.win_rate = metrics.get("win_rate_pct", 0)
+    result.profit_factor = metrics.get("profit_factor", 0)
+    result.trades = trades
+    result.round_trips = [asdict(rt) for rt in round_trips]
+    result.equity_curve = [{"date": bars[i]["t"][:10], "equity": round(eq, 2)} for i, eq in enumerate(equity_curve)]
+    
+    # Benchmark: buy and hold
+    if bars:
+        first_close = float(bars[0]["c"])
+        last_close = float(bars[-1]["c"])
+        result.benchmark_return = round(((last_close / first_close) - 1) * 100, 2)
+        result.benchmark_equity = [
+            {"date": bars[i]["t"][:10], "equity": round(initial_cash * (float(bars[i]["c"]) / first_close), 2)}
+            for i in range(len(bars))
+        ]
+    
+    # Data fingerprint
+    close_sum = sum(float(b["c"]) for b in bars)
+    result.data_fingerprint = {
+        "symbol": symbol,
+        "strategy": family,
+        "wing_width": wing_width,
+        "total_bars": len(bars),
+        "first_bar": bars[0]["t"][:10] if bars else "",
+        "last_bar": bars[-1]["t"][:10] if bars else "",
+        "close_sum": round(close_sum, 2),
+        "feed": "iex",
+        "adjustment": "raw",
+        "timeframe": "1Day",
+    }
+    
+    return result
+
+
+# ============================================================
 # REPORT GENERATION
 # ============================================================
 

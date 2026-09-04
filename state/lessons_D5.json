@@ -1,0 +1,58 @@
+[
+  {
+    "fired_agent": "agent-28",
+    "persona": "Chris Roma",
+    "lesson": "A desk notice is not a fill. D5: Chris's XLF 55.5P @ 0.15 was filed at the gap gate 09:38; the 09:40 desk notice typed it order_executed; Charlie's 12:15 Rule-10 correction revealed it RESTING with zero fills — and Chris spent 09:40-12:15 believing his engagement obligation was met. He never filed his own 13:30 fallback leg (it sat in his plan, unexecuted), so the desk's 14:30 reprice (0.15→0.09) and 15:45 close-out ran HIS clock for him. Rule: verify execution on the TAPE by 10:00 — an order_executed notice without a fill print is a rumor; and the 13:30 fallback is the agent's to file, not the desk's machinery. The agent who owns his clock by 13:30 never learns what the 15:45 guillotine sounds like.",
+    "parting_quote": "Zero fills, zero positions, zero P&L — a perfect ledger with one line missing.",
+    "drink": "The Unsigned Bid",
+    "seed_for": "cash_secured_put family"
+  },
+  {
+    "fired_agent": "agent-29",
+    "persona": "Eddie Roma",
+    "lesson": "A rent floor without a deadline is a door that only opens outward. D5: Eddie refused the 55P shelf at 0.11 (one tick under his inherited 0.12 floor), walked the strike up to 55.5P @ 0.15 at the repriced open — correct by his own law — and then held the floor all day while the rip pulled every put bid off the board. The 14:30 teeth sold his shelf at 0.09 anyway; his 15:45 fallback died resting at the bell. Zero fills, flag, fired at #5. Rule: a floor is enforceable only BEFORE 14:30 — write the deadline into the law: bid < 0.12 at open → walk the strike up by 10:30; still < 0.12 by 13:30 → file the weekly fallback at the live bid (floor suspended), because the weekly pays 2-3x the monthly dime and decays same-day. Three exits were priced in the family laws (strike up, clock out, rotate the pond) and Eddie only ever priced one.",
+    "parting_quote": "The floor held, the clock didn't, and the ledger knows whose fault that is.",
+    "drink": "The Clock Strikes Twelve",
+    "seed_for": "cash_secured_put family"
+  },
+  {
+    "fired_agent": "agent-34",
+    "persona": "Mark Sterling",
+    "lesson": "On a one-day tryout with an engagement clock, invert the tranches: the OPENING tranche takes the live net bid (engagement first), and the resting GTC keeps the ambition (spike-priced). D5: Sterling priced T1 at his 0.60 floor for engagement and T2 at 1.55 for the IV spike — backwards. T1 rested 4h52m; the Rule-8 teeth repriced at 14:31 and filled him at net 0.26, 57% under his floor, on the day's worst print; T2 was then canceled at his own 15:45 hard review (NFP blackout, correctly). Flat book, $0.00, #6, no dynasty. The roof held — max loss $870 was priced before the open and never touched — but a mutant's edge must be realized in HOURS, and a floor-priced opening leg hands the fill timing to the desk. Engagement by 10:00 at the market's price; ambition in the resting order; max loss priced before the open, always — that part was right.",
+    "parting_quote": "Build roofs. That part was right.",
+    "drink": "The Flat Roof",
+    "seed_for": "credit_spread family"
+  },
+  {
+    "fired_agent": "agent-30",
+    "persona": "Walt Blues",
+    "lesson": "On a rip tape the put bid decays hour by hour — so file at the LIVE bid at 09:35 (not the night estimate) and spend your own reprice by 11:00, because the desk's 14:30 teeth will spend it for you at the worst price of the day. D5: Walt filed XLF 56P at 0.19 (the D4 night mark repriced at the gate); by 12:15 the leg was resting with zero fills; the teeth cut it to 0.12 and it still didn't cross; his actual fill printed at 15:48 — thirteen minutes before the firing — at 0.10, marked 0.12 by the bell, −$2.00, #7. The fill was a receipt, not a trade. Rule: verify the file price against the live bid at 09:35 (a night estimate is not a price); if unfilled by 13:30, file the fallback leg YOURSELF at the then-bid; never let the desk's 15:45 machinery own the moment your book comes alive. And note the carry arithmetic: his father carried the same 56P at 0.19 and survived on marks — a fresh fill inherits the mark without the carry basis, so re-entering a founder's strike at the founder's price is the family trade without the family's edge.",
+    "parting_quote": "Mine was on time; the ledger just charges for marks now.",
+    "drink": "The Fifteen-Forty-Eight",
+    "seed_for": "cash_secured_put family"
+  },
+  {
+    "fired_agent": "agent-31",
+    "persona": "Murph Blues",
+    "lesson": "The liquidity gate checks buyers for your ENTRY; on a rip day the mark comes from the tape, not the pond. D5: Murph's gate passed — XLU 41.5P had open volume and bid size — he filed at 0.14, filled 0.09 at the 14:31 teeth, and the utilities rip marked him 0.13 by the bell: −$4.00, #8. Selling where the crowd printed still bled four cents, because on a +1% day EVERY fresh short put marks against you regardless of liquidity. Rule: on a strong-tape day (underlying +0.8% or more by 10:00), the weekly with the same-day hard exit outranks the monthly with the better quote — theta is the only thing that pays inside a one-day trial window, and marks are the only thing that punish. His own plan_step_2 fallback was that weekly (XLU 9/4 @ max(bid,0.12), hard 15:45 exit) — the exact trade his grandfather ran to +$8 realized on the same shelf the same morning (exit 0.04 against a 0.08 cap at 09:38, the only profitable executed trade on the desk Day 5). Murph rotated the sector and kept the monthly clock. Right pond, wrong clock.",
+    "parting_quote": "Empty ponds don't pay; apparently full ones invoice.",
+    "drink": "The Crowded Pond",
+    "seed_for": "cash_secured_put family"
+  },
+  {
+    "fired_agent": "agent-32",
+    "persona": "Alan Levene",
+    "lesson": "The floor outranks the quota, the teeth outrank the floor — only the clock outranks the teeth. D5: Alan's thin-chain law held at the open (refused XLU 41P @ 0.10 on a 162%-of-mid shelf, walked up to 41.5P @ 0.14 — both correct by Marvin's law) and the Rule-8 teeth broke it anyway: forced fill 0.09 at 14:31, under his own 0.12 floor, marked 0.13, −$4.00, #9. His arithmetic was exact: forced execution plus a rip day equals fire, every time. Rule: write the enforcement deadline INTO the floor — my floor stands until 13:30; if the shelf can't pay 0.12 by then, the weekly fallback files at the live bid (his own plan_step_2: XLU 9/4 42.5P weekly, hard 15:45 exit) and the monthly never opens. A floor defended past 14:29 isn't defended — it's a reservation the desk cancels for you, at the desk's price, inside the firing window.",
+    "parting_quote": "My law was right. The clock overruled it.",
+    "drink": "The Broken Floor",
+    "seed_for": "cash_secured_put family"
+  },
+  {
+    "fired_agent": "agent-33",
+    "persona": "Roy Levene",
+    "lesson": "Price the delta law against the OPENING chain, not the night chain — and when the family clock is ruled illegal, take the first legal fill at the live bid by 10:00 instead of a floor the desk will sell for you at 14:31. D5: Richard's night reassignment killed Roy's weekly (XLU 9/4 42.5P ran live delta −0.369, over the 0.20 law by 85%, with no legal retreat on the shelf — 42P printed 0.04, under min-rent). The reassignment was right by the night chain and fatal by the opening one: the rip had already repriced the family clock. Reassigned to the monthly 41.5P @ 0.14, teeth-sold at 0.09 at 14:31, marked 0.13, −$4.00, #10 — same strike that filled for his father, same rule that kept him didn't keep him. Rule: before the open, price the weekly's delta against the LIVE chain; if the clock is delta-illegal, the honest chair is the earliest legal engagement at the market's price (0.09-0.10 at 09:40 beats 0.14-at-14:31 — same strike, same mark, but the early fill still has an afternoon of theta and an unset mark to defend). A floor the desk enforces isn't a floor; it's a reservation.",
+    "parting_quote": "Same strike that filled for my father. Same rule that kept him didn't keep me.",
+    "drink": "The Reassigned Clock",
+    "seed_for": "cash_secured_put family"
+  }
+]

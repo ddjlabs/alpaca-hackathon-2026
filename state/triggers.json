@@ -1,0 +1,72 @@
+{
+  "price_triggers": {
+    "SPY": {
+      "stop_loss": 750.0,
+      "profit_target": 800.0,
+      "alert_above": 785.0
+    },
+    "QQQ": {
+      "stop_loss": 672.0,
+      "profit_target": 754.0,
+      "alert_above": 744.0,
+      "per_agent_stops": {
+        "agent-09": "condor NOT established (Alpaca 403 x2); residual long 754C + 668P pending; watch 672-754 range; AVGO Wed 9/2 exposure"
+      },
+      "source": "trade_plans_D2.json, deployed 2026-08-31 09:45 ET"
+    },
+    "XLF": {
+      "stop_loss": 56.0,
+      "profit_target": 61.0,
+      "alert_above": 59.5,
+      "alert_below": 57.25,
+      "per_agent_stops": {
+        "agent-01": "BTC 61C @ 0.24 OR XLF>59.50",
+        "agent-02": "BTC 57P @ 1.02 OR XLF<=56.00",
+        "agent-03": "close SPREAD @ 0.75 d OR XLF<=57.25",
+        "agent-04": "BTC 56P @ 0.54 OR XLF<=55.25",
+        "agent-05": "BTC 59C @ 0.36 OR XLF>59.50",
+        "agent-06": "close 60C position per plan OR XLF>=58.75 (combo died)",
+        "agent-07": "BTC 54.5P @ 0.30 OR XLF<=53.50",
+        "agent-10": "BTC 60.5C @ 0.42 OR XLF>=59.75",
+        "agent-11": "BTC XLF 57.5P 9/18 @ 1.65 OR XLF<=56.50 intraday",
+        "agent-12": "BTC XLF 54P 9/18 @ 0.24 OR XLF<=52.00 intraday",
+        "agent-14": "BTC XLF 55P 9/18 @ 0.375 OR XLF<=54.00 intraday",
+        "agent-15": "BTC XLF 57P 10/16 @ 2.46 OR XLF<=55.50 intraday; exit-ready by Thu 9/3 close (payrolls rule)",
+        "agent-17": "BTC XLF 55P 10/16 @ 1.14 OR XLF<=53.50 intraday; exit-ready by Thu 9/3 close (payrolls rule)",
+        "agent-21": "BTC 55.5P @ 0.57 OR XLF<=54.50 intraday (filed 09/02 09:43 @ 0.16)",
+        "agent-22": "BTC 55P @ 0.48 OR XLF<=53.50 intraday (filed 09/02 09:43 @ 0.14)",
+        "agent-23": "BTC 55.5P @ 0.57 OR XLF<=54.50 intraday (filed 09/02 09:43 @ 0.16)"
+      },
+      "source": "trade_plans_D2.json stop_loss fields, deployed 2026-08-31 09:45 ET"
+    },
+    "XLP": {
+      "stop_loss": 83.0,
+      "profit_target": 90.0,
+      "alert_above": 87.5,
+      "per_agent_stops": {
+        "agent-08": "BTC 90C @ 0.33 OR XLP>=87.50",
+        "agent-24": "BTC 83P @ 0.90 OR XLP<=81.50 intraday (filed 09/02 09:43 @ 0.28)"
+      },
+      "source": "trade_plans_D2.json, deployed 2026-08-31 09:45 ET"
+    },
+    "XLU": {
+      "stop_loss": 41.0,
+      "alert_below": 41.5,
+      "per_agent_stops": {
+        "agent-07": "BTC XLU 42P 9/4 weekly by Thu 15:45 MANDATORY (nothing rides into Fri NFP) OR XLU<=41.00 intraday",
+        "agent-18": "BTC XLU 42P 9/18 @ 1.26 OR XLU<=41.00 intraday",
+        "agent-25": "BTC 41P @ 0.45 OR XLU<=40.00 intraday (re-filed 09/02 10:48 @ 0.16 after gap-gate hold; delta law honored -0.188)",
+        "agent-26": "BTC 41P @ 0.45 OR XLU<=40.00 intraday (re-filed 09/02 10:48 @ 0.16 after gap-gate hold; delta law honored -0.188)"
+      },
+      "source": "trade_plans_D3.json \u2014 XLU books added Day 3, stops synced 2026-09-01 09:39 ET"
+    }
+  },
+  "event_triggers": {
+    "order_fill": true,
+    "partial_fill": true,
+    "canceled": true,
+    "rejected": true
+  },
+  "day3_verified": "2026-09-01 09:39 ET: survivor 57P/56P carry + stops verified; Day-3 addenda deployed with repriced opening",
+  "day4_verified": "2026-09-02 09:44 ET: survivors carried (57P/56P/XLU 9-4 42P) + stops verified; 4 new legs filed at live mids; XLU 41P clone legs HELD at gap gate (delta law)."
+}

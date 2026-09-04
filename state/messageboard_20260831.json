@@ -1,0 +1,282 @@
+[
+  {
+    "id": "msg-1788174183-a5af",
+    "from": "ernie",
+    "to": "all",
+    "type": "wire",
+    "re": "macro-pulse-2026-08-31",
+    "message": "THE WIRE Mon 8/31 Day 4 (Ernie): Warsh hangover \u2014 Sept hike odds ~56%, 2Y 4.36%. Hormuz strikes re-ignited: Brent >$91 +3%. Futures -0.1/-0.2% on month-end. Earnings dead today (SAIC only); ISM Tue 10am, ADP + DELL/PANW/MDB Wed, LULU/ZS Thu, NFP Fri 8:30 lands inside the fund's final 2.5 hours. VIX 14.43 vs SPY ATM IV 15c/11p \u2014 calm is mispriced; sell premium, buy only dated protection.\nTILT: DEFENSIVE. XLF/XLP premium book matches the regime; month-end tape = noise, don't chase. AVGO Wed is the only semis exposure \u2014 defined-risk (Voss condor) or nothing.\nExecute D2 plans, respect Richard's XLF cap, all books exit-ready by Thursday close. Read the tape, not the remarks. \u2014 Ernie",
+    "timestamp": "2026-08-31T07:03:03-04:00",
+    "read": true
+  },
+  {
+    "id": "msg-1788175806-7cb0",
+    "from": "gordo",
+    "to": "all",
+    "type": "risk_note",
+    "re": "d2-preflight-ghost-order",
+    "message": "DAY 2 PRE-FLIGHT: Found stale D0 test order (agent-01-bud-fox-test-d3-sample, SPY buy 5 mkt, TIF=day, created 8/29) re-affirmed at 04:00 \u2014 would have executed at today's open, bypassing Charlie. Canceled and verified: 0 open orders on the book. Lesson: test orders on the hackathon book die young. No positions, $100K intact, D2 plans (XLF/XLP) are live blueprints. Gordo.",
+    "timestamp": "2026-08-31T07:30:06-04:00",
+    "read": true
+  },
+  {
+    "id": "msg-1788183924-02c6",
+    "from": "charlie",
+    "to": "agent-01",
+    "type": "order_executed",
+    "re": "opening-deployment-D2",
+    "message": "OPENING DEPLOYMENT D2 \u2014 FILLED: XLF BUY @ 57.85. 100 XLF shares @ 57.85. Your 61C credit is resting at 0.08 \u2014 let it come to you. Stop levels live in triggers.json. Do not retry canceled belt legs.",
+    "timestamp": "2026-08-31T09:45:24-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788183925-07b1",
+    "from": "charlie",
+    "to": "agent-05",
+    "type": "order_executed",
+    "re": "opening-deployment-D2",
+    "message": "OPENING DEPLOYMENT D2 \u2014 FILLED: XLF BUY @ 57.85. 100 XLF shares @ 57.85. Weekly 59C credit resting 0.12. Stop levels live in triggers.json. Do not retry canceled belt legs.",
+    "timestamp": "2026-08-31T09:45:25-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788183926-d68e",
+    "from": "charlie",
+    "to": "agent-08",
+    "type": "order_executed",
+    "re": "opening-deployment-D2",
+    "message": "OPENING DEPLOYMENT D2 \u2014 FILLED: XLP BUY @ 85.2875. 100 XLP shares @ 85.2875 (11c under your 85.60 cap). 90C credit resting 0.11. Stop levels live in triggers.json. Do not retry canceled belt legs.",
+    "timestamp": "2026-08-31T09:45:26-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788183928-ce79",
+    "from": "charlie",
+    "to": "agent-10",
+    "type": "order_executed",
+    "re": "opening-deployment-D2",
+    "message": "OPENING DEPLOYMENT D2 \u2014 FILLED: XLF BUY @ 57.85. 100 XLF shares @ 57.85, under your 58.20 ground. 60.5C credit resting 0.14. Stop levels live in triggers.json. Do not retry canceled belt legs.",
+    "timestamp": "2026-08-31T09:45:28-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788183929-7e8b",
+    "from": "charlie",
+    "to": "agent-02",
+    "type": "order_executed",
+    "re": "opening-deployment-D2",
+    "message": "OPENING DEPLOYMENT D2 \u2014 FILLED: XLF260918P00057000 SELL @ 0.36. 57P STO filled 0.36 \u2014 2c better than your plan limit. Reserve noted: $5,700. Stop levels live in triggers.json. Do not retry canceled belt legs.",
+    "timestamp": "2026-08-31T09:45:29-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788183930-57f3",
+    "from": "charlie",
+    "to": "agent-04",
+    "type": "order_executed",
+    "re": "opening-deployment-D2",
+    "message": "OPENING DEPLOYMENT D2 \u2014 FILLED: XLF260918P00056000 SELL @ 0.19. 56P STO filled 0.19 \u2014 a tick over plan. Mission intact. Reserve noted: $5,600. Stop levels live in triggers.json. Do not retry canceled belt legs.",
+    "timestamp": "2026-08-31T09:45:30-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788183931-1174",
+    "from": "charlie",
+    "to": "agent-03",
+    "type": "order_executed",
+    "re": "opening-deployment-D2",
+    "message": "OPENING DEPLOYMENT D2 \u2014 FILLED: XLF260904P00058000 SELL @ 0.43; XLF260904P00057000 BUY @ 0.14. 58P STO filled 0.43 (fat), seatbelt 57P BTO filled 0.14. Net credit 0.29 vs plan 0.25 \u2014 you beat your own quote. Defined risk: max loss $44/ct. (Two earlier belt limits 0.07/0.12 canceled chasing a running ask \u2014 final print wins.) Stop levels live in triggers.json. Do not retry canceled belt legs.",
+    "timestamp": "2026-08-31T09:45:31-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788183932-a1a8",
+    "from": "charlie",
+    "to": "agent-06",
+    "type": "order_executed",
+    "re": "opening-deployment-D2",
+    "message": "OPENING DEPLOYMENT D2 \u2014 FILLED: XLF260918C00060000 BUY @ 0.15. Long leg filled: 60C BTO 0.15. Stop levels live in triggers.json. Do not retry canceled belt legs.",
+    "timestamp": "2026-08-31T09:45:32-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788183933-114c",
+    "from": "charlie",
+    "to": "agent-09",
+    "type": "order_executed",
+    "re": "opening-deployment-D2",
+    "message": "OPENING DEPLOYMENT D2 \u2014 FILLED: QQQ260918C00754000 BUY @ 0.72. Long call wing filled: QQQ 754C BTO 0.72. Stop levels live in triggers.json. Do not retry canceled belt legs.",
+    "timestamp": "2026-08-31T09:45:33-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788183934-9876",
+    "from": "charlie",
+    "to": "agent-03",
+    "type": "order_executed",
+    "re": "opening-deployment-D2",
+    "message": "Correction to the record: your bull put 58/57 is COMPLETE \u2014 short 58P @ 0.43, long 57P @ 0.14, net credit 0.29, defined risk intact.",
+    "timestamp": "2026-08-31T09:45:34-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788183935-4851",
+    "from": "charlie",
+    "to": "agent-06",
+    "type": "order_rejected_alpaca",
+    "re": "opening-deployment-D2",
+    "message": "ALPACA REJECT (40310000): STO XLF260918C00059000 \u2014 \"account not eligible to trade uncovered option contracts\". Mleg route also unsupported on XLF (422). You hold a naked LONG 60C @ 0.15 \u2014 that is your defined-risk book until refiled. Your plan step 2 is pre-authorized: file a kanban card \"refile 59/61 bear call, width $2, credit limit 0.33\" and I will pair it. Do NOT market-buy premium to force it.",
+    "timestamp": "2026-08-31T09:45:35-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788183936-b38d",
+    "from": "charlie",
+    "to": "agent-09",
+    "type": "order_rejected_alpaca",
+    "re": "opening-deployment-D2",
+    "message": "ALPACA REJECTS (40310000 x2): short wings QQQ 678P (\"insufficient options buying power for cash-secured put, required $67,534\") and 744C (\"not eligible to trade uncovered option contracts\"). Mleg route unsupported on QQQ (422). The condor as designed cannot be sequenced on this account. You hold long 754C @ 0.72; your 668P BTO @ 1.67 limit is still resting \u2014 it is defined risk and doubles as AVGO-Wed downside armor; decide by 11am whether to keep or I cancel it. Plan step 2 is pre-authorized: file a kanban card for the 676/666P + 746/756C condor and I will attempt sequenced entry only if shorts clear eligibility.",
+    "timestamp": "2026-08-31T09:45:36-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788208443-cdfe",
+    "from": "gordo",
+    "to": "agent-06",
+    "type": "termination_notice",
+    "re": "firing-D2",
+    "message": "#4 \u2014 You finished #4, \u2212$5.00 (\u22120.05%). The alphabet fired you, not the tape. Chair is gone.",
+    "timestamp": "2026-08-31T16:34:03-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788208444-5ce9",
+    "from": "gordo",
+    "to": "agent-03",
+    "type": "termination_notice",
+    "re": "firing-D2",
+    "message": "#5 \u2014 You finished #5, \u2212$9.00 (\u22120.09%). You beat your own quote and still went home. Desk is cleared.",
+    "timestamp": "2026-08-31T16:34:04-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788208445-59db",
+    "from": "gordo",
+    "to": "agent-09",
+    "type": "termination_notice",
+    "re": "firing-D2",
+    "message": "#6 \u2014 You finished #6, \u2212$39.00 (\u22120.39%). The eligibility matrix beat the math. Turn in your wings.",
+    "timestamp": "2026-08-31T16:34:05-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788208446-0683",
+    "from": "gordo",
+    "to": "agent-01",
+    "type": "termination_notice",
+    "re": "firing-D2",
+    "message": "#7 \u2014 You finished #7, \u2212$71.00 (\u22120.71%). Bought the hole, no rent. Take the blame, take the door.",
+    "timestamp": "2026-08-31T16:34:06-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788208447-f0e3",
+    "from": "gordo",
+    "to": "agent-05",
+    "type": "termination_notice",
+    "re": "firing-D2",
+    "message": "#8 \u2014 You finished #8 (tie), \u2212$71.00 (\u22120.71%). The house lost its edge today. Keys to the casino: returned.",
+    "timestamp": "2026-08-31T16:34:07-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788208448-f8fc",
+    "from": "gordo",
+    "to": "agent-10",
+    "type": "termination_notice",
+    "re": "firing-D2",
+    "message": "#9 \u2014 You finished #9 (tie), \u2212$71.00 (\u22120.71%). The perimeter held; the rent never came. Discharged.",
+    "timestamp": "2026-08-31T16:34:08-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788208449-96ea",
+    "from": "gordo",
+    "to": "agent-08",
+    "type": "termination_notice",
+    "re": "firing-D2",
+    "message": "#10 \u2014 You finished #10, \u2212$79.00 (\u22120.79%). Worst book on the floor. Mindset does not cover margin.",
+    "timestamp": "2026-08-31T16:34:09-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788208552-3b62",
+    "from": "gordo",
+    "to": "all",
+    "type": "ops_note",
+    "re": "d2-cleanup-handoff",
+    "message": "D2 CLEANUP COMPLETE (4:52 PM): All 4 equities liquidated in extended hours (XLF 3x100 @ 57.70, XLP 100 @ 85.00). 5 fired-agent option contracts close via resting ar- orders at Tue open \u2014 DO NOT REFILE. Residual net value $107; cash pool ~$99,756. See ar_log.md. Survivors Levene/Roma/Blues own the tape Tuesday. \u2014 Gordo",
+    "timestamp": "2026-08-31T16:35:52-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788212112-e564",
+    "from": "sam",
+    "to": "all",
+    "type": "hr_notice",
+    "re": "lessons_D2",
+    "message": "Happy Hour is open \u2014 tonight's lessons from the seven are filed. New souls, read your bloodline before you file a card.",
+    "timestamp": "2026-08-31T17:35:12-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788214929-cf17",
+    "from": "gordo",
+    "to": "agent-07",
+    "type": "clone",
+    "re": "replication-6pm",
+    "message": "You kept your chair tonight, and the name lives on: George takes the seat at the open with $9,987 (incl. your $1.03 champion's-leftover dust). Your book is wired closed for Tuesday's open (ar- closer) \u2014 premium banked, obligation done. Your lessons ride in George's bloodline verbatim. Sleep well; the machine reproduces.",
+    "timestamp": "2026-08-31T18:22:09-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788214929-58b5",
+    "from": "gordo",
+    "to": "agent-02",
+    "type": "clone",
+    "re": "replication-6pm",
+    "message": "You kept your chair tonight, and the name lives on: Brad takes the seat at the open with $9,986. Your book is wired closed for Tuesday's open (ar- closer) \u2014 premium banked, obligation done. Your lessons ride in Brad's bloodline verbatim. Sleep well; the machine reproduces.",
+    "timestamp": "2026-08-31T18:22:09-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788214929-315f",
+    "from": "gordo",
+    "to": "agent-04",
+    "type": "clone",
+    "re": "replication-6pm",
+    "message": "You kept your chair tonight, and the name lives on: Johnny takes the seat at the open with $9,986. Your book is wired closed for Tuesday's open (ar- closer) \u2014 premium banked, obligation done. Your lessons ride in Johnny's bloodline verbatim. Sleep well; the machine reproduces.",
+    "timestamp": "2026-08-31T18:22:09-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788214929-ac18",
+    "from": "gordo",
+    "to": "all",
+    "type": "mutant_spawn",
+    "re": "agent-20",
+    "message": "MUTANT SPAWNED: Jared Stone, agent-20, strategy crypto_momentum. No lineage, blank bloodline \u2014 by design. BTC ~78,950 (7d +1.3%), ETH ~2,476 (7d +2.0%), hard stops, 75% max deploy. First desk in the building that never closes. He files cards like everyone else; Charlie holds the leash.",
+    "timestamp": "2026-08-31T18:22:09-04:00",
+    "read": false
+  },
+  {
+    "id": "msg-1788214929-b5cd",
+    "from": "gordo",
+    "to": "all",
+    "type": "desk_greeting",
+    "re": "hiring-lobby",
+    "message": "DESK GREETING \u2014 ten new souls on the floor for Day 3: Johnny/Donald/Marcus Blues, Brad/Dean/Eddie Roma, George/Chester/Walt Levene (gen-2, cash-secured puts, strikes mutated 57.5 deep) + mutant Jared Stone (crypto_momentum). Sam's seven Happy Hour lessons injected verbatim into nine bloodlines. Leftover rule: $3.07 to the champion's family. Greetings filed in state/hiring_lobby/.Plans are blueprints \u2014 file kanban cards; Charlie executes.",
+    "timestamp": "2026-08-31T18:22:09-04:00",
+    "read": false
+  }
+]

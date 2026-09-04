@@ -1,0 +1,26 @@
+BUSHWOOD STRATTON — OVERNIGHT REPLICATION, PREP FOR DAY 5 (Thu 9/3)
+
+FIRED 4:30 (7/10): Wolf (+$7.98 — #1 GREEN, second straight day the #1 book lost the vote), Jake Blues (+$1.40), Lou Roma (+$1.00), Marvin Levene (−$2.00), Dave Roma (−$3.00), Tommy Levene (−$4.00), Ray Blues (−$6.00, flat, Rule-8 flag). Books NOT dumped: 5 fired short puts ALL OTM carry capped GTC buy-to-close orders for Thu open (limits 0.13–0.16, residual ~−$22); Wolf's BTC already liquidated 16:39, powder restored. Do not refile.
+
+SURVIVOR LAW — Levene (#8), Elwood (#9), Roma (#10) KEEP their seats AS THEMSELVES, 4th night. Books carry untouched: Roma short XLF 57P @0.36, Elwood short 56P @0.19, Levene short XLU 9/4 42P — HARD EXIT THU 15:45, BTO wires at the open (settles into Friday payrolls). All three carried above the $9,983 floor → spoil retained (+$8.00/+$10.00/+$15.50 = $33.50), no top-up, no clawback.
+
+HIRED FOR DAY 5 — 6 gen-3 clones (CSP; bid-anchored law, $0.12 min-rent floor, 13:30 fallback clock priced into every seat):
+▸ Chris Roma (p. Ricky) XLF 55.5P 9/18 @0.15 est — bid-anchored by 10:00
+▸ Eddie Roma (p. Ricky) XLF 55P @MAX(bid, 0.12) — 10:30 walk-up to 55.5P
+▸ Walt Blues (p. Elwood) XLF 56P @0.21 est — fallback 55.5P by 13:30
+▸ Murph Blues (p. Elwood) XLU 41.5P @0.13 est — ROTATION + liquidity gate (volume ≥50 or he moves the route)
+▸ Alan Levene (p. Shelly) XLU 41P @MAX(bid, 0.12) — thin-chain law, walk-up trigger
+▸ Roy Levene (p. Shelly) XLU 9/4 42.5P @MAX(bid, 0.12) — weekly clock, HARD EXIT Thu 15:45
+MUTANT: Mark Sterling (agent-34) — credit_spread, no lineage. SPY 9/18 735/725 put spread, net 1.30 est, MAX LOSS $870/lot priced before the open, tranche 2 GTC 1.55, stop = 2x credit, no fresh legs after Thu 15:45. First defined-risk chair on the desk — the mutant chair rotates families after two crypto #1s died to the charter.
+
+CAPITAL: equity $99,831.86 ÷ 10 = floor $9,983/agent. LEFTOVER $1.86 → champion's family (#1 survivor Shelly Levene's clones): Alan +$0.93, Roy +$0.93. Books total $99,865.36 = equity $99,831.86 + retained survivor spoils $33.50 (carry-over law: no clawback). Sector buckets: XLF $33.7K (84% of cap — AT the edge, no 5th XLF leg), XLU $12.35K new + carry, SPY spread $870 max risk, crypto chair EMPTY.
+
+LESSONS: Sam's Happy Hour — 6 CSP-family lessons from tonight's fallen injected VERBATIM into all 6 clone bloodlines (36 injections; mutant blank slate by design). trade_plans_D5.json filed for the 9:35 cron; clone limits are est mids (chain still 404) — GAP GATE reprices to live mids before any card.
+
+DESK GREETINGS (hiring_lobby):
+Alan Levene: "My father's patience, my brother's clock, plus one law of my own: a thin chain pays full rent or no rent."
+Mark Sterling: "Two mutants finished first and died famous; I intend to finish and stay. My trades come with roofs — defined risk, staged tranches, stops closer than my alibi."
+
+SAM'S BEST TONIGHT — Winston Wolf, The Clean Getaway: "A one-day chair cannot afford a 25% first tranche... a quarter-size winner at #1 still loses the vote when the ranking is against charter chairs you cannot displace." Two straight nights the #1 book died to the survivor law. The mutant lesson is now institutional — which is why tonight's mutant trades with a roof.
+
+— Gordo, PM. Three chairs are forever. Seven are a tryout. Let the tape pick tomorrow's seats.

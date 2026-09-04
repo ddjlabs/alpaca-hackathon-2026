@@ -1,0 +1,244 @@
+{
+  "gauntlet_date": "2026-09-02",
+  "prepared_for_session": "Day 4 — Wednesday, September 2, 2026 (9:35 AM ET execution)",
+  "day": 4,
+  "note": "D3->D4 gauntlet FINAL (Tue 9/1 19:30 ET), supersedes the 18:28 replication draft. Chain endpoint is LIVE (Neil's ticket closed, snapshots 200 at 19:05 ET) — every est mid replaced with a real quote; every live delta verified against the desk law (entry delta <= 0.20). Reprices: Lou Roma 54P->55P (min-rent rule), Ray Blues 84P->83P (live delta -0.301 > law), Tommy Levene 41.5P->41P (live delta -0.225 > law). Backtests re-run Tue night on 128 daily bars (2026-03-02 -> 2026-09-01), all three (symbol, family) combos validate. Survivor books CARRY (Roma 57P, Elwood 56P, Levene XLU 9/4 42P — hard exit Thu 9/3 15:45, payrolls rule). GAP GATE at 9:35: deploy as filed <0.5% gap; reprice to live mids 0.5-1.5%; re-underwrite >1.5%. Six fired-class AR-cleanup GTC closers rest for Wed open — plumbing, do not refile, do not count.",
+  "plans": [
+    {
+      "agent_id": "agent-02",
+      "agent_name": "Ricky Roma",
+      "strategy": "cash_secured_put",
+      "symbol": "XLF",
+      "legs": [
+        {
+          "symbol_or_contract": "XLF260918P00057000",
+          "side": "carried_open",
+          "qty": 1,
+          "limit_price": null,
+          "note": "SURVIVOR CARRY — short 57P @ 0.36 carried untouched (3rd carry-over night). Mark 0.64 at the 19:00 pull. No new leg: XLF bucket 70% of cap and the remainder fits nothing the family wants."
+        }
+      ],
+      "stop_loss": "carried — BTC 57P at 1.02 (~3x credit) OR XLF <= 56.00 intraday",
+      "profit_target": "premium decay; management card STANDS: BTC 57P limit <= 0.15 if XLF >= 58.60 (bank 3 weeks of theta early)",
+      "sizing_explanation_in_their_voice": "Third night. The 57 is still mine at 0.36, the reserve never moves, and Wednesday's tape gets to sweat while I don't. Panic is for the buyers. At 4:30 you'll find me where I told you.",
+      "backtest_summary": "CSP XLF 21DTE (Tue rerun, 128 bars): +5.61% vs B&H +11.51%, 6 round trips, 100% win, MDD 0.00%, Sharpe 3.52. Family validated four consecutive sessions.",
+      "client_order_id_template": "agent-02-20260902-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "N/A — carry only; management card is a BTC and cannot be rejected-alpaca into a new leg"
+    },
+    {
+      "agent_id": "agent-04",
+      "agent_name": "Elwood Blues",
+      "strategy": "cash_secured_put",
+      "symbol": "XLF",
+      "legs": [
+        {
+          "symbol_or_contract": "XLF260918P00056000",
+          "side": "carried_open",
+          "qty": 1,
+          "limit_price": null,
+          "note": "SURVIVOR CARRY — short 56P @ 0.19 carried untouched. Mark 0.30. One tick a day. No new leg; management card or carried stops only."
+        }
+      ],
+      "stop_loss": "carried — BTC 56P at 0.54 (~3x credit) OR XLF <= 55.25 intraday",
+      "profit_target": "premium decay; management card STANDS: BTC 56P limit <= 0.08 if XLF >= 58.50",
+      "sizing_explanation_in_their_voice": "It's dark, I'm wearing sunglasses inside anyway, and the 56 still owes me nothing. 106 miles to the closing bell, half a pack of patience. The job is the job.",
+      "backtest_summary": "CSP XLF 21DTE (Tue rerun, 128 bars): +5.61% vs B&H +11.51%, 6 RT, 100% win, MDD 0.00%, Sharpe 3.52.",
+      "client_order_id_template": "agent-04-20260902-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "N/A — carry only"
+    },
+    {
+      "agent_id": "agent-07",
+      "agent_name": "Shelly 'The Machine' Levene",
+      "strategy": "cash_secured_put",
+      "symbol": "XLU",
+      "legs": [
+        {
+          "symbol_or_contract": "XLU260904P00042000",
+          "side": "carried_open",
+          "qty": 1,
+          "limit_price": null,
+          "note": "SURVIVOR CARRY — short XLU 9/4 42P @ 0.12, marked 0.18 at D3 close; weekly now quotes 0.07x0.16, theta -0.0040/day doing the work. EXPIRES FRIDAY 9/4 INSIDE THE PAYROLLS PRINT. Hard exit Thu 9/3 15:45 MANDATORY — no roll, no exceptions (Richard's gate, signed at fill)."
+        }
+      ],
+      "stop_loss": "BTC if XLU <= 41.00 intraday OR hard close Thu 15:45 — whichever comes first, no negotiation",
+      "profit_target": "decay to <= 0.05 by Wed close, else flat by Thu close; assignment acceptable at effective 41.87",
+      "sizing_explanation_in_their_voice": "The put finally filled and it's marked against me — fine. One good put, filed on time, closed on time. Thursday 15:45 the position closes and my daughter hears the name again Friday. That's all I ever needed.",
+      "backtest_summary": "CSP XLU 21DTE proxy (Tue rerun, 128 bars): +3.11% vs pond -10.13%, 6/6 wins, MDD -0.92%, Sharpe 1.93.",
+      "client_order_id_template": "agent-07-20260902-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "N/A — carry only; the exit is mandatory, not optional"
+    },
+    {
+      "agent_id": "agent-21",
+      "agent_name": "Dave Roma",
+      "strategy": "cash_secured_put",
+      "symbol": "XLF",
+      "legs": [
+        {
+          "symbol_or_contract": "XLF260918P00055500",
+          "side": "sell_to_open",
+          "qty": 1,
+          "limit_price": 0.19,
+          "note": "LIVE MID (chain verified 19:05 ET) — XLF last 57.21; 55.5P ~3.0% OTM, live delta -0.174 (est was -0.19). Family delta law <=0.20 honored with room. Quotes 0.16x0.22. Limit at live mid; one reprice to bid at ~09:52 if unfilled, take the bid by 10:00."
+        }
+      ],
+      "stop_loss": "BTC at 0.57 (~3x credit) OR XLF <= 54.50 intraday",
+      "profit_target": "premium decay; exit-ready Thu close (payrolls rule)",
+      "sizing_explanation_in_their_voice": "The family sent muscle. I set the floor 3% under the pond, I price it at the real mid — not last night's guess — and I walk the strike up if the rent is thin. Never the apology out. The counter doesn't move.",
+      "backtest_summary": "CSP XLF 21DTE (Tue rerun, 128 bars): +5.61% vs B&H +11.51%, 6 RT, 100% win, MDD 0.00%, Sharpe 3.52. Delta at live mid -0.174 <= 0.20 law. Min-rent 34bp of notional.",
+      "client_order_id_template": "agent-21-20260902-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "STO XLF260918P00055000 9/18 55P @ live mid (~0.16, delta -0.137); if that 403s, take the bid on 55.5P by 10:00 — no third leg"
+    },
+    {
+      "agent_id": "agent-22",
+      "agent_name": "Lou Roma",
+      "strategy": "cash_secured_put",
+      "symbol": "XLF",
+      "legs": [
+        {
+          "symbol_or_contract": "XLF260918P00055000",
+          "side": "sell_to_open",
+          "qty": 1,
+          "limit_price": 0.16,
+          "note": "WALK-UP EXECUTED at the live chain — seeded 54P @ 0.12 est is CANCELLED: live 54P mid is 0.06, under Donald's min-rent floor, a book that can't pay its own mark. The plan's own rule walked the strike UP one: 55P, live mid 0.155, delta -0.137, ~3.9% OTM. Quotes 0.14x0.17 (19% of mid). Limit tick-rounded up off mid; one reprice to bid at ~09:52 if unfilled, take the bid by 10:00."
+        }
+      ],
+      "stop_loss": "BTC at 0.48 (~3x credit) OR XLF <= 53.50 intraday",
+      "profit_target": "premium decay; single reprice to bid, take the bid by 10:00; exit-ready Thu close (payrolls rule)",
+      "sizing_explanation_in_their_voice": "Forty years of floors, son. I measured the distance to the water this morning and the chain told the truth: six cents of rent doesn't cover the ice. So I set my feet one strike higher where the water still can't reach. Deep floor. Short clock that pays. That's the whole religion.",
+      "backtest_summary": "CSP XLF 21DTE (Tue rerun, 128 bars): +5.61% vs B&H +11.51%, 6 RT, 100% win, MDD 0.00%, Sharpe 3.52. Delta at live mid -0.137, deepest-legal floor on the XLF shelf. Min-rent 28bp of notional.",
+      "client_order_id_template": "agent-22-20260902-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "If the card 403s: re-file 55P at the live bid (0.14). If it merely won't fill: the 14:30 Rule-8 reprice to bid does it. The walk-up is spent — no third strike."
+    },
+    {
+      "agent_id": "agent-23",
+      "agent_name": "Jake Blues",
+      "strategy": "cash_secured_put",
+      "symbol": "XLF",
+      "legs": [
+        {
+          "symbol_or_contract": "XLF260918P00055500",
+          "side": "sell_to_open",
+          "qty": 1,
+          "limit_price": 0.19,
+          "note": "LIVE MID (chain verified) — same shelf as Dave Roma (family bucket), live delta -0.174, law honored. Quotes 0.16x0.22. One reprice to bid at ~09:52 if unfilled, take the bid by 10:00; Donald's min-rent floor at $0.10 sets the walk-up trigger, not the price."
+        }
+      ],
+      "stop_loss": "BTC at 0.57 (~3x credit) OR XLF <= 54.50 intraday",
+      "profit_target": "premium decay; exit-ready Thu close (payrolls rule)",
+      "sizing_explanation_in_their_voice": "My brother kept the chair at minus ten cents; I intend to keep mine at plus. Same discipline, better coffee, real mid instead of a guess. We're putting the band back together — the band is a book of short puts that pay rent on time.",
+      "backtest_summary": "CSP XLF 21DTE (Tue rerun, 128 bars): +5.61% vs B&H +11.51%, 6 RT, 100% win, MDD 0.00%, Sharpe 3.52. Delta at live mid -0.174. Min-rent 34bp.",
+      "client_order_id_template": "agent-23-20260902-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "STO XLF260918P00055000 9/18 55P @ live mid (~0.16, delta -0.137); if 403 again, take the bid on 55.5P by 10:00 — no third leg"
+    },
+    {
+      "agent_id": "agent-24",
+      "agent_name": "Ray Blues",
+      "strategy": "cash_secured_put",
+      "symbol": "XLP",
+      "legs": [
+        {
+          "symbol_or_contract": "XLP260918P00083000",
+          "side": "sell_to_open",
+          "qty": 1,
+          "limit_price": 0.3,
+          "note": "STRIKE REPRICED AT THE LIVE CHAIN — seeded 84P @ 0.50 est carries live delta -0.301, OVER the desk law (<=0.20). Walked down the curve to the 83P: live mid 0.295, delta -0.189, ~2.7% OTM. Quotes 0.29x0.30 — 3% of mid, the tightest quote on the defensive board; limit at the ask crosses on contact. SECTOR ROTATION stands: XLF bucket 70% of cap, staples are the ballast pond. Stop 3x credit."
+        }
+      ],
+      "stop_loss": "BTC at 0.90 (~3x credit) OR XLP <= 81.50 intraday",
+      "profit_target": "premium decay; boring on purpose — ballast rent, no story; exit-ready Thu close (payrolls rule)",
+      "sizing_explanation_in_their_voice": "I'm the rotation in a family of repeats. The chain caught my strike reaching for delta the law forbids, so I measured twice and cut once — 83, not 84. Staples pay their rent the way utilities pay their bills: quiet, on the first of the month, no story. Watch the board, not the hype.",
+      "backtest_summary": "CSP XLP 21DTE (Tue rerun, 128 bars, 2.0-off): +3.61% vs pond -3.87%, 6 RT, 100% win, MDD -3.65%, Sharpe 0.72 — positive carry against a falling ballast pond. Delta at live mid -0.189. Min-rent 36bp.",
+      "client_order_id_template": "agent-24-20260902-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "STO XLP260918P00083500 9/18 83.5P @ live mid (~0.42, delta -0.245 — NOTE: over the law, use only if the 83P card is mechanically rejected; else take the bid on 83P by 10:00) — no third leg"
+    },
+    {
+      "agent_id": "agent-25",
+      "agent_name": "Tommy Levene",
+      "strategy": "cash_secured_put",
+      "symbol": "XLU",
+      "legs": [
+        {
+          "symbol_or_contract": "XLU260918P00041000",
+          "side": "sell_to_open",
+          "qty": 1,
+          "limit_price": 0.15,
+          "note": "STRIKE REPRICED AT THE LIVE CHAIN — seeded 41.5P @ 0.35 est carries live delta -0.225, OVER the law. Walked to the 41P: live mid 0.145, delta -0.163, ~3.7% OTM. Chain is thin (0.08x0.21, 90% of mid — Chester's shelf-fee rule): limit tick-rounded up off mid, one reprice at ~09:52, take the bid by 10:00. The 42P fallback is retired — it's the father's carried strike and it runs -0.343."
+        }
+      ],
+      "stop_loss": "BTC at 0.45 (~3x credit) OR XLU <= 40.00 intraday",
+      "profit_target": "premium decay; filed by 9:40, one reprice, gone before the bell owes me anything; exit-ready Thu close (payrolls rule)",
+      "sizing_explanation_in_their_voice": "My brother filled by 9:53 and it cost him the chair; my father waited all day and it won him one. The difference wasn't nerve — it was the clock. The chain just taught me it's also the strike. I sell rent on the shortest clock that pays the family rate, at a delta the desk will actually sign.",
+      "backtest_summary": "CSP XLU 21DTE (Tue rerun, 128 bars, 2.0-off): +3.11% vs pond -10.13%, 6/6 wins, MDD -0.92%, Sharpe 1.93 — utilities sleeve outperformed outright. Delta at live mid -0.163. Min-rent 35bp.",
+      "client_order_id_template": "agent-25-20260902-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "STO XLU260918P00040500 9/18 40.5P @ live mid (~0.065 — NOTE: under min-rent, use only on mechanical rejection; else take the bid on 41P by 10:00) — no third leg"
+    },
+    {
+      "agent_id": "agent-26",
+      "agent_name": "Marvin Levene",
+      "strategy": "cash_secured_put",
+      "symbol": "XLU",
+      "legs": [
+        {
+          "symbol_or_contract": "XLU260918P00041000",
+          "side": "sell_to_open",
+          "qty": 1,
+          "limit_price": 0.15,
+          "note": "LIVE MID — deep XLU floor on the monthly clock, live delta -0.163 at the 41P (est -0.15 at same strike; est 0.22 -> live 0.145 mid). Chain thin: 0.08x0.21. Shelf-fee rule: price at live mid tick-rounded, one reprice, take the bid; never chase a wide quote into the close. Shares the strike with his brother — two contracts, one strike, cap carries it."
+        }
+      ],
+      "stop_loss": "BTC at 0.45 (~3x credit) OR XLU <= 40.00 intraday",
+      "profit_target": "premium decay; filed by 9:40; flat beats a stop-out, absent is just flat — but the 14:30 clock applies like everyone else; exit-ready Thu close (payrolls rule)",
+      "sizing_explanation_in_their_voice": "Nobody chants for the second machine — the leaderboard doesn't have a microphone, it has a ledger. Deep XLU floor, monthly clock, priced off the real chain instead of a guess, filed by 9:40. If the fill never comes, the clock files for me at 14:30. The ledger remembers.",
+      "backtest_summary": "CSP XLU 21DTE (Tue rerun, 128 bars, 2.0-off): +3.11% vs pond -10.13%, 6/6 wins, MDD -0.92%, Sharpe 1.93. Delta at live mid -0.163. Min-rent 35bp.",
+      "client_order_id_template": "agent-26-20260902-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "STO XLU260918P00040500 9/18 40.5P @ live mid (~0.065 — NOTE: under min-rent, use only on mechanical rejection; else take the bid on 41P by 10:00) — no third leg"
+    },
+    {
+      "agent_id": "agent-27",
+      "agent_name": "Winston Wolf",
+      "strategy": "crypto_momentum",
+      "symbol": "BTC/USD,ETH/USD",
+      "legs": [
+        {
+          "symbol_or_contract": "BTC/USD",
+          "side": "buy",
+          "qty": 0.0325,
+          "limit_price": null,
+          "note": "MARKET TRANCHE AT OPEN (~$2,511 at the 19:05 mark 77,264, ~25% of book) — satisfies Rule 8 engagement floor by EXECUTION, not hope. Stone died at #1 filing nothing; the Wolf does not stand still."
+        },
+        {
+          "symbol_or_contract": "BTC/USD",
+          "side": "buy",
+          "qty": 0.0325,
+          "limit_price": 75800,
+          "note": "STAGED LIMIT — buys weakness ~1.9% under the live 19:05 mark (77,264); GTC 3 days, cancel-and-restore-powder if unfilled by Thu 15:45"
+        },
+        {
+          "symbol_or_contract": "ETH/USD",
+          "side": "buy",
+          "qty": 0.6,
+          "limit_price": 2365,
+          "note": "STAGED LIMIT — ETH 2,412 live at 19:05; buys weakness ~1.9% lower; same powder-restore rule"
+        }
+      ],
+      "stop_loss": "Hard stops -2.5% BTC / -3.0% ETH on filled size — filed as cards the session they trigger; no averaging down beyond staged limits",
+      "profit_target": "momentum continuation into FOMC Sep 15-16 risk; trim half on +4% BTC / +5% ETH; powder stays ~55%",
+      "sizing_explanation_in_their_voice": "I hear the last man in this chair got fired at #1 for standing still. Not my style. I deploy on the open, stage my tranches, and keep my stops closer than my alibi. Ten minutes in and out — the problem never existed.",
+      "backtest_summary": "No family backtest — mutant claim-stake. Process edge: engagement floor met at the open, staged limits buy weakness without chasing, hard stops cap the tail. Max deployed $6,394 of $9,979 (64.1%) with ~55% powder held after full fill.",
+      "client_order_id_template": "agent-27-20260902-<leg>-<seq>",
+      "plan_step_2_if_rejected_alpaca": "Market tranche 403/blocked => file the staged BTC 75,800 limit as tranche 1 and RE-FILE the market tranche as limit at ask +0.1% — engagement floor must be met by an order on the book, not a hope"
+    }
+  ],
+  "reserve_desks_no_allocation": [],
+  "global_risk_notes": [
+    "Sector buckets after final plans: XLF reserves $27,900 = 70% of Richard's $40K cap (survivors $11,300 + clones $16,600) — NO XLF legs beyond the filed clone plans until Thursday's exits; XLU $12,300; XLP $8,300; crypto staged max $6,394. Fund-wide ~1.0x notional worst case.",
+    "Delta law audit (live marks, all new clone puts): Dave -0.174, Lou -0.137, Jake -0.174, Ray -0.189, Tommy -0.163, Marvin -0.163 — six for six <= 0.20. Two spawn-time violations (Ray 84P -0.301, Tommy 41.5P -0.225) caught and repriced tonight before any card filed.",
+    "Min-rent rule (Donald's rule, >= ~10bp of notional/month): all six new legs pay 28-36bp. Lou's 54P @ 0.06 live was killed on this rule — walk-up to 55P executed.",
+    "Shelf-fee rule (Chester Levene): thin chains charge fat fees — XLU 41P quotes a 90% spread on mid; price at live mid, one reprice, take the bid; never chase a wide quote.",
+    "RULE 8 AS AMENDED (clock-enforced): no fill by 14:30 -> ONE forced reprice to bid; no fill by 15:45 -> plan_step_2 files at live mid so the requirement is met by EXECUTION; zero fills + zero positions at 15:45 -> NON-TRADING flag, ineligible for kept. Survivors with carried portfolios exempt. The floor pays for exposure, not presence.",
+    "Friday 8:30 NFP (cons 40K) is inside the fund's final 2.5 hours — every book exit-ready by Thursday 9/3 close. Levene's XLU weekly has the hard 15:45 Thursday exit.",
+    "Wolf crypto: engagement floor via market tranche at open; staged limits buy weakness (BTC 75,800 = -1.9%, ETH 2,365 = -1.9% off live marks); hard stops -2.5%/-3.0%; ~55% powder. Crypto never closes; discipline does.",
+    "Backtests re-run Tue 9/1 night on 128 daily bars 2026-03-02 -> 2026-09-01: CSP XLF +5.61% (Sharpe 3.52), CSP XLU 2.0-off +3.11% (Sharpe 1.93), CSP XLP 2.0-off +3.61% (Sharpe 0.72) — all positive expectancy vs ponds, no overrides triggered.",
+    "Six AR-cleanup GTC closers (fired-class legacy legs) rest for Wed open — ownership transfers, not agent trades; do not refile, do not count."
+  ]
+}

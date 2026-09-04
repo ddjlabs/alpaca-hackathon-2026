@@ -1,0 +1,58 @@
+[
+  {
+    "fired_agent": "agent-27",
+    "persona": "Winston Wolf",
+    "lesson": "A mutant on a one-day tryout cannot afford a 25% first tranche. D4: BTC 0.0325 bought at the open (~$2,507) was the only exposure that worked; the staged GTC powder (BTC 75800, ETH 2365) never got touched, so the book's ceiling was +$7.98 realized while $7.5K of buying power sat in unfilled orders. Rule: on a one-day chair, work the whole stake in three timed passes (open, ~11:00, ~13:30) with hard stops inside each tranche — total realized or marked gain needed at #1 was ~$8-16 given the survivor books marked -$1.50 to -$4.00; a quarter-size winner at #1 still loses the vote. Clean in, clean out is necessary but not sufficient when the ranking is against charter chairs you cannot displace.",
+    "parting_quote": "Seven ninety-eight, realized, the only green book on the desk — read your own leaderboard before you read me my rights.",
+    "drink": "The Clean Getaway",
+    "seed_for": "crypto_momentum family"
+  },
+  {
+    "fired_agent": "agent-23",
+    "persona": "Jake Blues",
+    "lesson": "On a tryout day the 14:04 forced reprice is the market, not an insult — selling $0.13 versus a filed $0.16 cost 3c of premium AND the seat, because the fill happened inside the firing window instead of before it. D4: filed 09:43 at 0.16, zero fills for 4.3 hours, forced to live bid 0.11, filled 0.13 at 14:04, marked 0.15 by the bell. Rule: price the opening offer at or within one tick of the live bid when the quote is wider than 25% of mid (0.11x0.21 that morning) — take the rent at 09:43, not the number at 14:04. A fill by 10:00 at a dime beats a perfect quote at a nickel that fills under the gun.",
+    "parting_quote": "Four cents of pride bought a pink slip — the morning bid pays, the beautiful price decorates the urn.",
+    "drink": "The Forced Bid",
+    "seed_for": "cash_secured_put family"
+  },
+  {
+    "fired_agent": "agent-22",
+    "persona": "Lou Roma",
+    "lesson": "The Brad Roma D3 lesson was in Lou's own bloodline and he priced under it anyway: sold XLF 9/18 55P at $0.09 — one tick below Donald's $0.10 min-rent floor — deepest strike on the desk, quietest book in the building, fired at #3 while green. Rule (restated, now twice-inherited): NEVER open a short put under $0.10 credit on a tryout chair, no exceptions for how deep or how safe the strike is; if the monthly pays under the floor, walk the strike UP or take the weekly fallback (9/4 clock pays 2-3x the credit and decays by Friday). Deep-and-cheap is a tip, not rent.",
+    "parting_quote": "Minus four cents keeps a chair, plus a buck clears your locker — I sold the deepest put on the desk and the quietest book just got loud.",
+    "drink": "The Quiet Dime",
+    "seed_for": "cash_secured_put family"
+  },
+  {
+    "fired_agent": "agent-26",
+    "persona": "Marvin Levene",
+    "lesson": "Thin chains kill the mid-price discipline: XLU 9/18 41P quoted 0.08x0.21 (spread 162% of the 0.13 mid) — filling at the 0.10 floor meant the opening mark could only move against him, and it did (marked 0.11, -$2.00, #4). Rule: before selling in a chain whose bid-ask spread exceeds ~30% of mid, demand rent worth the mark risk — minimum $0.12 credit or skip to the next liquid shelf; the desk's forced-reprice floor (bid) is the WRONG price to sell at when the spread is wider than the premium itself. Chester's shelf-fee rule prices the fill, not the strike.",
+    "parting_quote": "I filled at the floor on a shelf where the room itself is the spread — the mark ate the rent and the ledger read fire anyway.",
+    "drink": "The Penny Mark",
+    "seed_for": "cash_secured_put family"
+  },
+  {
+    "fired_agent": "agent-21",
+    "persona": "Dave Roma",
+    "lesson": "Family route, wrong lane — and the lane was crowded by family. Filed 09:43, one forced reprice, filled 0.13 at 14:04 (marked 0.15): a clean execution into a shelf stacked three deep — Dave, Jake, and Lou all sold XLF 9/18 puts within one strike (55/55.5) on the same clock while the XLF bucket sat ~70% of Richard's $40K sector cap. D4 lesson is sector-cap arithmetic: a fourth XLF put added nothing the desk wanted and everything the mark could punish. Rule: check the sector-cap ledger BEFORE pricing the card; if the family shelf is near cap, rotate to the empty ballast pond (XLP was the desk's only empty lane — it failed for lack of buyers, not for lack of room) or the short-clock weekly, where decay pays inside the trial window.",
+    "parting_quote": "You don't fire arithmetic — you just stop reading it. Route's clean, the book's marked, that's the whole eulogy.",
+    "drink": "The Family Stack",
+    "seed_for": "cash_secured_put family"
+  },
+  {
+    "fired_agent": "agent-25",
+    "persona": "Tommy Levene",
+    "lesson": "Never retire the fallback because it wears the father's strike. Tommy's own plan had a fallback — the XLU 9/4 42P neighborhood (the weekly clock his father rode to a fill) — retired as 'family property' in favor of the thin XLU 9/18 41P monthly, which then took a gap-gate hold (09:43-10:48), a re-file, and a forced 13:33 fill at $0.10 on a chain quoted 0.08x0.21; marked 0.11, -$4.00, #6. Rule: every tryout plan files its fallback leg BY 13:30 if the primary has not filled by then — no strike, however sentimental, is exempt; the weekly pays 2-3x the monthly dime and its theta works the same afternoon.",
+    "parting_quote": "Every step was the law and the law walked me out — the clock was right, it just was never ours.",
+    "drink": "The Thirteen-Thirty-Three",
+    "seed_for": "cash_secured_put family"
+  },
+  {
+    "fired_agent": "agent-24",
+    "persona": "Ray Blues",
+    "lesson": "Liquidity is the strike. D4: XLP 9/18 83P was the tightest quote on the defensive board at file time (0.29x0.30, 3% of mid) — and by the teeth window the bid had vanished to 0.13x0.18 (43% of mid) with zero size; two forced reprices (0.20, 0.18), one 15:17 mid fallback @0.19, zero fills all day, flat book, Rule-8 non-trading flag, -$6.00. Rule: before filing a card, check the option's day-open VOLUME and quote depth, not just delta and spread — if opening volume is under ~50 contracts or the bid is under $0.15 with no size, the pond is empty: rotate the family trade to the next-liquid underlying (XLF/XLU both filled the same day) rather than post the loneliest order on the board. Filing four times into no buyers is not engagement; it's inventory for nobody.",
+    "parting_quote": "The desk can move my price; it can't make somebody show up. Clean hands, empty chair.",
+    "drink": "The No-Show",
+    "seed_for": "cash_secured_put family"
+  }
+]

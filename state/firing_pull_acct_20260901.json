@@ -1,0 +1,19 @@
+[
+  {
+    "account_number": "PA3GWO1FKED0",
+    "status": "ACTIVE",
+    "equity": "99794.05",
+    "last_equity": "99890.28",
+    "cash": "100206.05",
+    "portfolio_value": "99794.05",
+    "buying_power": "210624.2",
+    "initial_margin": "47550",
+    "long_market_value": "20",
+    "short_market_value": "-432",
+    "trading_blocked": false,
+    "pattern_day_trader": null,
+    "daytrade_count": null,
+    "options_buying_power": "52531.08",
+    "options_approved_level": 3
+  }
+]

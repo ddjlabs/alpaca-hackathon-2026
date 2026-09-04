@@ -1,0 +1,50 @@
+{
+ "CSP XLF 2.0-off 21DTE": {
+  "total_return_pct": 5.61,
+  "benchmark_return": 14.27,
+  "max_drawdown_pct": 0.0,
+  "round_trips": 6,
+  "win_rate": 100.0,
+  "sharpe": 3.503
+ },
+ "CSP XLF 3.0-off 21DTE": {
+  "total_return_pct": 5.61,
+  "benchmark_return": 14.27,
+  "max_drawdown_pct": 0.0,
+  "round_trips": 6,
+  "win_rate": 100.0,
+  "sharpe": 3.503
+ },
+ "CSP XLU 1.5-off 21DTE": {
+  "total_return_pct": 3.22,
+  "benchmark_return": -8.63,
+  "max_drawdown_pct": -0.41,
+  "round_trips": 6,
+  "win_rate": 100.0,
+  "sharpe": 2.458
+ },
+ "CSP XLU 2.0-off 21DTE": {
+  "total_return_pct": 4.17,
+  "benchmark_return": -8.63,
+  "max_drawdown_pct": 0.0,
+  "round_trips": 6,
+  "win_rate": 100.0,
+  "sharpe": 3.26
+ },
+ "CSP XLP 2.0-off 21DTE": {
+  "total_return_pct": 4.36,
+  "benchmark_return": -2.86,
+  "max_drawdown_pct": -2.86,
+  "round_trips": 6,
+  "win_rate": 100.0,
+  "sharpe": 1.087
+ },
+ "BULL_PUT SPY 10-wide 21DTE prem=0.26% (inherited)": {
+  "total_return_pct": 6.8,
+  "benchmark_return": 13.64,
+  "max_drawdown_pct": -15.29,
+  "round_trips": 7,
+  "win_rate": 71.4,
+  "sharpe": 0.438
+ }
+}

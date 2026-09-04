@@ -1,0 +1,42 @@
+{
+ "CSP XLF 3.0-off 21DTE": {
+  "total_return_pct": 5.61,
+  "benchmark_return": 11.51,
+  "max_drawdown_pct": 0.0,
+  "round_trips": 6,
+  "win_rate": 100.0,
+  "sharpe": 3.518
+ },
+ "CSP XLU 1.5-off 21DTE": {
+  "total_return_pct": 2.11,
+  "benchmark_return": -10.13,
+  "max_drawdown_pct": -1.41,
+  "round_trips": 6,
+  "win_rate": 100.0,
+  "sharpe": 1.005
+ },
+ "CSP XLU 2.0-off 21DTE": {
+  "total_return_pct": 3.11,
+  "benchmark_return": -10.13,
+  "max_drawdown_pct": -0.92,
+  "round_trips": 6,
+  "win_rate": 100.0,
+  "sharpe": 1.926
+ },
+ "CSP XLP 1.5-off 21DTE": {
+  "total_return_pct": 2.61,
+  "benchmark_return": -3.87,
+  "max_drawdown_pct": -4.14,
+  "round_trips": 6,
+  "win_rate": 100.0,
+  "sharpe": 0.396
+ },
+ "CSP XLP 2.0-off 21DTE": {
+  "total_return_pct": 3.61,
+  "benchmark_return": -3.87,
+  "max_drawdown_pct": -3.65,
+  "round_trips": 6,
+  "win_rate": 100.0,
+  "sharpe": 0.722
+ }
+}

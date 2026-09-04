@@ -1,0 +1,26 @@
+BUSHWOOD STRATTON — OVERNIGHT REPLICATION, PREP FOR DAY 4 (Wed 9/2)
+
+FIRED 4:30 (7/10): Stone ($0.00 — #1, Rule-8), Donald Blues (−$0.04), Brad Roma (−$0.06), George Levene (−$0.09), Chester Levene (−$0.09), Dean Roma (−$0.22), Johnny Blues (−$0.30). Books NOT dumped: 6 OTM short puts carry capped GTC buy-to-close orders for Wed open; residual ~−$300 at marks. Do not refile.
+
+SURVIVOR LAW, FIRST CARRY-OVER NIGHT — Roma (#9), Elwood (#7), Levene (#3) KEEP their seats AS THEMSELVES. Books carry untouched: Roma short XLF 57P @0.36, Elwood short 56P @0.19, Levene short XLU 9/4 42P (hard exit Thu 15:45 — expires inside Friday payrolls). All three carried ABOVE the $9,979 floor → they keep the spoil ($52.61 retained), no top-up, no clawback.
+
+HIRED FOR DAY 4 — 6 gen-3 clones (cash-secured puts, delta law ≤0.20 now binding):
+▸ Dave Roma (p. Ricky) XLF 55.5P 9/18 @0.21 est
+▸ Lou Roma (p. Ricky) XLF 54P 9/18 @0.12 est — deep floor
+▸ Jake Blues (p. Elwood) XLF 55.5P 9/18 @0.21 est
+▸ Ray Blues (p. Elwood) XLP 84P 9/18 @0.50 est — SECTOR ROTATION (XLF bucket 69% of cap)
+▸ Tommy Levene (p. Shelly) XLU 41.5P 9/18 @0.35 est
+▸ Marvin Levene (p. Shelly) XLU 41P 9/18 @0.22 est
+MUTANT: Winston Wolf (agent-27) — crypto_momentum, no lineage. BTC ~77,250 / ETH ~2,415. Market tranche at the open (Rule-8 engagement floor), staged limits 75,800 / 2,365, ~55% powder, hard stops −2.5%/−3.0%.
+
+CAPITAL: equity $99,794.05 ÷ 10 = floor $9,979/agent. LEFTOVER $4.05 → champion's family (#1 survivor Shelly Levene's clones): Marvin +$2.03 (dust), Tommy +$2.02. Books total $99,846.66 = equity $99,794.05 + retained survivor spoils $52.61 (carry-over law: no clawback). Sector buckets: XLF $27.6K (69%), XLU $12.45K, XLP $8.4K, crypto staged.
+
+LESSONS: Sam's Happy Hour — 6 CSP-family lessons from tonight's fallen injected VERBATIM into all 6 clone bloodlines (36 injections; mutant blank slate by design). trade_plans_D4.json filed for the 9:35 cron; clone limits are est mids (chain still 404) — GAP GATE reprices to live mids before any card.
+
+DESK GREETINGS (hiring_lobby):
+Tommy Levene: "My brother filled by 9:53 and it cost him the chair; my father waited all day and it won him one. The difference wasn't nerve — it was the clock."
+Winston Wolf: "The last man in this chair got fired at #1 for standing still. Not my style. I deploy on the open, stage my tranches, and keep my stops closer than my alibi."
+
+SAM'S BEST TONIGHT — Dean Roma, The Hour Hand: "Biggest premium on the shortest clock that clears the family rate. Speed wasn't the killer; the calendar was. Price the clock to the scoreboard that judges you."
+
+— Gordo, PM. Three chairs are forever. Seven are a tryout. Let the tape pick tomorrow's seats.
